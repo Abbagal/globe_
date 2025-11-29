@@ -99,8 +99,8 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
     const baseLayer = viewer.imageryLayers.get(0);
     if (baseLayer) {
       baseLayer.contrast = 1.3;      // Increase contrast (default 1.0)
-      baseLayer.brightness = 0.95;   // Slightly darker (default 1.0)
-      baseLayer.saturation = 1.4;    // More vibrant colors (default 1.0)
+      baseLayer.brightness = 0.7;   // Slightly darker (default 1.0)
+      baseLayer.saturation = 2.0;    // More vibrant colors (default 1.0)
       baseLayer.gamma = 1.0;         // Keep gamma normal
     }
 
@@ -108,9 +108,10 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
     // We add this on top of the base layer (which is usually Bing Maps Aerial or whatever Cesium defaults to)
     const labelProvider = new UrlTemplateImageryProvider({
       // Use @2x for sharper (Retina) labels which look much better on modern screens
-      url: 'https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}@2x.png',
-      subdomains: ['a', 'b', 'c', 'd'],
-      credit: 'Map tiles by CartoDB, under CC BY 3.0. Data by OpenStreetMap, under ODbL.'
+      url: "https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}@2x.png",
+      subdomains: ["a", "b", "c", "d"],
+      credit:
+        "Map tiles by CartoDB, under CC BY 3.0. Data by OpenStreetMap, under ODbL.",
     });
     viewer.imageryLayers.addImageryProvider(labelProvider);
 
@@ -144,6 +145,22 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
       }
     };
   }, []);
+
+  useEffect(() => {
+    // Increase initial zoom (lower height value for closer view)
+    if (viewerRef.current) {
+      const camera = viewerRef.current.camera;
+      const cartographic = camera.positionCartographic;
+      camera.setView({
+        destination: Cartesian3.fromDegrees(
+          cartographic.longitude * (180 / Math.PI),
+          cartographic.latitude * (180 / Math.PI),
+          15000000 // Lower value = more zoomed in; default is usually ~10,000,000
+        )
+      });
+    }
+  }, []);
+
   const showCPECRoute = () => {
     if (!viewerRef.current) return;
 
@@ -167,9 +184,9 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
         label: hasLabel ? new LabelGraphics({
           text: CPEC_LABELS[index],
           font: '12pt sans-serif',
-          fillColor: Color.WHITE,
+          fillColor: Color.YELLOW.withAlpha(1.0),
           outlineColor: Color.BLACK,
-          outlineWidth: 2,
+          outlineWidth: 1,
           style: 1, // FILL_AND_OUTLINE
           pixelOffset: new Cartesian3(0, -40, 0),
           horizontalOrigin: HorizontalOrigin.CENTER,

@@ -15,30 +15,35 @@ const PhotoGalleryModal: React.FC<PhotoGalleryModalProps> = ({ isVisible, onClos
   // CPEC project images - you can add more images to the public/assets folder
   const images = [
     {
-      src: '/assets/cpec-map.jpg',
-      title: 'CPEC Route Overview Map',
-      description: 'Complete China-Pakistan Economic Corridor route from Kashgar to Gwadar Port'
+      src: "/assets/cpec-map.jpg",
+      title: "CPEC Route Overview Map",
+      description:
+        "Complete China-Pakistan Economic Corridor route from Kashgar to Gwadar Port",
     },
     {
-      src: '/assets/cpec2.jpg', 
-      title: 'Gwadar Port Development',
-      description: 'Strategic deep-water port development under CPEC framework'
+      src: "/assets/cpec2.jpg",
+      title: "CPEC Route Overview Map",
+      description:
+        "Complete China-Pakistan Economic Corridor route from Kashgar to Gwadar Port",
     },
     {
-      src: '/assets/cpec3.jpg',
-      title: 'Karakoram Highway',
-      description: 'Key transportation link connecting Pakistan and China'
+      src: "/assets/cpec3.jpg",
+      title: "CPEC Route Overview Map",
+      description:
+        "Complete China-Pakistan Economic Corridor route from Kashgar to Gwadar Port",
     },
     {
-      src: '/assets/cpec4.jpg',
-      title: 'Infrastructure Projects',
-      description: 'Power plants, roads, and industrial zones under CPEC'
+      src: "/assets/cpec4.jpg",
+      title: "CPEC Route Overview Map",
+      description:
+        "Complete China-Pakistan Economic Corridor route from Kashgar to Gwadar Port",
     },
     {
-      src: '/assets/cpec5.jpg',
-      title: 'CPEC Development Timeline',
-      description: 'Project milestones and completion phases 2013-2030'
-    }
+      src: "/assets/cpec5.jpg",
+      title: "CPEC Route Overview Map",
+      description:
+        "Complete China-Pakistan Economic Corridor route from Kashgar to Gwadar Port",
+    },
   ];
 
   const nextImage = () => {
