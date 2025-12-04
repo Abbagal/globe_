@@ -1,0 +1,2322 @@
+[
+  {
+    "name": "General HQ",
+    "type": "HQ",
+    "locationName": "Rawalpindi, Punjab",
+    "coordinates": {
+      "lat": 33.589908333333334,
+      "lon": 73.05040833333334
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "I Corps",
+    "type": "Strike Corps",
+    "locationName": "Mangla Cantt, Punjab",
+    "coordinates": {
+      "lat": 33.13511666666667,
+      "lon": 73.62663333333333
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "6th Armoured Division",
+    "type": "Armoured Division",
+    "locationName": "Gujranwala",
+    "coordinates": {
+      "lat": 32.24720833333333,
+      "lon": 74.09939166666666
+    },
+    "details": {
+      "corps": "I Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://archive.claws.in/images/journals_doc/1185553567_StrategicReservesCLAWSResearchTeam.pdf"
+    }
+  },
+  {
+    "name": "1st Armoured Brigade",
+    "type": "Armoured Brigade",
+    "locationName": "Kharian",
+    "coordinates": {
+      "lat": 32.82169166666667,
+      "lon": 73.8886638888889
+    },
+    "details": {
+      "corps": "I Corps",
+      "division": "6th Armoured Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "7th Armoured Brigade",
+    "type": "Armoured Brigade",
+    "locationName": "Kharian",
+    "coordinates": {
+      "lat": 32.81774444444445,
+      "lon": 73.88846111111111
+    },
+    "details": {
+      "corps": "I Corps",
+      "division": "6th Armoured Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "9th Armoured Brigade",
+    "type": "Armoured Brigade",
+    "locationName": "Kharian",
+    "coordinates": {
+      "lat": 32.81446388888889,
+      "lon": 73.88839166666668
+    },
+    "details": {
+      "corps": "I Corps",
+      "division": "6th Armoured Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "17th Infantry Division",
+    "type": "Infantry Division",
+    "locationName": "Kharian",
+    "coordinates": {
+      "lat": 32.82605277777778,
+      "lon": 73.90040277777778
+    },
+    "details": {
+      "corps": "I Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.brecorder.com/news/3384056"
+    }
+  },
+  {
+    "name": "207th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Kharian",
+    "coordinates": {
+      "lat": 32.81984722222222,
+      "lon": 73.89930833333334
+    },
+    "details": {
+      "corps": "I Corps",
+      "division": "17th Infantry Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "315th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Kharian",
+    "coordinates": {
+      "lat": 32.81568333333333,
+      "lon": 73.89908055555556
+    },
+    "details": {
+      "corps": "I Corps",
+      "division": "17th Infantry Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "37th Mech Infantry Division",
+    "type": "Mechanised Division",
+    "locationName": "Kharian",
+    "coordinates": {
+      "lat": 32.824288888888894,
+      "lon": 73.89418055555556
+    },
+    "details": {
+      "corps": "I Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.janes.com/defence-news/news-detail/pakistan-army-holds-induction-ceremony-for-vt4-mbt"
+    }
+  },
+  {
+    "name": "107th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Kharian",
+    "coordinates": {
+      "lat": 32.812416666666664,
+      "lon": 73.89900833333334
+    },
+    "details": {
+      "corps": "I Corps",
+      "division": "37th Mech Infantry Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "313th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Kharian",
+    "coordinates": {
+      "lat": 32.80984722222222,
+      "lon": 73.89889722222223
+    },
+    "details": {
+      "corps": "I Corps",
+      "division": "37th Mech Infantry Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "8th (I) Armoured Brigade",
+    "type": "Ind Armoured Brigade",
+    "locationName": "Kharian",
+    "coordinates": {
+      "lat": 32.81195833333333,
+      "lon": 73.88832500000001
+    },
+    "details": {
+      "corps": "I Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "II Corps",
+    "type": "Strike Corps",
+    "locationName": "Multan Cantt, Punjab",
+    "coordinates": {
+      "lat": 30.183275000000002,
+      "lon": 71.42395833333333
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "0345-5580795, 0302-9183276",
+      "reference": ""
+    }
+  },
+  {
+    "name": "1st Armoured Division ",
+    "type": "Armoured Division",
+    "locationName": "Multan Cantt, Punjab",
+    "coordinates": {
+      "lat": 30.172255555555555,
+      "lon": 71.41969444444445
+    },
+    "details": {
+      "corps": "II Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "14th Infantry Division ",
+    "type": "Infantry Division",
+    "locationName": "Okara Cantt",
+    "coordinates": {
+      "lat": 30.752444444444443,
+      "lon": 73.35483333333333
+    },
+    "details": {
+      "corps": "II Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://agp.gov.pk/SiteImage/Policy/Consolidated%20Audit%20Report%202019-20%20final%2014-02-2020%20(Defence).pdf"
+    }
+  },
+  {
+    "name": "23rd Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Okara Cantt",
+    "coordinates": {
+      "lat": 30.751172222222223,
+      "lon": 73.36275555555555
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://web.archive.org/web/20220608162557/https://www.ppra.org.pk/doc/14-4/9hq144-294.jpg"
+    }
+  },
+  {
+    "name": "57th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Okara Cantt",
+    "coordinates": {
+      "lat": 30.74841388888889,
+      "lon": 73.36690555555555
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "105th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Okara Cantt",
+    "coordinates": {
+      "lat": 30.74891388888889,
+      "lon": 73.36317777777778
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "324th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Okara Cantt",
+    "coordinates": {
+      "lat": 30.7406,
+      "lon": 73.3639
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "40th Infantry Division ",
+    "type": "Infantry Division",
+    "locationName": "Okara",
+    "coordinates": {
+      "lat": 30.753875,
+      "lon": 73.36740277777777
+    },
+    "details": {
+      "corps": "II Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "325th infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Okara",
+    "coordinates": {
+      "lat": 30.738725000000002,
+      "lon": 73.36740277777777
+    },
+    "details": {
+      "corps": "II Corps",
+      "division": "40th Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "326th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Okara",
+    "coordinates": {
+      "lat": 30.73716388888889,
+      "lon": 73.35597222222222
+    },
+    "details": {
+      "corps": "II Corps",
+      "division": "40th Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "327th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Okara",
+    "coordinates": {
+      "lat": 30.732041666666664,
+      "lon": 73.35578333333332
+    },
+    "details": {
+      "corps": "II Corps",
+      "division": "40th Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "13th (I) Armoured Brigade",
+    "type": "Armoured Brigade",
+    "locationName": "Sialkot",
+    "coordinates": {
+      "lat": 32.52581388888889,
+      "lon": 74.57037222222222
+    },
+    "details": {
+      "corps": "II Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "44th (I) Mechanised Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Okara^",
+    "coordinates": {
+      "lat": 30.729669444444443,
+      "lon": 73.35588888888888
+    },
+    "details": {
+      "corps": "II Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "IV Corps",
+    "type": "Holding Corps",
+    "locationName": "163, Munir Road, Lahore, Punjab",
+    "coordinates": {
+      "lat": 31.515875,
+      "lon": 74.38870833333334
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "4299221070",
+      "reference": ""
+    }
+  },
+  {
+    "name": "2nd Artillery Division ",
+    "type": "Artillery Division",
+    "locationName": "Gujranwala",
+    "coordinates": {
+      "lat": 32.23314722222222,
+      "lon": 74.08573055555556
+    },
+    "details": {
+      "corps": "IV Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "41st Artillery Brigade",
+    "type": "Artillery Brigade",
+    "locationName": "Gujranwala",
+    "coordinates": {
+      "lat": 32.232505555555555,
+      "lon": 74.07835277777778
+    },
+    "details": {
+      "corps": "IV Corps",
+      "division": "2nd Artillery Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "43rd Artillery Brigade",
+    "type": "Artillery Brigade",
+    "locationName": "Lahore^",
+    "coordinates": {
+      "lat": 31.535172222222222,
+      "lon": 74.3701
+    },
+    "details": {
+      "corps": "IV Corps",
+      "division": "2nd Artillery Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "47th Artillery Brigade",
+    "type": "Artillery Brigade",
+    "locationName": "Gujranwala",
+    "coordinates": {
+      "lat": 32.229911111111115,
+      "lon": 74.079625
+    },
+    "details": {
+      "corps": "IV Corps",
+      "division": "2nd Artillery Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "10th Infantry Division ",
+    "type": "Infantry Division",
+    "locationName": "Lahore",
+    "coordinates": {
+      "lat": 31.53878611111111,
+      "lon": 74.43768333333334
+    },
+    "details": {
+      "corps": "IV Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "22nd Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Lahore",
+    "coordinates": {
+      "lat": 31.5037,
+      "lon": 74.37584722222222
+    },
+    "details": {
+      "corps": "IV Corps",
+      "division": "10th Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "114th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Lahore",
+    "coordinates": {
+      "lat": 31.505216666666666,
+      "lon": 74.37521666666666
+    },
+    "details": {
+      "corps": "IV Corps",
+      "division": "10th Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "11th Infantry Division",
+    "type": "Infantry Division",
+    "locationName": "Lahore",
+    "coordinates": {
+      "lat": 31.510538888888888,
+      "lon": 74.36723055555555
+    },
+    "details": {
+      "corps": "IV Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "21st Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Lahore",
+    "coordinates": {
+      "lat": 31.499077777777778,
+      "lon": 74.39030000000001
+    },
+    "details": {
+      "corps": "IV Corps",
+      "division": "11th Infantry Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "52nd Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Lahore",
+    "coordinates": {
+      "lat": 31.497858333333333,
+      "lon": 74.37947777777777
+    },
+    "details": {
+      "corps": "IV Corps",
+      "division": "11th Infantry Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "106th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Lahore",
+    "coordinates": {
+      "lat": 31.520730555555556,
+      "lon": 74.37042777777778
+    },
+    "details": {
+      "corps": "IV Corps",
+      "division": "11th Infantry Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "3rd (I) Armoured Brigade",
+    "type": "Ind Armoured Brigade",
+    "locationName": "Chunian",
+    "coordinates": {
+      "lat": 30.978624999999997,
+      "lon": 73.95439444444445
+    },
+    "details": {
+      "corps": "IV Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "30th (I) Armoured Brigade",
+    "type": "Ind Armoured Brigade",
+    "locationName": "Lahore",
+    "coordinates": {
+      "lat": 31.51103888888889,
+      "lon": 74.39203611111112
+    },
+    "details": {
+      "corps": "IV Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "212nd (I) Infantry Brigade ",
+    "type": "Ind Infantry Brigade",
+    "locationName": "Lahore",
+    "coordinates": {
+      "lat": 31.509333333333334,
+      "lon": 74.3920138888889
+    },
+    "details": {
+      "corps": "IV Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "V Corps",
+    "type": "Holding Corps",
+    "locationName": "Saddar Cantt, Karachi, Sindh",
+    "coordinates": {
+      "lat": 24.85560277777778,
+      "lon": 67.03609444444444
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "16th Infantry Division ",
+    "type": "Infantry Division",
+    "locationName": "Pano Aqil",
+    "coordinates": {
+      "lat": 27.797211111111114,
+      "lon": 69.12152222222221
+    },
+    "details": {
+      "corps": "V Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "34th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Pano Aqil",
+    "coordinates": {
+      "lat": 27.807233333333333,
+      "lon": 69.11383055555555
+    },
+    "details": {
+      "corps": "V Corps",
+      "division": "16th Infantry Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "205th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Pano Aqil",
+    "coordinates": {
+      "lat": 27.804725,
+      "lon": 69.10710555555555
+    },
+    "details": {
+      "corps": "V Corps",
+      "division": "16th Infantry Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "60th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Rahim Yaar Khan",
+    "coordinates": {
+      "lat": 28.453016666666667,
+      "lon": 70.23271111111112
+    },
+    "details": {
+      "corps": "V Corps",
+      "division": "16th Infantry Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "18th Infantry Division ",
+    "type": "Infantry Division",
+    "locationName": "Hyderabad",
+    "coordinates": {
+      "lat": 25.39452222222222,
+      "lon": 68.35564166666666
+    },
+    "details": {
+      "corps": "V Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "51st Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Chor",
+    "coordinates": {
+      "lat": 25.512516666666667,
+      "lon": 69.79220555555555
+    },
+    "details": {
+      "corps": "V Corps",
+      "division": "18th Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "55th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Naya Chor",
+    "coordinates": {
+      "lat": 25.52572222222222,
+      "lon": 69.82929722222222
+    },
+    "details": {
+      "corps": "V Corps",
+      "division": "18th Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "206th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Badin",
+    "coordinates": {
+      "lat": 24.65781111111111,
+      "lon": 68.85357499999999
+    },
+    "details": {
+      "corps": "V Corps",
+      "division": "18th Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "25th Mechanized Division ",
+    "type": "Mechanised Division",
+    "locationName": "Malir",
+    "coordinates": {
+      "lat": 24.951027777777778,
+      "lon": 67.22235555555555
+    },
+    "details": {
+      "corps": "V Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "2nd (I) Armoured Brigade",
+    "type": "Armoured Brigade",
+    "locationName": "Malir",
+    "coordinates": {
+      "lat": 24.946397222222224,
+      "lon": 67.19816944444445
+    },
+    "details": {
+      "corps": "V Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "12th (I) Armoured Brigade",
+    "type": "Armoured Brigade",
+    "locationName": "Malir^",
+    "coordinates": {
+      "lat": 24.95136388888889,
+      "lon": 67.20061666666668
+    },
+    "details": {
+      "corps": "V Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "31st (I) Mechanised Infantry Brigade",
+    "type": "Mechanised Brigade",
+    "locationName": "Hyderabad or Malir",
+    "coordinates": {
+      "lat": 24.952761111111112,
+      "lon": 67.19511944444444
+    },
+    "details": {
+      "corps": "V Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "X Corps",
+    "type": "Holding Corps",
+    "locationName": "Chaklala Cantt, Rawalpindi, Punjab",
+    "coordinates": {
+      "lat": 33.59719166666667,
+      "lon": 73.08606388888889
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "AOR: J&K\nAttack role in north and POK\n60000 Mujhaid 40000 Janbaz Force irregulars",
+      "phone": "",
+      "reference": "https://agp.gov.pk/SiteImage/Policy/Consolidated%20Audit%20Report%202019-20%20final%2014-02-2020%20(Defence).pdf"
+    }
+  },
+  {
+    "name": "80th Infantry Brigade",
+    "type": "",
+    "locationName": "Minimarg",
+    "coordinates": {
+      "lat": 34.79360555555555,
+      "lon": 75.08206388888888
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "FCNA",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "12th Infantry Division ",
+    "type": "Infantry Division",
+    "locationName": "Murree",
+    "coordinates": {
+      "lat": 33.900927777777774,
+      "lon": 73.38968333333334
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "LoC, PoK",
+      "reference": "https://www.claws.in/static/SW-Spring-2020_14_Pakistan-X-Corps-1.pdf"
+    }
+  },
+  {
+    "name": "32nd Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Kel, PoK",
+    "coordinates": {
+      "lat": 34.823483333333336,
+      "lon": 74.356175
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "12th Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "19th Infantry Division ",
+    "type": "Infantry Division",
+    "locationName": "Mangla Cantt",
+    "coordinates": {
+      "lat": 33.136069444444445,
+      "lon": 73.626425
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "",
+      "remarks": "Mountain Infantry",
+      "phone": "32107",
+      "reference": "From Kel to Jhelum"
+    }
+  },
+  {
+    "name": "7th AK Brigade?",
+    "type": "Infantry Brigade",
+    "locationName": "Jarikhas",
+    "coordinates": {
+      "lat": 33.10328055555556,
+      "lon": 73.84377222222221
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "19th Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "23rd Infantry Division ",
+    "type": "Infantry Division",
+    "locationName": "Jhelum Cantt",
+    "coordinates": {
+      "lat": 32.91928055555555,
+      "lon": 73.69566944444445
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "Kotli to Bhimber"
+    }
+  },
+  {
+    "name": "3rd AK Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Kotli",
+    "coordinates": {
+      "lat": 33.52226944444444,
+      "lon": 73.89325833333334
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "23rd Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "4th AK Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Bhimber",
+    "coordinates": {
+      "lat": 32.986691666666665,
+      "lon": 74.07896944444444
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "23rd Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "333rd Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Jalalpur Jattan",
+    "coordinates": {
+      "lat": 32.651177777777775,
+      "lon": 74.22430555555556
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "23rd Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "111 (I) Infantry Brigade ",
+    "type": "Infantry Brigade",
+    "locationName": "Rawalpindi",
+    "coordinates": {
+      "lat": 33.6134,
+      "lon": 73.01614166666667
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "",
+      "remarks": "Westridge, Rawalpindi\nX Corps for VIP security & coups",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "XI Corps",
+    "type": "Reserve Corps",
+    "locationName": "Peshawar, Khyber Pakhtunkhwa",
+    "coordinates": {
+      "lat": 34.00788055555556,
+      "lon": 71.546275
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "NWFP, Balochistan",
+      "phone": "09120133949, 03342166965",
+      "reference": ""
+    }
+  },
+  {
+    "name": "7th Infantry Division ",
+    "type": "Infantry Division",
+    "locationName": "Peshawar or Miranshah, North Waziristan",
+    "coordinates": {
+      "lat": 34.00738888888889,
+      "lon": 71.54104166666666
+    },
+    "details": {
+      "corps": "XI Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "27th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Landi Kotal",
+    "coordinates": {
+      "lat": 34.098688888888894,
+      "lon": 71.14566944444445
+    },
+    "details": {
+      "corps": "XI Corps",
+      "division": "7th Infantry Division ",
+      "remarks": "Could be at  Nowshera",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "9th Infantry Division",
+    "type": "Infantry Division",
+    "locationName": "Kohat or Wana",
+    "coordinates": {
+      "lat": 33.58488333333334,
+      "lon": 71.44526111111111
+    },
+    "details": {
+      "corps": "XI Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "73rd  Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Thal",
+    "coordinates": {
+      "lat": 33.35900277777778,
+      "lon": 70.56794444444444
+    },
+    "details": {
+      "corps": "",
+      "division": "9th Infantry Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "116th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Bannu Cantt",
+    "coordinates": {
+      "lat": 32.99506111111111,
+      "lon": 70.60573055555555
+    },
+    "details": {
+      "corps": "XI Corps",
+      "division": "9th Infantry Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "117th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Kohat or Wana",
+    "coordinates": {
+      "lat": 32.29773888888889,
+      "lon": 69.57656388888888
+    },
+    "details": {
+      "corps": "XI Corps",
+      "division": "9th Infantry Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "104th Air Defence Brigade",
+    "type": "Air Defence Brigade",
+    "locationName": "Peshawar Cantt",
+    "coordinates": {
+      "lat": 33.990097222222225,
+      "lon": 71.52494722222222
+    },
+    "details": {
+      "corps": "XI Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "XII Corps",
+    "type": "Reserve Corps",
+    "locationName": "Chiltan Road, Quetta Cantt, Balochistan",
+    "coordinates": {
+      "lat": 30.209194444444442,
+      "lon": 67.03206666666667
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "36073, 32353\n0812830291, 0812823393, 03149145552",
+      "reference": ""
+    }
+  },
+  {
+    "name": "33rd Infantry Division ",
+    "type": "Infantry Division",
+    "locationName": "Quetta/Khuzdar",
+    "coordinates": {
+      "lat": 30.215519444444443,
+      "lon": 67.03643611111112
+    },
+    "details": {
+      "corps": "XII Corps",
+      "division": "33rd Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "29th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Zhob",
+    "coordinates": {
+      "lat": 31.348419444444442,
+      "lon": 69.44264722222222
+    },
+    "details": {
+      "corps": "XII Corps",
+      "division": "33rd Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "70th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Khuzdar",
+    "coordinates": {
+      "lat": 27.759805555555555,
+      "lon": 66.63675833333333
+    },
+    "details": {
+      "corps": "XII Corps",
+      "division": "33rd Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "60th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Sibi",
+    "coordinates": {
+      "lat": 29.543669444444447,
+      "lon": 67.86407777777777
+    },
+    "details": {
+      "corps": "XII Corps",
+      "division": "33rd Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "205th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Lora Lai",
+    "coordinates": {
+      "lat": 30.357922222222225,
+      "lon": 68.60197777777778
+    },
+    "details": {
+      "corps": "XII Corps",
+      "division": "33rd Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "329th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Quetta",
+    "coordinates": {
+      "lat": 30.226388888888888,
+      "lon": 67.04851666666667
+    },
+    "details": {
+      "corps": "XII Corps",
+      "division": "33rd Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "41st Infantry Division ",
+    "type": "Infantry Division",
+    "locationName": "Quetta",
+    "coordinates": {
+      "lat": 30.205205555555555,
+      "lon": 67.04374722222222
+    },
+    "details": {
+      "corps": "XII Corps",
+      "division": "41st Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "20th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Quetta",
+    "coordinates": {
+      "lat": 30.224719444444442,
+      "lon": 67.05279722222222
+    },
+    "details": {
+      "corps": "XII Corps",
+      "division": "41st Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "61st Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Quetta",
+    "coordinates": {
+      "lat": 30.224405555555553,
+      "lon": 67.05376944444444
+    },
+    "details": {
+      "corps": "XII Corps",
+      "division": "41st Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "328th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Sibi or Quetta",
+    "coordinates": {
+      "lat": 29.558408333333333,
+      "lon": 67.86388333333333
+    },
+    "details": {
+      "corps": "XII Corps",
+      "division": "41st Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "44th Special Security Division",
+    "type": "Light Infantry Division",
+    "locationName": "Gwadar, Balochistan",
+    "coordinates": {
+      "lat": 25.32321111111111,
+      "lon": 62.48553888888889
+    },
+    "details": {
+      "corps": "XII Corps",
+      "division": "",
+      "remarks": "Special Security Division. Raised 2020",
+      "phone": "",
+      "reference": "https://www.facebook.com/1090893620946235/posts/pakistan-army-44-division-district-gwadar-distributed-11000-ration-bags-amongst-/2918718988163680/"
+    }
+  },
+  {
+    "name": "XXX Corps",
+    "type": "Holding Corps",
+    "locationName": "Gujranwala Cantt, Punjab",
+    "coordinates": {
+      "lat": 32.25531388888889,
+      "lon": 74.12148611111111
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "AOR: Between Jhelum and Narowal,\r\nSouth of IV Corps boundary, Shakargarh bulge",
+      "phone": "",
+      "reference": "https://www.janes.com/defence-news/news-detail/pakistan-army-holds-induction-ceremony-for-vt4-mbt"
+    }
+  },
+  {
+    "name": "8th Infantry Division ",
+    "type": "Infantry Division",
+    "locationName": "Sialkot Cantt",
+    "coordinates": {
+      "lat": 32.528974999999996,
+      "lon": 74.56930555555556
+    },
+    "details": {
+      "corps": "XXX Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "13th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Sialkot Cantt",
+    "coordinates": {
+      "lat": 32.527427777777774,
+      "lon": 74.57060555555555
+    },
+    "details": {
+      "corps": "XXX Corps",
+      "division": "8th Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "14th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Noorkot",
+    "coordinates": {
+      "lat": 32.20129166666667,
+      "lon": 75.12336388888889
+    },
+    "details": {
+      "corps": "XXX Corps",
+      "division": "8th Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "115th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Sialkot",
+    "coordinates": {
+      "lat": 32.52372222222222,
+      "lon": 74.57232222222221
+    },
+    "details": {
+      "corps": "XXX Corps",
+      "division": "8th Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "15th Infantry Division",
+    "type": "Infantry Division",
+    "locationName": "Sialkot",
+    "coordinates": {
+      "lat": 32.53061388888889,
+      "lon": 74.55844166666667
+    },
+    "details": {
+      "corps": "XXX Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://m.rediff.com/news/column/pakistan-army-chief-shuffles-generals/20231002.htm"
+    }
+  },
+  {
+    "name": "10th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Sialkot",
+    "coordinates": {
+      "lat": 32.531480555555554,
+      "lon": 74.55637222222222
+    },
+    "details": {
+      "corps": "XXX Corps",
+      "division": "15th Infantry Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "101st Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Sialkot",
+    "coordinates": {
+      "lat": 32.52801111111111,
+      "lon": 74.56328888888889
+    },
+    "details": {
+      "corps": "XXX Corps",
+      "division": "15th Infantry Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "104th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Sialkot",
+    "coordinates": {
+      "lat": 32.52706111111111,
+      "lon": 74.56084444444444
+    },
+    "details": {
+      "corps": "XXX Corps",
+      "division": "15th Infantry Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "124th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Sialkot",
+    "coordinates": {
+      "lat": 32.521591666666666,
+      "lon": 74.57819444444443
+    },
+    "details": {
+      "corps": "XXX Corps",
+      "division": "15th Infantry Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "54th (I) Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Sialkot",
+    "coordinates": {
+      "lat": 32.511183333333335,
+      "lon": 74.57131666666666
+    },
+    "details": {
+      "corps": "XXX Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "19th (I) Armoured Brigade",
+    "type": "Armoured Brigade",
+    "locationName": "Gujranwala",
+    "coordinates": {
+      "lat": 32.23909722222222,
+      "lon": 74.11040833333333
+    },
+    "details": {
+      "corps": "XXX Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "XXXI Corps",
+    "type": "Holding Corps",
+    "locationName": "Bhawalpur Cantt, Punjab",
+    "coordinates": {
+      "lat": 29.36392777777778,
+      "lon": 71.67915
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "AOR: Punjab\nBhawalpur Corps",
+      "phone": "0300-8932437, 0333-0003321, 0336-5812880",
+      "reference": ""
+    }
+  },
+  {
+    "name": "26th Mechanised Infantry Division ",
+    "type": "Infantry Division",
+    "locationName": "Bhawalpur Cantt",
+    "coordinates": {
+      "lat": 29.369630555555556,
+      "lon": 71.68681666666667
+    },
+    "details": {
+      "corps": "XXXI Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "35th Infantry Division ",
+    "type": "Infantry Division",
+    "locationName": "Bhawalpur Cantt",
+    "coordinates": {
+      "lat": 29.36911388888889,
+      "lon": 71.68645277777779
+    },
+    "details": {
+      "corps": "XXXI Corps",
+      "division": "",
+      "remarks": "Battalion at Fort Abbas",
+      "phone": "062-33110",
+      "reference": ""
+    }
+  },
+  {
+    "name": "25th Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Bhawalpur",
+    "coordinates": {
+      "lat": 29.35918611111111,
+      "lon": 71.66360555555556
+    },
+    "details": {
+      "corps": "XXXI Corps",
+      "division": "35th Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "53rd Infantry Brigade",
+    "type": "Infantry Brigade",
+    "locationName": "Bhawalpur",
+    "coordinates": {
+      "lat": 29.35931666666667,
+      "lon": 71.66719722222223
+    },
+    "details": {
+      "corps": "XXXI Corps",
+      "division": "35th Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "74th Infantry Brigade",
+    "type": " Infantry Brigade",
+    "locationName": "Dera Nawab Sahib",
+    "coordinates": {
+      "lat": 29.121708333333334,
+      "lon": 71.26878611111111
+    },
+    "details": {
+      "corps": "XXXI Corps",
+      "division": "35th Infantry Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "101st (I) Infantry Brigade^",
+    "type": "Infantry Brigade",
+    "locationName": "Sialkot",
+    "coordinates": {
+      "lat": 32.52968611111111,
+      "lon": 74.56436944444444
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "Could be Ind or under 15th Infantry Division",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "14th (I) Armoured Brigade",
+    "type": "Armoured Brigade",
+    "locationName": "New Cantt Bahawalpur, Bahawalpur, Punjab",
+    "coordinates": {
+      "lat": 29.342025,
+      "lon": 71.74022222222223
+    },
+    "details": {
+      "corps": "XXXI Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Air Defence Command",
+    "type": "Air Defence Corps",
+    "locationName": "Rawalpindi, Punjab",
+    "coordinates": {
+      "lat": 33.61001666666667,
+      "lon": 73.09058888888889
+    },
+    "details": {
+      "corps": "Air Defence Command",
+      "division": "",
+      "remarks": "AOR: Pakistan",
+      "phone": "",
+      "reference": "https://www.youtube.com/watch?v=8ioisdhoVsU"
+    }
+  },
+  {
+    "name": "3rd Air Defence Brigade",
+    "type": "Air Defence Brigade",
+    "locationName": "Sargodha",
+    "coordinates": {
+      "lat": 32.077913888888894,
+      "lon": 72.64168611111111
+    },
+    "details": {
+      "corps": "Air Defence Command",
+      "division": "3rd Air Defence Division",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "4th Air Defence Division ",
+    "type": "Air Defence Division",
+    "locationName": "Malir",
+    "coordinates": {
+      "lat": 24.938316666666665,
+      "lon": 67.18921666666667
+    },
+    "details": {
+      "corps": "Air Defence Command",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "1st Air Defence Brigade",
+    "type": "Air Defence Brigade",
+    "locationName": "Malir",
+    "coordinates": {
+      "lat": 24.93756388888889,
+      "lon": 67.19068055555556
+    },
+    "details": {
+      "corps": "Air Defence Command",
+      "division": "4th Air Defence Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "109th Air Defence Brigade",
+    "type": "Air Defence Brigade",
+    "locationName": "Multan",
+    "coordinates": {
+      "lat": 30.162474999999997,
+      "lon": 71.41749722222222
+    },
+    "details": {
+      "corps": "Air Defence Command",
+      "division": "4th Air Defence Division ",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Special Service Group",
+    "type": "SF Division",
+    "locationName": "Cherat",
+    "coordinates": {
+      "lat": 33.82836666666667,
+      "lon": 71.91531666666667
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "22 SSG Brigade",
+    "type": "Brigade",
+    "locationName": "Cherat",
+    "coordinates": {
+      "lat": 33.82836666666667,
+      "lon": 71.91531666666667
+    },
+    "details": {
+      "corps": "Special Service Group",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Tarbela SSG Brigade",
+    "type": "",
+    "locationName": "Tarbela",
+    "coordinates": {
+      "lat": 34.01391944444445,
+      "lon": 72.67376944444445
+    },
+    "details": {
+      "corps": "Special Service Group",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "3 Commando Battalion",
+    "type": "SF Battalion",
+    "locationName": "Powindah",
+    "coordinates": {
+      "lat": 33.14928333333333,
+      "lon": 73.70960833333334
+    },
+    "details": {
+      "corps": "Special Service Group",
+      "division": "Tarbela SSG Brigade",
+      "remarks": "Powindahs",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "11 SSG Brigade",
+    "type": "Brigade",
+    "locationName": "Attock",
+    "coordinates": {
+      "lat": 33.77137777777778,
+      "lon": 72.37540555555555
+    },
+    "details": {
+      "corps": "Special Service Group",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "1 Commando Battalion ??",
+    "type": "SF Battalion",
+    "locationName": "Tarbela, Khyber Pakhtunkhwa",
+    "coordinates": {
+      "lat": 34.013669444444446,
+      "lon": 72.67074722222223
+    },
+    "details": {
+      "corps": "Special Service Group",
+      "division": "11 SSG Brigade",
+      "remarks": "Yaldram",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Para Training School SSG",
+    "type": "Training",
+    "locationName": "Grand Trunk Rd, Tahkal, Peshawar,",
+    "coordinates": {
+      "lat": 34.006080555555556,
+      "lon": 71.52626944444444
+    },
+    "details": {
+      "corps": "Special Service Group",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Powindah SSG center?",
+    "type": "",
+    "locationName": "",
+    "coordinates": {
+      "lat": 33.14905,
+      "lon": 73.70824166666667
+    },
+    "details": {
+      "corps": "Special Service Group",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Army Strategic Forces Command",
+    "type": "Missile Corps",
+    "locationName": "Jarrar Camp, Rawalpindi, Punjab",
+    "coordinates": {
+      "lat": 33.412277777777774,
+      "lon": 72.92229722222223
+    },
+    "details": {
+      "corps": "Strategic Forces Command",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "21st Artillery Division ",
+    "type": "Artillery Division",
+    "locationName": "Pano Aqil (or Swat)",
+    "coordinates": {
+      "lat": 27.802319444444446,
+      "lon": 69.10204999999999
+    },
+    "details": {
+      "corps": "Strategic Forces Command",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "47th Artillery Brigade",
+    "type": "Artillery Brigade",
+    "locationName": "Kirana Cantt, Hilal Garrison",
+    "coordinates": {
+      "lat": 31.957480555555556,
+      "lon": 72.67176666666667
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.jobz.pk/mess-waiter-job-at-headquarter-47-artillery-brigade_jobs-555253.html"
+    }
+  },
+  {
+    "name": "Army Air Defence Command HQ",
+    "type": "Air Defence",
+    "locationName": "Chaklala Cantt., Rawalpindi",
+    "coordinates": {
+      "lat": 33.59226666666667,
+      "lon": 73.09208888888888
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Army Dog Center",
+    "type": "",
+    "locationName": "Rawlpindi Cantt, Punjab. 46000",
+    "coordinates": {
+      "lat": 33.60299166666667,
+      "lon": 73.09394444444445
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "Not confirmed, could be private",
+      "phone": "092 300 66669160",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Khairpur Tamewali Range",
+    "type": "",
+    "locationName": "Khairpur Tamewali, Bahawalpur, Punjab",
+    "coordinates": {
+      "lat": 29.466719444444443,
+      "lon": 72.28038333333333
+    },
+    "details": {
+      "corps": "XXXI Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://twitter.com/zarrar_11PK/status/1730861769940234735"
+    }
+  },
+  {
+    "name": "Pano Aqil Tank Workshop",
+    "type": "Workshop",
+    "locationName": "Pano Aqil Cantt, Sukkur, Sindh",
+    "coordinates": {
+      "lat": 27.81201666666667,
+      "lon": 69.092575
+    },
+    "details": {
+      "corps": "",
+      "division": "16th Infantry Division^",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Pano Aqil Tank Workshop 2",
+    "type": "Workshop",
+    "locationName": "Pano Aqil Cantt, Sukkur, Sindh",
+    "coordinates": {
+      "lat": 27.818069444444443,
+      "lon": 69.09877222222222
+    },
+    "details": {
+      "corps": "",
+      "division": "16th Infantry Division^",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "1st AK Brigade",
+    "type": "Irregular Infantry Brigade",
+    "locationName": "Domel or Kuchha",
+    "coordinates": {
+      "lat": 34.35801111111111,
+      "lon": 73.46999722222222
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "Muzaffarabad"
+    }
+  },
+  {
+    "name": "2nd AK Brigade",
+    "type": "Irregular Infantry Brigade",
+    "locationName": "",
+    "coordinates": {
+      "lat": 33.847613888888894,
+      "lon": 73.80346944444445
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "Rawalkot"
+    }
+  },
+  {
+    "name": "3rd AK Brigade",
+    "type": "Irregular Infantry Brigade",
+    "locationName": "",
+    "coordinates": {
+      "lat": 33.60385277777778,
+      "lon": 73.94102222222223
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "Tatta Pani"
+    }
+  },
+  {
+    "name": "4th AK Brigade",
+    "type": "Irregular Infantry Brigade",
+    "locationName": "",
+    "coordinates": {
+      "lat": 33.32539166666667,
+      "lon": 74.02584166666666
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "Bandli"
+    }
+  },
+  {
+    "name": "5th AK Brigade",
+    "type": "Irregular Infantry Brigade",
+    "locationName": "",
+    "coordinates": {
+      "lat": 34.43363055555555,
+      "lon": 73.69106944444445
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "Dhani"
+    }
+  },
+  {
+    "name": "6th AK Brigade",
+    "type": "Irregular Infantry Brigade",
+    "locationName": "",
+    "coordinates": {
+      "lat": 33.98793055555556,
+      "lon": 73.7758361111111
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "Bagh"
+    }
+  },
+  {
+    "name": "7th AK Brigade",
+    "type": "Irregular Infantry Brigade",
+    "locationName": "Jarikass",
+    "coordinates": {
+      "lat": 32.98130555555556,
+      "lon": 74.079875
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "Bhimber"
+    }
+  },
+  {
+    "name": "32nd AK Brigade?",
+    "type": "Irregular Infantry Brigade",
+    "locationName": "",
+    "coordinates": {
+      "lat": 34.82385555555556,
+      "lon": 74.35562499999999
+    },
+    "details": {
+      "corps": "X Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "Kel"
+    }
+  },
+  {
+    "name": "FCKP North",
+    "type": "Paramilitary ",
+    "locationName": "Hashtnagri, Peshawar, Khyber Pakhtunkhwa",
+    "coordinates": {
+      "lat": 34.013325,
+      "lon": 71.56992777777778
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "Frontier Corps Khyber Pakhtunkhwa (North) ",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Zhob Militia ",
+    "type": "Paramilitary ",
+    "locationName": "Fort Sandeman",
+    "coordinates": {
+      "lat": 31.34429722222222,
+      "lon": 69.43913055555556
+    },
+    "details": {
+      "corps": "Frontier Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Sibi Scouts ",
+    "type": "Paramilitary ",
+    "locationName": "Sibi",
+    "coordinates": {
+      "lat": 29.538511111111113,
+      "lon": 67.85058888888888
+    },
+    "details": {
+      "corps": "Frontier Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Kalat Scouts",
+    "type": "Paramilitary ",
+    "locationName": "Kalat",
+    "coordinates": {
+      "lat": 27.810222222222222,
+      "lon": 66.59988333333332
+    },
+    "details": {
+      "corps": "Frontier Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Kharan Rifles ",
+    "type": "Paramilitary ",
+    "locationName": "Kharan, Balochistan",
+    "coordinates": {
+      "lat": 28.59517222222222,
+      "lon": 65.41904722222223
+    },
+    "details": {
+      "corps": "Frontier Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Pishin Scouts ",
+    "type": "Paramilitary ",
+    "locationName": "Pishin Fort",
+    "coordinates": {
+      "lat": 30.938716666666668,
+      "lon": 66.45074444444445
+    },
+    "details": {
+      "corps": "Frontier Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Maiwand Rifles ",
+    "type": "Paramilitary ",
+    "locationName": "Maiwand Dist, Kohlu, Balochistan",
+    "coordinates": {
+      "lat": 29.648972222222223,
+      "lon": 68.70859722222222
+    },
+    "details": {
+      "corps": "Frontier Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Ghazaband Scouts",
+    "type": "Paramilitary ",
+    "locationName": "Quetta, Balochistan",
+    "coordinates": {
+      "lat": 30.29145,
+      "lon": 66.921075
+    },
+    "details": {
+      "corps": "Frontier Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Bhambore Rifles",
+    "type": "Paramilitary ",
+    "locationName": "Dera Bugti",
+    "coordinates": {
+      "lat": 29.039661111111112,
+      "lon": 69.16422222222222
+    },
+    "details": {
+      "corps": "Frontier Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Loralai Scouts ",
+    "type": "Paramilitary ",
+    "locationName": "Sarduki",
+    "coordinates": {
+      "lat": 30.35608888888889,
+      "lon": 68.60191388888889
+    },
+    "details": {
+      "corps": "Frontier Corps",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Khyber Rifles",
+    "type": "Paramilitary ",
+    "locationName": "Landi Kotal, Khyber Pakhtunkhwa",
+    "coordinates": {
+      "lat": 34.101350000000004,
+      "lon": 71.14656666666667
+    },
+    "details": {
+      "corps": "Frontier Corps",
+      "division": "FCKP North",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  }
+]

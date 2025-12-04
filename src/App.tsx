@@ -3,12 +3,14 @@ import Globe, { GlobeRef } from './Globe';
 import { geocodingService } from './GeocodingService';
 import CPECSidebar from './CPECSidebarNew';
 import KeyOfficialsSidebar from './KeyOfficialsSidebar';
+import RouteLegend from './RouteLegend';
 
 function App() {
   const [query, setQuery] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [showCPECSidebar, setShowCPECSidebar] = useState(false);  const [showKeyOfficialsSidebar, setShowKeyOfficialsSidebar] = useState(false);
+  const [selectedRoute, setSelectedRoute] = useState<string | null>(null);
   const [cpecLoading, setCpecLoading] = useState(false);
   const [loadingText, setLoadingText] = useState('');
   const [osintLoading, setOsintLoading] = useState(false);
@@ -195,9 +197,25 @@ function App() {
             {error}
           </div>
         )}
-       
-      </div>{" "}
+         </div>{" "}
       <Globe ref={globeRef} />
+      
+      {/* Route Legend - visible when CPEC sidebar is shown */}
+      <RouteLegend
+        visible={showCPECSidebar}
+        selectedRoute={selectedRoute}
+        onRouteSelect={(routeId) => {
+          setSelectedRoute(routeId);
+          if (globeRef.current) {
+            if (routeId === null) {
+              globeRef.current.showAllRoutes();
+            } else {
+              globeRef.current.showSingleRoute(routeId);
+            }
+          }
+        }}
+      />
+
       {/* CPEC Loading Overlay */}
       {cpecLoading && (
         <div

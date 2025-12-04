@@ -20,3 +20,8 @@ code {
   width: 100%;
   height: 100%;
 }
+
+/* Hide the Cesium credits/logo */
+.cesium-widget-credits {
+  display: none !important;
+}

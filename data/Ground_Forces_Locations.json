@@ -1,0 +1,5154 @@
+[
+  {
+    "name": "WTC HQ",
+    "type": "HQ",
+    "locationName": "31, Jianghan Road, Chengdu City, Sichuan Province",
+    "coordinates": {
+      "lat": 30.676927777777777,
+      "lon": 104.06413333333333
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Major focus on India. This seems to be the only TC which still retains some divisions. \n2 to 2.35 lakh troops from border defence units and regular army.\n5-6 CBAs deployed in Depsang, Galwan, Hot Spring, Pangong Tso, Demchok and Chumar sectors.\nTibet Military Region (TMR) comes under PLA\u2019s Ground Forces Command instead of Western TC",
+      "phone": "",
+      "reference": "https://jjamwal.in/yayavar/order-of-battle-of-chinese-armed-forces/"
+    }
+  },
+  {
+    "name": "WTC Air Force",
+    "type": "HQ",
+    "locationName": "Xinnan Road, Wuhou District, Chengdu",
+    "coordinates": {
+      "lat": 30.64090277777778,
+      "lon": 104.07147222222221
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "WTC Army",
+    "type": "HQ",
+    "locationName": " 890, Nanchang Road, Chengguan District, Lanzhou City, Gansu",
+    "coordinates": {
+      "lat": 36.058027777777774,
+      "lon": 103.85094722222222
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "76th GA",
+    "type": "Group Army",
+    "locationName": "59 Bayi Road, Chengdong District, Xining",
+    "coordinates": {
+      "lat": 36.57031944444445,
+      "lon": 101.85884722222221
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "12th CAB",
+    "type": "Heavy Combined Arms Brigade",
+    "locationName": "Dongba Village, Suzhou District, Jiuquan City, Gansu",
+    "coordinates": {
+      "lat": 39.72943055555556,
+      "lon": 98.51094166666667
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "Perhaps Disbanded in May 2022^ and assets given to XMR units\nSAM HQ-17 ",
+      "phone": "",
+      "reference": "https://www.jiuquan.cc/33446.html\nhttps://www.gsei.com.cn/html/1336/2019-07-23/content-244529.html"
+    }
+  },
+  {
+    "name": "12th CAB 2",
+    "type": "Heavy Combined Arms Brigade",
+    "locationName": "Wenshu Mountain, Jiuquan, Gansu",
+    "coordinates": {
+      "lat": 39.64875833333333,
+      "lon": 98.34432777777778
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "17th CAB",
+    "type": "Heavy Combined Arms Brigade",
+    "locationName": "Pingjibao, Xixia District, Yinchuan",
+    "coordinates": {
+      "lat": 38.39509722222222,
+      "lon": 106.01305833333333
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.sgss8.net/tpdq/18291246/4.htm\nhttp://www.ccgp.gov.cn/cggg/dfgg/zbgg/202105/t20210519_16305612.htm\nhttp://www.ztgxzb.com/Html/?413353.html"
+    }
+  },
+  {
+    "name": "56th CAB",
+    "type": "Heavy Combined Arms Brigade.",
+    "locationName": "Yanqiao South Road, Golmud City, Haixi Mongolian Tibetan Autonomous Prefecture, Qinghai Province",
+    "coordinates": {
+      "lat": 36.17584722222222,
+      "lon": 94.78227777777778
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "62nd CAB",
+    "type": "Heavy Combined Arms Brigade",
+    "locationName": "Shuangyong Road, Jiayuguan City, Gansu Province",
+    "coordinates": {
+      "lat": 39.81208611111111,
+      "lon": 98.23803611111111
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "Deployed Type-99A In Pangong & Spangur area in 2020",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "149th CAB",
+    "type": "Medium Combined Arms Brigade",
+    "locationName": "Liqiao Village, Litong District, Wuzhong City, Ningxia Hui",
+    "coordinates": {
+      "lat": 37.86573888888889,
+      "lon": 106.10816388888888
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.meipian.cn/26e91x3r"
+    }
+  },
+  {
+    "name": "182nd CAB",
+    "type": "Light Combined Arms Brigade^",
+    "locationName": "Qujiagou, Longxi, Gansu",
+    "coordinates": {
+      "lat": 34.9564,
+      "lon": 104.68483611111111
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "76th AB",
+    "type": "Artillery Brigade. ",
+    "locationName": "Yingshuiqiao, Shapotou District, Zhongwei City, Ningxia Hui Autonomous Region",
+    "coordinates": {
+      "lat": 37.50233333333333,
+      "lon": 105.09771944444444
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.nxzw.gov.cn/zwgk/bmxxgkml/sfzhggwyh/fdzdgknr_49196/pzjgxx_49213/202204/t20220408_3446358.html"
+    }
+  },
+  {
+    "name": "76th ADB",
+    "type": "Air Defence Brigade.",
+    "locationName": "No. 80 Qianheyan Road, Linxia City, Gansu Province",
+    "coordinates": {
+      "lat": 35.586847222222225,
+      "lon": 103.20077777777779
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.gansumuseum.com/wap/news/show-2775.html\nhttps://www.gsei.com.cn/html/1336/2019-06-21/content-240100.html\nhttps://mp.weixin.qq.com/s/w9UmnWnP_ttCHRtCpBYiJA?fbclid=IwAR35l9_-KLlfTvk7eyKH-nYDRxSk_0E6hBwKqHQYFXd2-_YCi1bUCBeyhm0"
+    }
+  },
+  {
+    "name": "76th SOB",
+    "type": "Special Operations Brigade",
+    "locationName": "Jiefang Street, Qingtongxia City, Wuzhong",
+    "coordinates": {
+      "lat": 37.896819444444446,
+      "lon": 106.02436944444445
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202101/t20210107_15766524.htm"
+    }
+  },
+  {
+    "name": "76th AAB",
+    "type": "Army Aviation Brigade",
+    "locationName": "Gonghe Town, Pingchuan District, Baiyin City, Gansu",
+    "coordinates": {
+      "lat": 36.629891666666666,
+      "lon": 105.00580277777777
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://61.178.82.8/index.php/cms/item-view-id-193338-page-1"
+    }
+  },
+  {
+    "name": "76th AAB 2",
+    "type": "Army Aviation Brigade 2",
+    "locationName": "Xiganqu, Golmud, Haixi Mongol and Tibetan Autonomous Prefecture, Qinghai",
+    "coordinates": {
+      "lat": 36.383805555555554,
+      "lon": 94.80296388888888
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "New^",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "76th Engg",
+    "type": "Engineering & Chemical Defence Brigade",
+    "locationName": "Xincheng Compound, Yongjun Road, Liangzhou District, Wuwei City, Gansu",
+    "coordinates": {
+      "lat": 37.94640277777778,
+      "lon": 102.66726666666668
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://101.201.181.170:8698/qtyjcg2/26868.jhtml"
+    }
+  },
+  {
+    "name": "76th SSB",
+    "type": "Service Support Brigade",
+    "locationName": "59, Bayi Road, Chengdong District, Xining City",
+    "coordinates": {
+      "lat": 36.57383055555556,
+      "lon": 101.85352499999999
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "76th Hospital",
+    "type": "Group Military Hospital",
+    "locationName": "Nanchang Road, Chengguan District, Lanzhou",
+    "coordinates": {
+      "lat": 36.05412222222222,
+      "lon": 103.87080277777777
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "56th Brigade^",
+    "type": "Mechanised Infantry Brigade??",
+    "locationName": "Wuweiyao County, Gansu",
+    "coordinates": {
+      "lat": 36.71018055555556,
+      "lon": 103.27329722222223
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "Yongdeng County, Lanzhou, Gansu",
+      "phone": "",
+      "reference": "https://www.gswuwei.gov.cn/art/2017/7/5/art_98_82805.html\nhttps://www.douyin.com/search/68303?focus_method=&enter_from=keywords_expansion&aid=961ad1f9-5512-4d41-8e9c-c0bacc1317f0&source=normal_search\n"
+    }
+  },
+  {
+    "name": "447th Regiment",
+    "type": "Armoured Regiment",
+    "locationName": "Chongzhou, Chengdu, Sichuan",
+    "coordinates": {
+      "lat": 30.680836111111113,
+      "lon": 103.65475277777779
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.douyin.com/search/77169?aid=95a96aef-c102-4370-8d8f-0d59a14eba40&publish_time=0&sort_type=0&source=normal_search&type=general\n\nhttp://bbs.tianya.cn/post-130-548021-1.shtml\nhttps://v.qq.com/x/page/k031157v3ic.html"
+    }
+  },
+  {
+    "name": "Inf Reg^",
+    "type": "Infantry Regiment^",
+    "locationName": "No. 5, Chiyu Road, Tianshui County, Qinzhou District, Tianshui City, Gansu Province",
+    "coordinates": {
+      "lat": 34.56971111111111,
+      "lon": 105.68379722222222
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "61st Inf Div",
+    "type": "Infantry Division",
+    "locationName": "Tianshui, Gansu",
+    "coordinates": {
+      "lat": 34.56682777777778,
+      "lon": 105.67819722222222
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://mapcarta.com/W744641659\nhttps://jingyan.baidu.com/article/ff42efa9d188e0809f220260.html"
+    }
+  },
+  {
+    "name": "182nd Regiment  ^",
+    "type": "Unknown",
+    "locationName": "Caoxian Township, Jingyuan County, Baiyin City, Gansu\nor Longxi, Gansu.",
+    "coordinates": {
+      "lat": 36.37616111111111,
+      "lon": 104.61961666666666
+    },
+    "details": {
+      "corps": "61st Inf Div, 76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "61 Arty Reg",
+    "type": "Unknown",
+    "locationName": "Qingtongxiazhen, Qingtongxia, Wuzhong, Ningxia",
+    "coordinates": {
+      "lat": 37.88953333333333,
+      "lon": 106.01295555555555
+    },
+    "details": {
+      "corps": "61st Inf Div, 76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "61 Armd Reg",
+    "type": "Unknown",
+    "locationName": "Wudatai, Qingtongxia, Wuzhong, Ningxia",
+    "coordinates": {
+      "lat": 37.87430277777778,
+      "lon": 106.0295388888889
+    },
+    "details": {
+      "corps": "61st Inf Div, 76th GA, WTC",
+      "division": "",
+      "remarks": "Has training area",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "19th Arty Bde",
+    "type": "Artillery Brigade",
+    "locationName": "Zhongning County, Zhongwei, Ningxia",
+    "coordinates": {
+      "lat": 37.46078333333334,
+      "lon": 105.68583333333333
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.douyin.com/search/68205?aid=461c7490-cbdf-487e-bfda-cd9031790e00&publish_time=0&sort_type=0&source=normal_search&type=general"
+    }
+  },
+  {
+    "name": "1st ADB",
+    "type": "Air Defence Brigade.",
+    "locationName": "Xingyang City, Zhengzhou, Henan",
+    "coordinates": {
+      "lat": 34.75931666666666,
+      "lon": 113.39493611111112
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.douyin.com/search/71834?focus_method=&enter_from=keywords_expansion&aid=e4fffc40-fead-45a0-9968-4170cb564f32&source=normal_search"
+    }
+  },
+  {
+    "name": "76th AB 3^",
+    "type": "Army Aviation Brigade",
+    "locationName": "Sanhe Village, Jingyuan County, Baiyin City, Gansu Province",
+    "coordinates": {
+      "lat": 36.60743611111111,
+      "lon": 104.72368055555556
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "88th/90th Regiment ",
+    "type": "Bridging Regiment",
+    "locationName": "Jingyuan County, Yinyin, Gansu",
+    "coordinates": {
+      "lat": 36.58336666666667,
+      "lon": 104.71172222222222
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.douyin.com/search/68221?aid=3b83fe4f-4069-445b-9499-31f660a80a84&publish_time=0&sort_type=0&source=normal_search&type=general\n\nhttps://mapcarta.com/W728001497"
+    }
+  },
+  {
+    "name": "Comms Unit^^",
+    "type": "Communications",
+    "locationName": "Tiantian Town, Baoji County, Shaanxi",
+    "coordinates": {
+      "lat": 34.306749999999994,
+      "lon": 107.46095277777778
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://m.wumaow.org/tu/9201157.html\nhttps://m.wumaow.org/tu/9201157.html"
+    }
+  },
+  {
+    "name": "11th Reg",
+    "type": "Chemical Defence Regiment",
+    "locationName": "Xiaodongmen, Lintao County, Dingxi City, Gansu",
+    "coordinates": {
+      "lat": 35.38255,
+      "lon": 103.87314722222222
+    },
+    "details": {
+      "corps": "76th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.douyin.com/search/68231?aid=81d05c35-63c5-491b-adda-605b89b54042&publish_time=0&sort_type=0&source=normal_search&type=general"
+    }
+  },
+  {
+    "name": "77th GA",
+    "type": "Group Army",
+    "locationName": "No. 1 Yongjun Road, Chongzhou City, Chengdu City, Sichuan Province",
+    "coordinates": {
+      "lat": 30.719424999999998,
+      "lon": 103.52358055555555
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "39th CAB",
+    "type": "Medium Combined Arms Brigade^",
+    "locationName": "238, Bitong Road, Bishan District, Chongqing",
+    "coordinates": {
+      "lat": 29.601372222222224,
+      "lon": 106.22311666666667
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.bishan.gov.cn/sy_241/bmjz/202203/t20220309_10481488.html\nhttp://www.zbejmrh.cn/afjs/4771.jhtml"
+    }
+  },
+  {
+    "name": "40th CAB ",
+    "type": "Mountain Combined Arms Brigade^",
+    "locationName": "Bayi Road, Tongliang District, Chongqing",
+    "coordinates": {
+      "lat": 29.853305555555558,
+      "lon": 106.04331666666667
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.douyin.com/search/77283?aid=03eec787-6e3d-49e6-a891-583158ddc004&publish_time=0&sort_type=0&source=normal_search&type=general"
+    }
+  },
+  {
+    "name": "55th CAB ",
+    "type": "Light Combined Arms Brigade",
+    "locationName": "Deyang Village, Deqing County, Duilong, Lhasa City, Tibet ",
+    "coordinates": {
+      "lat": 29.560583333333334,
+      "lon": 91.05356388888889
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.sgss8.net/tpdq/30014131/"
+    }
+  },
+  {
+    "name": "139th CAB ",
+    "type": "Heavy Combined Arms Brigade",
+    "locationName": "Jiuligeng, Shigu Town, Shifang City",
+    "coordinates": {
+      "lat": 31.155458333333332,
+      "lon": 104.01239722222222
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.douyin.com/search/68302?aid=f3622d1c-5dc0-4b26-b576-06a151471352&publish_time=0&sort_type=0&source=normal_search&type=general\nhttps://www.163.com/dy/article/FQ9AC6HT0517QMLL.html"
+    }
+  },
+  {
+    "name": "139th CAB 2^",
+    "type": "CAB Base",
+    "locationName": "Fuguang Village, Longfeng Town, Pengzhou City, Chengdu City, Sichuan Province",
+    "coordinates": {
+      "lat": 31.044,
+      "lon": 103.83657777777778
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://gk.chengdu.gov.cn/govInfoPub/detail.action?id=2401224&tn=2"
+    }
+  },
+  {
+    "name": "150th CAB",
+    "type": "Light Combined Arms Brigade^",
+    "locationName": "Xiang'er Town, Dongpo District, Meishan City, Sichuan ",
+    "coordinates": {
+      "lat": 30.06043888888889,
+      "lon": 103.77326666666667
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.douyin.com/search/31676?aid=d56b1c68-23ac-40c2-98b8-caa360e546e0&publish_time=0&sort_type=0&source=normal_search&type=general"
+    }
+  },
+  {
+    "name": "181st CAB",
+    "type": " Medium Combined Arms Brigade",
+    "locationName": "Tonggao Village, Ganwei County, Leshan City, Sichuan Province",
+    "coordinates": {
+      "lat": 29.15897222222222,
+      "lon": 103.96834722222222
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://sc.china.com.cn/2021/leshan_0917/419463.html"
+    }
+  },
+  {
+    "name": "77th AAB ",
+    "type": "Army Aviation Brigade ",
+    "locationName": "Fenghuangshan, Jinniu District, Chengdu, Sichuan Province",
+    "coordinates": {
+      "lat": 30.730180555555553,
+      "lon": 104.09220555555555
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://baike.baidu.com/item/%E9%82%B1%E5%85%89%E5%8D%8E/18906"
+    }
+  },
+  {
+    "name": "77th AAB ",
+    "type": "Army Aviation Brigade",
+    "locationName": "Chengdu, Taipingsi ",
+    "coordinates": {
+      "lat": 30.601666666666667,
+      "lon": 104.01416666666667
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://baike.baidu.com/item/%E9%82%B1%E5%85%89%E5%8D%8E/18906"
+    }
+  },
+  {
+    "name": "77th SOB",
+    "type": "Special Operations Brigade",
+    "locationName": "Jiuligeng, Shifang City, Deyang City",
+    "coordinates": {
+      "lat": 31.154899999999998,
+      "lon": 104.02076666666666
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.douyin.com/search/77110?aid=7c7a1fb1-d553-4656-aa1b-d53d1ef7e396&publish_time=0&sort_type=0&source=normal_search&type=general"
+    }
+  },
+  {
+    "name": "77th AB",
+    "type": "Artillery Brigade",
+    "locationName": "Jinjiang Township, Chongzhou City, Chengdu City, Sichuan Province",
+    "coordinates": {
+      "lat": 30.67288888888889,
+      "lon": 103.65630277777778
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.chongzhou.gov.cn/chongzhou/c138963/2023-02/09/content_5be00d1884c7492e82ae65d2d67e8b3e.shtml\nhttps://www.douyin.com/search/77115?aid=f7cd01ae-7bf4-48fa-8dde-915e6726a761&publish_time=0&sort_type=0&source=normal_search&type=general"
+    }
+  },
+  {
+    "name": "77th ADB",
+    "type": "Air Defence Brigade",
+    "locationName": "Jiepai Town, Anzhou District, Mianyang City, Sichuan ",
+    "coordinates": {
+      "lat": 31.49435,
+      "lon": 104.58700833333333
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.sohu.com/a/332039663_120158407"
+    }
+  },
+  {
+    "name": "77th SSB",
+    "type": "Service Support Brigade",
+    "locationName": "No. 168 Yongjun Road, Chongzhou City, Chengdu City, Sichuan",
+    "coordinates": {
+      "lat": 30.59798611111111,
+      "lon": 103.60858611111111
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://101.201.181.170:8698/glxlbzjs/33262.jhtml"
+    }
+  },
+  {
+    "name": "77th Engg",
+    "type": "Engineering & Chemical Defence Brigade^",
+    "locationName": "100, Qianjin Middle Road, Jiangyang District, Luzhou City, Sichuan ",
+    "coordinates": {
+      "lat": 28.878144444444445,
+      "lon": 105.44869444444444
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://hhfocus.com/zh-cn/post/14ef56.html\nhttps://www.lzdyzx.net/articles/12591.html"
+    }
+  },
+  {
+    "name": "77th Hospital^",
+    "type": "Group Military Hospital",
+    "locationName": "Huangtu Town, Jiajiang County, Leshan City, Sichuan         ",
+    "coordinates": {
+      "lat": 29.73607777777778,
+      "lon": 103.58158888888889
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "77146 Artillery^",
+    "type": "Artillery Regiment",
+    "locationName": "Chongqing, Laifeng",
+    "coordinates": {
+      "lat": 29.435041666666667,
+      "lon": 106.1915
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://baike.baidu.com/item/%E8%91%A3%E5%85%A8%E5%8B%87/7027288\nhttps://www.sgss8.net/tpdq/16752781/4.htm"
+    }
+  },
+  {
+    "name": "AD Regiment",
+    "type": "Air Defence Regiment",
+    "locationName": "Longchang County, Neijiang, Sichuan",
+    "coordinates": {
+      "lat": 29.340633333333333,
+      "lon": 105.29243888888888
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "40th CAB 2^",
+    "type": "CAB Base",
+    "locationName": "Yanggongqiao, Shapingba District, Chongqing",
+    "coordinates": {
+      "lat": 29.56686388888889,
+      "lon": 106.43219166666667
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.douyin.com/search/77126?aid=7cd77cef-2eef-42f0-b282-39b545a86c35&publish_time=0&sort_type=0&source=normal_search&type=general"
+    }
+  },
+  {
+    "name": "37th Mot Inf Div^",
+    "type": "Motorised Infantry Division",
+    "locationName": "Jiangjin District, Chongqing",
+    "coordinates": {
+      "lat": 29.292236111111112,
+      "lon": 106.17186666666667
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.douyin.com/search/77126?aid=7cd77cef-2eef-42f0-b282-39b545a86c35&publish_time=0&sort_type=0&source=normal_search&type=general\n\nhttp://xibaipo.com/news2007/News/jryw/1512815422349543F423GCEGB6123GK.html"
+    }
+  },
+  {
+    "name": "55th Brigade^^",
+    "type": "Infantry Brigade",
+    "locationName": "No. 99, Jincheng Road, Ganzhou District, Zhangye City, Gansu ",
+    "coordinates": {
+      "lat": 38.85409722222222,
+      "lon": 100.39440555555557
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.gsds.gov.cn/gongzuodongtai/20161115/0939138560787.htm\nhttp://gsds.gov.cn/dangshixuanchuan/jiaoyujidi/20161130/143728716afef.htm"
+    }
+  },
+  {
+    "name": "445th Regiment^",
+    "type": "Unclear",
+    "locationName": "Dongpo District, Meishan, Sichuan",
+    "coordinates": {
+      "lat": 30.061708333333335,
+      "lon": 103.77399722222222
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://bus.mapbar.com/meishan/poi/$7$7$1$5$993e9OV\nhttps://baike.baidu.com/item/%E6%9D%A8%E4%BA%9A%E8%BE%89/20726763\nhttps://zhuanlan.zhihu.com/p/84283324"
+    }
+  },
+  {
+    "name": "446th Regiment^",
+    "type": "Unclear",
+    "locationName": "Ganwei County, Leshan, Sichuan",
+    "coordinates": {
+      "lat": 29.157016666666664,
+      "lon": 103.96905277777778
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "Quick reaction unit",
+      "phone": "",
+      "reference": "http://scxky.com/info-105.html\nhttps://tieba.baidu.com/p/626402815?pn=4\nhttp://b.ctocio.com.cn/b/2022/0411/29558.html"
+    }
+  },
+  {
+    "name": "77th AB 2^",
+    "type": "Artillery Brigade",
+    "locationName": "Wenbi Mountain Village, Linqiong Town, Qionglai City, Chengdu",
+    "coordinates": {
+      "lat": 30.385188888888887,
+      "lon": 103.46600277777777
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Recon^",
+    "type": "Reconaissance",
+    "locationName": "Jiuligeng, Shifang City, Deyang, Sichuan",
+    "coordinates": {
+      "lat": 31.136930555555555,
+      "lon": 103.99403055555555
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "77th SSB 2^",
+    "type": "Service Support Brigade",
+    "locationName": "Qianjin Village, Daowu County, Ganzi County, Sichuan Province",
+    "coordinates": {
+      "lat": 30.986794444444445,
+      "lon": 101.11458611111111
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "77th SSB 3^",
+    "type": "Service Support Brigade",
+    "locationName": "Benzhen Village, Markang County, Aba County, Sichuan Province",
+    "coordinates": {
+      "lat": 31.92725,
+      "lon": 102.17531111111111
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "3rd Int Bde^",
+    "type": "Intelligence & Reconaissance Brigade",
+    "locationName": "Wujiaya Village, Maiji District, Tianshui City, Gansu",
+    "coordinates": {
+      "lat": 34.52213888888889,
+      "lon": 105.90863611111112
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Comms^",
+    "type": "Communications",
+    "locationName": "No. 437, Majiasi Village, Lianshang Township, Yuzhong County, Lanzhou City, Gansu ",
+    "coordinates": {
+      "lat": 35.88762222222222,
+      "lon": 104.02938888888889
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Comms^",
+    "type": "Communications",
+    "locationName": "Dongjiawan Village, Yuzhong County, Lanzhou City, Gansu",
+    "coordinates": {
+      "lat": 35.953875000000004,
+      "lon": 104.02948055555555
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "3rd ECM",
+    "type": "Electronic Counter Measures Brigade",
+    "locationName": "Mancheng Village, Chengguan Town, Yongdeng County, Lanzhou City, Gansu",
+    "coordinates": {
+      "lat": 36.673586111111106,
+      "lon": 103.291525
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "31684^",
+    "type": "Unknown",
+    "locationName": "Lintao County, Dingxi City, Gansu",
+    "coordinates": {
+      "lat": 35.38166944444445,
+      "lon": 103.8484611111111
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://m.sgss8.net/tpdq/21342435/4.htm\nhttps://m.thepaper.cn/baijiahao_14197394"
+    }
+  },
+  {
+    "name": "31688^",
+    "type": "Unknown",
+    "locationName": "Honggu District, Lanzhou",
+    "coordinates": {
+      "lat": 36.33839444444445,
+      "lon": 102.81421666666667
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Unknown",
+    "type": "Unknown",
+    "locationName": "Damxung County, Lhasa, Tibet",
+    "coordinates": {
+      "lat": 30.512027777777778,
+      "lon": 91.09464722222222
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Perhaps units belonging to Damxung airbase",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Tibet Military Region",
+    "type": "HQ",
+    "locationName": "No. 4 Jiangsu Road, Chengguan District, Lhasa City, Tibet\r",
+    "coordinates": {
+      "lat": 29.647777777777776,
+      "lon": 91.12205277777777
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "52nd CAB",
+    "type": "Mountains Motorised Combined Arms Brigade",
+    "locationName": "No. 69, Shuangyong North Road, Bayi Town, Bayi District, Nyingchi City, Tibet Autonomous Region",
+    "coordinates": {
+      "lat": 29.6755,
+      "lon": 94.35816666666666
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "Xth Synthetic Brigade?",
+      "phone": "184 8922 9273\u3000",
+      "reference": "https://www.bidcenter.com.cn/newscontent-120187929-1.html\nhttps://tieba.baidu.com/p/4420035759\nhttps://www.baidu.com/video/page?pd=video_page&nid=9275815794159202115&sign=7703775375477914436&word=77675%E9%83%A8%E9%98%9F%E7%AE%80%E4%BB%8B&oword=77675%E9%83%A8%E9%98%9F%E7%AE%80%E4%BB%8B&atn=index&frsrcid=4185&ext=%7B%22jsy%22%3A1%7D&top=%7B%22sfhs%22%3A1%2C%22_hold%22%3A2%7D&sl=4&fr0=A&fr1=A&lid=9805991580357478356&referlid=9805991580357478356&ms=1&frorder=2&_t=1705842278977\nhttps://www.douyin.com/search/77675%E9%83%A8%E9%98%9F%E7%AE%80%E4%BB%8B71%E5%88%86%E9%98%9F\nhttps://mil.sohu.com/a/743983091_121161787\nhttps://v.youku.com/v_show/id_XNDk1NTg4NTc3Mg==.html?ivk_sa=1024320u\nhttps://baijiahao.baidu.com/s?id=1752920382486338932&wfr=spider&for=pc\n"
+    }
+  },
+  {
+    "name": "1st Battalion^",
+    "type": "Infantry Battalion",
+    "locationName": "Bujiu village, Linzhi County",
+    "coordinates": {
+      "lat": 29.74919722222222,
+      "lon": 94.25805555555556
+    },
+    "details": {
+      "corps": "52nd CAB, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://forceindia.net/feature-report/chinas-unceasing-build-up/"
+    }
+  },
+  {
+    "name": "2nd Battalion",
+    "type": "Infantry Battalion",
+    "locationName": "Yongjiu, Bayi District, Nyingchi, Tibet",
+    "coordinates": {
+      "lat": 29.59826111111111,
+      "lon": 94.35974999999999
+    },
+    "details": {
+      "corps": "52nd CAB, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "3rd Battalion",
+    "type": "Infantry Battalion",
+    "locationName": "Yongjiu, Bayi District, Nyingchi, Tibet",
+    "coordinates": {
+      "lat": 29.609625,
+      "lon": 94.35628888888888
+    },
+    "details": {
+      "corps": "52nd CAB, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "4th Battalion^",
+    "type": "Infantry Battalion",
+    "locationName": "Bujiu Town, Bayi District, Nyingchi, Tibet",
+    "coordinates": {
+      "lat": 29.56855,
+      "lon": 94.47464444444445
+    },
+    "details": {
+      "corps": "52nd CAB, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Artillery Regiment",
+    "type": "Artillery Regiment",
+    "locationName": "Nixi cun, Linzhi County",
+    "coordinates": {
+      "lat": 29.75079722222222,
+      "lon": 94.2476361111111
+    },
+    "details": {
+      "corps": "52nd CAB, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.douyin.com/video/7115387482400689411  \nhttps://www.douyin.com/search/77678?source=normal_search&aid=ef41e2cf-cd40-4be0-ae66-f359d6ebfed2&enter_from=video_detail&focus_method=&ug_source=seo_topic_aggr&gid=7073650222299221286"
+    }
+  },
+  {
+    "name": "53rd CAB",
+    "type": "High Mobility Combined Arms Brigade",
+    "locationName": "Zedang Town, Naidong County, Shannan Region, Tibet",
+    "coordinates": {
+      "lat": 29.198094444444443,
+      "lon": 91.75875277777777
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "Art Reg: 1100 troops, Inf Bt: 700 Troops",
+      "phone": "18189945249",
+      "reference": "http://101.201.181.170:8698/gl0xlbzjs/6522.jhtml\nhttp://m.glocean.cn/product/719.html\nhttps://www.sgss8.net/tpdq/29003448/\nhttp://www.ccgp.gov.cn/cggg/dfgg/jzxcs/201809/t20180930_10817778.htm"
+    }
+  },
+  {
+    "name": "1st Battalion^",
+    "type": "Infantry Battalion",
+    "locationName": "Wolong village, Linzhi City, Milin County",
+    "coordinates": {
+      "lat": 29.119594444444445,
+      "lon": 93.71302222222222
+    },
+    "details": {
+      "corps": "53rd CAB, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "2nd Battalion",
+    "type": "Infantry Battalion",
+    "locationName": "Gangga village, Linzhi County",
+    "coordinates": {
+      "lat": 28.58093611111111,
+      "lon": 86.61666388888888
+    },
+    "details": {
+      "corps": "53rd CAB, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "3rd Battalion^",
+    "type": "Infantry Battalion",
+    "locationName": "Linzhi County",
+    "coordinates": {
+      "lat": 29.297844444444447,
+      "lon": 94.33718611111111
+    },
+    "details": {
+      "corps": "53rd CAB, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "4th Battalion",
+    "type": "Infantry Battalion",
+    "locationName": "Wolong village, Linzhi City, Milin County",
+    "coordinates": {
+      "lat": 29.12699166666667,
+      "lon": 93.70255555555556
+    },
+    "details": {
+      "corps": "53rd CAB, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Artillery Regiment",
+    "type": "Unknown",
+    "locationName": "Jiage village, Linzhi City, Milin County",
+    "coordinates": {
+      "lat": 29.099094444444443,
+      "lon": 93.43720833333333
+    },
+    "details": {
+      "corps": "53rd CAB, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://ly.scol.com.cn/thread?tid=2733770&fid=1775\nhttp://www.udxd.com/news/show-93444.html"
+    }
+  },
+  {
+    "name": "54th CAB^",
+    "type": "Heavy Combined Arms Brigade",
+    "locationName": "Dongga Bridge, Duilongdeqing County, Lhasa",
+    "coordinates": {
+      "lat": 29.62827777777778,
+      "lon": 90.99880555555556
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "Old HQ",
+      "phone": "",
+      "reference": "http://china-defense.blogspot.com/2009/10/54th-independent-infantry-regiment-unit.html\n https://china-defense.blogspot.com/2019/01/pla-unit-of-day-54th-mechanized-brigade.html\nhttp://inews.ifeng.com/mip/47436932/news.shtml\nhttps://www.youbianku.com/%e4%b8%ad%e5%9b%bd%e9%82%ae%e6%94%bf%e9%9b%86%e5%9b%a2%e5%85%ac%e5%8f%b8%e8%a5%bf%e8%97%8f%e8%87%aa%e6%b2%bb%e5%8c%ba%e5%a0%86%e9%be%99%e5%be%b7%e5%ba%86%e5%8c%ba77625%e9%83%a8%e9%98%9f%e9%82%ae%e6%94%bf%e4%bb%a3%e5%8a%9e%e6%89%80"
+    }
+  },
+  {
+    "name": "54th CAB 1^",
+    "type": "Heavy Combined Arms Brigade",
+    "locationName": "Youtang, Gyantse County, Shigatse Prefecture",
+    "coordinates": {
+      "lat": 28.874566666666666,
+      "lon": 89.54395277777778
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "New HQ",
+      "phone": "",
+      "reference": "https://twitter.com/isekaimint/status/1604804942392266752?s=20&t=ldpacTvx07XWfw52tUKAew\nhttps://weibo.com/6507792755/K2QSwc10e?type=comment\nhttps://m.163.com/dy/article/HOOG46AG05534CXZ.html\nhttps://www.thepaper.cn/newsDetail_forward_23473853\nhttps://weibo.com/5333863259/MjQW3bLi6"
+    }
+  },
+  {
+    "name": "85th SO Brigade",
+    "type": "Special Operations Brigade",
+    "locationName": "No. 6, Luding Middle Road, Chengguan District, Lhasa City, Tibet",
+    "coordinates": {
+      "lat": 29.654319444444443,
+      "lon": 91.08332777777777
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.21hubei.net/view/25-218149.html\nhttps://www.ruipinad.com/article/3852127.html"
+    }
+  },
+  {
+    "name": "85th AAB",
+    "type": "Army Aviation Brigade",
+    "locationName": "Sangda Village, Deqing County, Duilong, Lhasa City, Tibet",
+    "coordinates": {
+      "lat": 29.591124999999998,
+      "lon": 91.02275
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.aboluowang.com/2020/0523/1455023.html\nhttps://www.bjlhcq.com/Requirement/?id=61585"
+    }
+  },
+  {
+    "name": "85th AAB 2^",
+    "type": "Army Aviation Brigade",
+    "locationName": "Guoruo Village, Bayi District, Nyingchi Region, Tibet",
+    "coordinates": {
+      "lat": 29.560833333333335,
+      "lon": 94.47076111111112
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "85th Artillery Brigade",
+    "type": "Artillery Brigade",
+    "locationName": "No. 1, Zijiao Lin Road, Chengguan District, Lhasa City, Tibet",
+    "coordinates": {
+      "lat": 29.629630555555558,
+      "lon": 91.13694166666667
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.touqikan.com/bgzd/507495.html"
+    }
+  },
+  {
+    "name": "85th AD Brigade",
+    "type": "Air Defense Brigade",
+    "locationName": "Luding North Road, Lhasa City, Tibet Autonomous Region",
+    "coordinates": {
+      "lat": 29.679830555555558,
+      "lon": 91.08260277777778
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "85th Engg Brigade",
+    "type": "Engineer and Chemical Defence Brigade",
+    "locationName": "Jinzhu West Road, Chengguan District, Lhasa City, Tibet",
+    "coordinates": {
+      "lat": 29.644927777777777,
+      "lon": 91.04136388888888
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "85th Engg Brigade 2^",
+    "type": "Vehicle Depot",
+    "locationName": "No. 137, Jina, Gongga County, Shannan Region, Tibet",
+    "coordinates": {
+      "lat": 29.316077777777778,
+      "lon": 90.74172777777778
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "85th Engg Brigade 3^",
+    "type": "Vehicle Depot",
+    "locationName": "Daga Township, Qushui County, Lhasa City, Tibet",
+    "coordinates": {
+      "lat": 29.358083333333333,
+      "lon": 90.70990555555557
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "7th ECM Brigade^",
+    "type": "Electronic Counter Measures Brigade",
+    "locationName": "Caigongtang Township, Chengguan District, Lhasa City, Tibet",
+    "coordinates": {
+      "lat": 29.638188888888887,
+      "lon": 91.21623055555555
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Comms Unit^",
+    "type": "Communications",
+    "locationName": "No. 5 Luding South Road, Doilungdeqing County, Lhasa City, Tibet",
+    "coordinates": {
+      "lat": 29.651555555555554,
+      "lon": 91.08258611111111
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://101.201.181.170:8698/glxlbzjs/17068.jhtml"
+    }
+  },
+  {
+    "name": "1st (I) Inf Battalion^",
+    "type": "Infantry Battalion",
+    "locationName": "Shigatse City , Gyantse",
+    "coordinates": {
+      "lat": 28.92772777777778,
+      "lon": 89.60071666666666
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "700 troops. Gyantse",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "2nd (I) Inf Battalion",
+    "type": "Infantry Battalion",
+    "locationName": "Shigatse City, Gangba County",
+    "coordinates": {
+      "lat": 28.916822222222223,
+      "lon": 89.53775277777778
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "700 troops. Gangba.",
+      "phone": "",
+      "reference": "https://www.orfonline.org/research/pla-joint-exercises-in-tibet-implications-for-india-61735/"
+    }
+  },
+  {
+    "name": "3rd (I) Inf Battalion",
+    "type": "Infantry Battalion",
+    "locationName": "Beibeng Township, Medog County",
+    "coordinates": {
+      "lat": 29.244144444444444,
+      "lon": 95.1686888888889
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "700 troops. Medog County,",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "4th (I) Inf Battalion",
+    "type": "Infantry",
+    "locationName": "30, Mainling, Nyingchi, Tibet",
+    "coordinates": {
+      "lat": 29.181711111111113,
+      "lon": 94.19773055555557
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "700 troops.",
+      "phone": "",
+      "reference": "https://www.vifindia.org/article/2015/september/18/china-s-focus-on-military-activities-in-tibet"
+    }
+  },
+  {
+    "name": "5th (I) Inf Battalion",
+    "type": "Infantry",
+    "locationName": "Shannan City, Luoza County",
+    "coordinates": {
+      "lat": "",
+      "lon": ""
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "700 troops. Luoza County ",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Medog Garrison",
+    "type": "Infantry",
+    "locationName": "Medog County",
+    "coordinates": {
+      "lat": 29.320069444444446,
+      "lon": 95.3222
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "308th (I) Artillery Brigade^",
+    "type": "Artillery Brigade",
+    "locationName": "Lhasa",
+    "coordinates": {
+      "lat": 29.648055555555555,
+      "lon": 91.05074166666667
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.hongze.net/archiver/?tid-1287692.html"
+    }
+  },
+  {
+    "name": "15th Engineering Brigade^",
+    "type": "Engineering Brigade",
+    "locationName": "Dazi, Lhasa",
+    "coordinates": {
+      "lat": 29.84126388888889,
+      "lon": 91.4663
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://ccasindia.org/issue_policy.php?ipid=36"
+    }
+  },
+  {
+    "name": "651 (I) AD Brigade^",
+    "type": "Air Defence Brigade",
+    "locationName": "Bayi District, Nyingchi, Tibet",
+    "coordinates": {
+      "lat": 29.68781111111111,
+      "lon": 94.35932777777778
+    },
+    "details": {
+      "corps": "TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://trishul-trident.blogspot.com/2020/05/plagf-high-altitude-plateau-warfare.html"
+    }
+  },
+  {
+    "name": "351st BDR",
+    "type": "Border Defence Regiment",
+    "locationName": "Zayu, Nyingchi , Tibet ",
+    "coordinates": {
+      "lat": 28.66054722222222,
+      "lon": 97.462175
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.bilibili.com/video/BV1Ag4y18784/"
+    }
+  },
+  {
+    "name": "352nd BDR",
+    "type": "Border Defence Regiment",
+    "locationName": "Nyingchi, Motuo Beibeng ",
+    "coordinates": {
+      "lat": 29.32828611111111,
+      "lon": 95.32808333333332
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://satellites.pro/China_map#29.324112,95.325751,16"
+    }
+  },
+  {
+    "name": "353rd BDR",
+    "type": "Border Defence Regiment",
+    "locationName": "Nanyi Village, Milin County, Nyingchi, Tibet ",
+    "coordinates": {
+      "lat": 29.169880555555558,
+      "lon": 94.2005638888889
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://v.ifeng.com/c/fc148b01-3490-4c80-b459-adb3049b8005  \nhttps://m.thepaper.cn/baijiahao_11489945"
+    }
+  },
+  {
+    "name": "354th BDR",
+    "type": "Border Defence Regiment",
+    "locationName": "Xiegu, Longzi County, Shannan Region, Tibet",
+    "coordinates": {
+      "lat": 28.559569444444445,
+      "lon": 92.82506944444444
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.qqbm.net/xizang/longzixian/1445345.html"
+    }
+  },
+  {
+    "name": "355th BDR",
+    "type": "Border Defence Regiment",
+    "locationName": "Quzhuomu Township, Kunna Town, Kunna County, Shannan",
+    "coordinates": {
+      "lat": 28.258125,
+      "lon": 91.76790277777778
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://mil.news.sina.com.cn/2020-09-10/doc-iivhuipp3580765.shtml\n\nhttps://mil.news.sina.com.cn/2020-09-11/doc-iivhuipp3776631.shtml\nhttps://twitter.com/JosephWen___/status/1635885236138700800"
+    }
+  },
+  {
+    "name": "356th BDR",
+    "type": "Border Defence Regiment",
+    "locationName": " No. 7, Chengdong Road, Yadong County, Shigatse City",
+    "coordinates": {
+      "lat": 27.48828888888889,
+      "lon": 88.90635277777778
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/202011/t20201101_15344591.htm"
+    }
+  },
+  {
+    "name": "357th BDR^",
+    "type": "Border Defence Regiment",
+    "locationName": "Jiangga, Dingjie County, Shigatse",
+    "coordinates": {
+      "lat": 28.364755555555558,
+      "lon": 87.77429444444445
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "358th BDR",
+    "type": "Border Defence Regiment",
+    "locationName": "Saga County, Shigatse, Tibet",
+    "coordinates": {
+      "lat": 29.326416666666667,
+      "lon": 85.23346666666667
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://101.201.181.170:8698/glxlbzjs/26544.jhtml"
+    }
+  },
+  {
+    "name": "351 Tsamshu  BDR Base^",
+    "type": "Border Defence Regiment",
+    "locationName": "Xiachayu, Zayu, Nyingchi, Tibet",
+    "coordinates": {
+      "lat": 28.52175833333333,
+      "lon": 96.99725555555555
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.bilibili.com/video/BV1Ag4y18784/"
+    }
+  },
+  {
+    "name": "351 Shangzayu BDR Base",
+    "type": "Border Defence Regiment",
+    "locationName": "Shangzayu, Zayu, Nyingchi, Tibet",
+    "coordinates": {
+      "lat": 28.721719444444442,
+      "lon": 96.77649166666667
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.bilibili.com/video/BV1Ag4y18784/"
+    }
+  },
+  {
+    "name": "355 Puma Jiangtang Base^",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Puma Jiangtang Township",
+    "coordinates": {
+      "lat": 28.608083333333333,
+      "lon": 90.19726944444444
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www-js7tv-cn.translate.goog/news/202007_225033.html?_x_tr_sch=http&_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc"
+    }
+  },
+  {
+    "name": "356 Zhanniangshe Base",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Yadong County, Shigatse",
+    "coordinates": {
+      "lat": 27.384230555555554,
+      "lon": 88.86366666666666
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.27zixun.com/junxiao/63225.html"
+    }
+  },
+  {
+    "name": "355 Nyeru Base^",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Nyeru Township, Kangmar County, Shigatse",
+    "coordinates": {
+      "lat": 28.525463888888886,
+      "lon": 89.85341388888888
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "355 Zhari Base",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Zhari Township, Lhozhag County, Shannan",
+    "coordinates": {
+      "lat": 28.368675,
+      "lon": 90.65183611111112
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "355 Lakang Base",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Lakang, N\u00eadong District, Shannan, Tibet",
+    "coordinates": {
+      "lat": 29.375819444444446,
+      "lon": 91.83065833333333
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "355 Shengge Base",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Shenggecun, Lhozhag County, Shannan",
+    "coordinates": {
+      "lat": 28.193233333333332,
+      "lon": 91.01006666666666
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "355 Sexiang Base",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Sexiang Bianba Township, Lhozhag County, Shannan",
+    "coordinates": {
+      "lat": 28.186805555555555,
+      "lon": 90.82403333333333
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "357 Changlong Base^",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Changlongxiang, Kamba County, Shigatse, Tibet",
+    "coordinates": {
+      "lat": 28.20079722222222,
+      "lon": 88.31979166666666
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "357 Sa'erxiang Base^",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Sa'erxiang, Dinggy\u00ea County, Shigatse, Tibet",
+    "coordinates": {
+      "lat": 28.19686388888889,
+      "lon": 87.74215833333334
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "357 Gangga Base^",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Gangga Town, Tingri County, Shigatse, Tibet",
+    "coordinates": {
+      "lat": 28.58167222222222,
+      "lon": 86.61557499999999
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "357 Dingka Base^",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Dingka, Namling County, Shigatse, Tibet",
+    "coordinates": {
+      "lat": 29.908288888888887,
+      "lon": 89.10888333333332
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "357 Takexun Base^",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Takexun, Kamba County, Shigatse, Tibet",
+    "coordinates": {
+      "lat": 28.212430555555557,
+      "lon": 88.79011944444444
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "357 Chaguola Base^",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Chaguola, Yadong County, Shigatse, Tibet",
+    "coordinates": {
+      "lat": 28.07648888888889,
+      "lon": 88.92293333333333
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "358 Gyirong Base^",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Gyirong County, Shigatse, Tibet",
+    "coordinates": {
+      "lat": 28.853519444444444,
+      "lon": 85.29812222222222
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "354 Lhunze Base^",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Lhunze, Shannan, Tibet",
+    "coordinates": {
+      "lat": "",
+      "lon": ""
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "355 Cuona Base^",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Cuona, Shannan",
+    "coordinates": {
+      "lat": 28.00026111111111,
+      "lon": 91.95931944444445
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "357 Tingri Base^",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Shigatse City, Tingri County",
+    "coordinates": {
+      "lat": 28.656455555555553,
+      "lon": 87.1300111111111
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "355 Yadong Base^",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Shigatse City, Yadong County",
+    "coordinates": {
+      "lat": 27.50291111111111,
+      "lon": 88.90062222222222
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "358 Zhongba Base^",
+    "type": "Border Defence Regiment Post",
+    "locationName": "Zhongba County, Shigatse, Tibet",
+    "coordinates": {
+      "lat": 29.77791388888889,
+      "lon": 84.03378333333333
+    },
+    "details": {
+      "corps": "BDR, TMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Military Camp^",
+    "type": "Unknown base",
+    "locationName": "Qieluoguo, Kamba County, Shigatse, Tibet",
+    "coordinates": {
+      "lat": 28.23988611111111,
+      "lon": 88.34954444444443
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Xigatse Military Subdistrict ",
+      "phone": "",
+      "reference": "https://duckduckgo.com/?q=Gyantse&t=brave&ia=web&iaxm=maps&strict_bbox=0&bbox=29.10114088457032%2C93.43429189727851%2C29.096533236802806%2C93.44244581268379 \n \nhttps://twitter.com/isekaimint/status/1612945589578113025?s=20&t=Xj5v0fyiHF5RR232AFNxOg%C2%A0\n\nhttps://www.js7tv.cn/video/202301_293868.html"
+    }
+  },
+  {
+    "name": "Duinaxiang^",
+    "type": "Unknown base",
+    "locationName": "Yadong County, Shigatse, Tibe",
+    "coordinates": {
+      "lat": 28.022480555555553,
+      "lon": 89.20392222222223
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Semi-permanent base set up during Doklam standoff in 2017",
+      "phone": "",
+      "reference": "https://apps.sentinel-hub.com/eo-browser/?zoom=16&lat=28.02129&lng=89.20555&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F42924c6c-257a-4d04-9b8e-36387513a99c&datasetId=S2L1C&fromTime=2017-10-17T00%3A00%3A00.000Z&toTime=2017-10-17T23%3A59%3A59.999Z&layerId=1_TRUE_COLOR&demSource3D=%22MAPZEN%22"
+    }
+  },
+  {
+    "name": "Xinjiang Military Region HQ^",
+    "type": "HQ",
+    "locationName": "No. 137, Qingnian Road, Urumqi City, Xinjiang",
+    "coordinates": {
+      "lat": 44.14675833333333,
+      "lon": 87.88251944444444
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "90000 troops",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "4th Inf Div",
+    "type": "Motorised Infantry Division",
+    "locationName": "Shengli Road, Kuche County, Aksu Region, Xinjiang ",
+    "coordinates": {
+      "lat": 41.719255555555556,
+      "lon": 82.96632222222223
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "11th Reg",
+    "type": "Infantry Regiment",
+    "locationName": "Qianjin Road, Aksu City, Aksu Region, Xinjiang",
+    "coordinates": {
+      "lat": 41.18151111111111,
+      "lon": 80.25838333333333
+    },
+    "details": {
+      "corps": "4th Div, XMR, WTC",
+      "division": "",
+      "remarks": "Has large training area",
+      "phone": "",
+      "reference": "http://www.27zixun.com/junxiao/63224.html\nhttps://www.meipian.cn/3q4qgp8p"
+    }
+  },
+  {
+    "name": "12th Reg",
+    "type": "Infantry Regiment",
+    "locationName": "Lanshan Community, Luntai County, Bazhou, Xinjiang",
+    "coordinates": {
+      "lat": 41.79864444444444,
+      "lon": 84.28526388888889
+    },
+    "details": {
+      "corps": "4th Div, XMR, WTC",
+      "division": "",
+      "remarks": "Has large training area",
+      "phone": "",
+      "reference": "https://www.dianlanbao.com/news-4/5720.html"
+    }
+  },
+  {
+    "name": "^ Artillery Reg",
+    "type": "Artillery Regiment",
+    "locationName": "Shuangyong Road, Baicheng County, Aksu Region, Xinjiang",
+    "coordinates": {
+      "lat": 41.8138,
+      "lon": 81.82228888888889
+    },
+    "details": {
+      "corps": "4th Div, XMR, WTC",
+      "division": "",
+      "remarks": "Has large training area",
+      "phone": "",
+      "reference": "https://zhidao.baidu.com/question/542668770.html\nhttps://www.sgss8.net/tpdq/28643045/"
+    }
+  },
+  {
+    "name": "AD Reg",
+    "type": "Air Defence Regiment",
+    "locationName": "Yongjun Road, Kuche County, Aksu Region, Xinjiang",
+    "coordinates": {
+      "lat": 41.72448055555556,
+      "lon": 82.98030833333334
+    },
+    "details": {
+      "corps": "4th Div, XMR, WTC",
+      "division": "",
+      "remarks": "Has large training area",
+      "phone": "",
+      "reference": "https://www.sgss8.net/tpdq/20659981/"
+    }
+  },
+  {
+    "name": "Armour Reg",
+    "type": "Armoured Regiment",
+    "locationName": "Unity East Road, Hejing County, Bayingoleng ",
+    "coordinates": {
+      "lat": 42.31755833333334,
+      "lon": 86.39065555555557
+    },
+    "details": {
+      "corps": "4th Div, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.inrrp.com.cn/html/fceec93ccee5d2a9.html"
+    }
+  },
+  {
+    "name": "6th Inf Div",
+    "type": "Mechanised Infantry Division",
+    "locationName": "No. 6 Xincheng Road, Shache County, Kashgar, Xinjiang",
+    "coordinates": {
+      "lat": 38.41730833333333,
+      "lon": 77.23838611111111
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "Highland Mechanised Infantry Division \n( 69211, 69212, 69213, 69214)",
+      "phone": "",
+      "reference": "https://www.inrrp.com.cn/html/c98835a90783ed01.html"
+    }
+  },
+  {
+    "name": "17th Reg",
+    "type": "Mechansied Infantry Regiment^",
+    "locationName": "Hotan City, Xinjiang Uygur Autonomous Region",
+    "coordinates": {
+      "lat": 37.165825,
+      "lon": 79.86478888888888
+    },
+    "details": {
+      "corps": "6th Div, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://bbs.zhulong.com/101010_group_678/detail9123054/\nhttps://www.sgss8.net/tpdq/28643045/1.htm"
+    }
+  },
+  {
+    "name": "18th Reg",
+    "type": "Mechansied Infantry Regiment",
+    "locationName": "No. 9, Kuonabaza Road, Shule County, Kashgar City",
+    "coordinates": {
+      "lat": 39.41271666666667,
+      "lon": 76.05633333333333
+    },
+    "details": {
+      "corps": "6th Div, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.sgss8.net/tpdq/27528225/"
+    }
+  },
+  {
+    "name": "21st Arm Reg",
+    "type": "Armoured Regiment",
+    "locationName": "Menglote Road, Yecheng County, Kashgar Region, Xinjiang Uygur Autonomous Region",
+    "coordinates": {
+      "lat": 37.82718611111112,
+      "lon": 77.44825
+    },
+    "details": {
+      "corps": "6th Div, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.chinaqking.com/yc/2019/1538819.html\n\nhttps://www.sgss8.net/tpdq/16995393/"
+    }
+  },
+  {
+    "name": "Arty Reg",
+    "type": "Artillery Regiment",
+    "locationName": "No. 11, Wenhua Road, Shule County, Kashgar Region",
+    "coordinates": {
+      "lat": 39.40735,
+      "lon": 76.03836944444444
+    },
+    "details": {
+      "corps": "6th Div, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "AD Reg^",
+    "type": "Air Defence Regiment",
+    "locationName": "Yarkant County, Kashgar Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 38.42284444444444,
+      "lon": 77.24926666666667
+    },
+    "details": {
+      "corps": "6th Div, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "6th IR BDE^",
+    "type": "Intelligence and Reconnaissance Brigade ",
+    "locationName": "Ulabo, Dabancheng District, Urumqi City, Xinjiang ",
+    "coordinates": {
+      "lat": 43.563761111111106,
+      "lon": 87.70719444444445
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "6th IS BDE 2^",
+    "type": "Information Security Brigade",
+    "locationName": "Cangfanggou Middle Road, Shayibake District, Urumqi City",
+    "coordinates": {
+      "lat": 43.74642222222222,
+      "lon": 87.54568333333333
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "6th IS BDE 3^",
+    "type": "Information Security Brigade",
+    "locationName": "Cangfanggou East Road, Shayibake District, Urumqi City",
+    "coordinates": {
+      "lat": 43.74398888888889,
+      "lon": 87.57202222222222
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "6th ECM Bde",
+    "type": "Eelectronic Counter Measures Brigade",
+    "locationName": "Beijing North Road, Xinshi District, Urumqi City, Xinjiang ",
+    "coordinates": {
+      "lat": 43.90338055555556,
+      "lon": 87.53035
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://mp.weixin.qq.com/s?__biz=MzIwNDUyOTIxMQ==&mid=2247487579&idx=2&sn=46d5f8ebbdcf6b49aaf5b54dd9279cef&chksm=973f9b0fa04812191df4386201a5dd20e79cf0acd2bf68ac4bb22e0539bc2df2b2d337e695f7&scene=27"
+    }
+  },
+  {
+    "name": "8th Inf Div^",
+    "type": "Motorised Infantry Division",
+    "locationName": " No. 27, Beijing East Road, Wusu City, Tacheng Region, Xinjiang",
+    "coordinates": {
+      "lat": 44.42393055555555,
+      "lon": 84.86025
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "12th Border Defence Regiment (Tawang)?\r\n13th Border Defence Regiment?",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "22nd Inf Reg",
+    "type": "Motorised Infantry Regiment",
+    "locationName": "Shaoshan Road, Dushanzi District, Karamay City, Xinjiang ",
+    "coordinates": {
+      "lat": 44.340386111111115,
+      "lon": 84.87426944444444
+    },
+    "details": {
+      "corps": "8th Div, XMR, WTC",
+      "division": "",
+      "remarks": "Has large training area",
+      "phone": "",
+      "reference": "https://www.sgss8.net/tpdq/28642949/3.htm"
+    }
+  },
+  {
+    "name": "24th Inf Reg",
+    "type": "Motorised Infantry Regiment",
+    "locationName": "Yinyan Road, Shihezi City, Xinjiang Uygur Autonomous Region",
+    "coordinates": {
+      "lat": 44.31475,
+      "lon": 86.12147499999999
+    },
+    "details": {
+      "corps": "8th Div, XMR, WTC",
+      "division": "",
+      "remarks": "Has small training area",
+      "phone": "",
+      "reference": "https://bus.cncn.com/shihezi/z_69233%B2%BF%B6%D3"
+    }
+  },
+  {
+    "name": "162nd Arty Reg",
+    "type": "Artillery Regiment",
+    "locationName": "Jinshan Road, Shawan County, Tacheng Region, Xinjiang",
+    "coordinates": {
+      "lat": 44.316575,
+      "lon": 85.6022111111111
+    },
+    "details": {
+      "corps": "8th Div, XMR, WTC",
+      "division": "",
+      "remarks": "Sandaohezi Town, Shawan County",
+      "phone": "",
+      "reference": "http://m.27zixun.com/bingzhong/29213.html"
+    }
+  },
+  {
+    "name": "AD Reg^",
+    "type": "Air Defence Regiment",
+    "locationName": "Beijing West Road, Kuitun City, Ili Kazakh Autonomous Prefecture, Xinjiang ",
+    "coordinates": {
+      "lat": 44.427788888888884,
+      "lon": 84.69139444444446
+    },
+    "details": {
+      "corps": "8th Div, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.wumaow.org/tu/10405835.html\nhttps://www.wumaow.org/tu/10390624.html"
+    }
+  },
+  {
+    "name": "Armd Reg",
+    "type": "Armoured Regiment",
+    "locationName": "Xinhua Road, Shawan County, Tacheng Region, Xinjiang ",
+    "coordinates": {
+      "lat": 44.317550000000004,
+      "lon": 85.59591944444443
+    },
+    "details": {
+      "corps": "8th Div, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "11th Inf Div^",
+    "type": "Motorised Infantry Division",
+    "locationName": "No. 116, Beijing South Road, Urumqi, Xinjiang",
+    "coordinates": {
+      "lat": 43.81971111111111,
+      "lon": 87.55732499999999
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "31st Reg",
+    "type": "Infantry Regiment",
+    "locationName": "Wuqi Road, Jimusar County, Changji Hui Autonomous Prefecture, Xinjiang ",
+    "coordinates": {
+      "lat": 43.99466388888889,
+      "lon": 89.13589166666668
+    },
+    "details": {
+      "corps": "11th Div, XMR, WTC",
+      "division": "",
+      "remarks": "Has large training area",
+      "phone": "",
+      "reference": "https://www.wumaow.org/tu/10638421.html\nhttp://www.mod.gov.cn/gfbw/gfjy_index/rdtp_214140/4882418.html\nhttps://www.ixigua.com/7071217444970299936?logTag=b32bfb703be5ecd034ca"
+    }
+  },
+  {
+    "name": "32nd Reg",
+    "type": "Infantry Regiment",
+    "locationName": "312, Gaochang District, Turpan City, Xinjiang",
+    "coordinates": {
+      "lat": 42.971833333333336,
+      "lon": 89.19092500000001
+    },
+    "details": {
+      "corps": "11th Div, XMR, WTC",
+      "division": "",
+      "remarks": "Has large training area",
+      "phone": "",
+      "reference": "https://v.qq.com/x/page/30OnhdGxtoG.html\nhttps://m.fx361.com/news/2020/1222/15221330.html"
+    }
+  },
+  {
+    "name": "Arty Reg",
+    "type": "Artillery Regiment",
+    "locationName": "No. 39 Beiwan Street, Tianshan District, Urumqi, Xinjiang",
+    "coordinates": {
+      "lat": 43.77605,
+      "lon": 87.63335833333333
+    },
+    "details": {
+      "corps": "11th Div, XMR, WTC",
+      "division": "",
+      "remarks": "Has large training area",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "AD Reg",
+    "type": "Air Defence Regiment",
+    "locationName": "Shangda Road Village, Fukang City, Changji Hui Autonomous Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 44.14148888888889,
+      "lon": 88.0312
+    },
+    "details": {
+      "corps": "11th Div, XMR, WTC",
+      "division": "",
+      "remarks": "Has small training area",
+      "phone": "",
+      "reference": "https://www.sohu.com/a/159261836_772558"
+    }
+  },
+  {
+    "name": "4th transport brigade",
+    "type": "Unknown",
+    "locationName": "Xieyitilike, Kargilik County, Kashgar Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 37.86965,
+      "lon": 77.47219722222222
+    },
+    "details": {
+      "corps": "XMR",
+      "division": "",
+      "remarks": "LJ90605",
+      "phone": "",
+      "reference": "https://www.facebook.com/photo/?fbid=6171062199673797&set=pcb.6583562011654579"
+    }
+  },
+  {
+    "name": "2nd Arty Bde",
+    "type": "Artillery Brigade",
+    "locationName": " Xishan Road, Shayibak District, Urumqi, Xinjiang ",
+    "coordinates": {
+      "lat": 43.80421944444444,
+      "lon": 87.54214166666667
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.cgpnews.cn/articles/39681"
+    }
+  },
+  {
+    "name": "13th (I) AD Bde",
+    "type": "Air Defence Brigade",
+    "locationName": "No.2, East Hot Spring Road, Urumqi, Xinjiang ",
+    "coordinates": {
+      "lat": 43.82510555555556,
+      "lon": 87.69627777777778
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "Female soldiers in SAM units",
+      "phone": "",
+      "reference": "http://www.mod.gov.cn/gfbw/gfjy_index/xjdx/4906434.html\nhttps://www.wumaow.org/tu/10104888.html\n"
+    }
+  },
+  {
+    "name": "13th (I) AD Bde 2^",
+    "type": "Air Defence Brigade",
+    "locationName": "Liudaowan, Shuimagou District, Urumqi",
+    "coordinates": {
+      "lat": 43.82872777777778,
+      "lon": 87.64041944444445
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.mod.gov.cn/gfbw/gfjy_index/xjdx/4906434.html\nhttps://www.wumaow.org/tu/10104888.html"
+    }
+  },
+  {
+    "name": "84th SOB ",
+    "type": "Special Operations Brigade ",
+    "locationName": "397 Yingbin Avenue, Kashgar City ",
+    "coordinates": {
+      "lat": 43.80215555555555,
+      "lon": 87.56365833333334
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://m.sohu.com/n/443251554/\nhttp://www.tezhanjidi.com/tzbd/part/20190813492.html"
+    }
+  },
+  {
+    "name": "84th ECB",
+    "type": "Engineering & Chemical Defence Brigade",
+    "locationName": "No. 100 Boge da Road, Tianshan District, Wushi, Xinjiang",
+    "coordinates": {
+      "lat": 43.75919444444445,
+      "lon": 87.65656944444444
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "84th AAv Bde",
+    "type": "Army Aviation Brigade",
+    "locationName": "Maoqian Village, Changji City, Changji Hui Autonomous Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 44.115033333333336,
+      "lon": 87.46026944444445
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "84th AAv Bde 2",
+    "type": "Army Aviation Brigade",
+    "locationName": "Yangdamanxiang, Shule County, Kashgar Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 39.395738888888886,
+      "lon": 76.19229444444444
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "1st (I) Reg",
+    "type": "Infantry Regiment",
+    "locationName": "No. 146, Wuxing North Road, Shuimogou District, Urumqi, Xinjiang",
+    "coordinates": {
+      "lat": 43.820925,
+      "lon": 87.63501388888889
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.sgss8.net/tpdq/16920628/"
+    }
+  },
+  {
+    "name": "2nd (I) Reg",
+    "type": "Infantry Regiment",
+    "locationName": "No. 376, Tianshan East Road, Kuche County",
+    "coordinates": {
+      "lat": 41.7057,
+      "lon": 83.00249166666667
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.skxox.com/20190419/1010400058.html"
+    }
+  },
+  {
+    "name": "2nd CDR",
+    "type": "Chemical Defence Regiment",
+    "locationName": "No. 146, Wuxing North Road, Shuimogou District,",
+    "coordinates": {
+      "lat": 43.822275000000005,
+      "lon": 87.63822777777779
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "With 1st (I) Reg 69009,",
+      "phone": "",
+      "reference": "https://zh.wikipedia.org/zh-hans/%E9%99%86%E5%86%9B%E9%98%B2%E5%8C%96%E7%AC%AC%E4%BA%8C%E5%9B%A2"
+    }
+  },
+  {
+    "name": "6th Information Assurance Brigade",
+    "type": "Intelligence",
+    "locationName": "Wenquan East Road, Shuimogou District, Urumqi",
+    "coordinates": {
+      "lat": 43.826191666666666,
+      "lon": 87.69421111111112
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Engg^",
+    "type": "Boat & Bridging",
+    "locationName": "Kupu Aila Huojiamu, Kashgar, Kashgar Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 39.532725,
+      "lon": 75.98587500000001
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Unknown",
+    "type": "Unknown",
+    "locationName": "Yawuleke, Kashgar, Kashgar Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 39.576236111111115,
+      "lon": 75.96197500000001
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "Semi-permanent base",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Unknown",
+    "type": "Unknown",
+    "locationName": "Artux, Kizilsu Kyrgyz Autonomous Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 39.63588055555555,
+      "lon": 75.97426944444445
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "Perhaps BDR. has helipad",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Unknown",
+    "type": "Unknown",
+    "locationName": "Ka Laqigu",
+    "coordinates": {
+      "lat": 37.20963611111112,
+      "lon": 75.37264722222221
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "361st BDR",
+    "type": "Border Defence Regiment ",
+    "locationName": "No. 14, Middle School Road, Shiquanhe Town, Gar County, Ali ",
+    "coordinates": {
+      "lat": 32.49663888888889,
+      "lon": 80.08575555555555
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "362nd BDR^",
+    "type": "Border Defence Regiment ",
+    "locationName": "Ritu County, Ali ",
+    "coordinates": {
+      "lat": 33.37880277777778,
+      "lon": 79.73140555555555
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.iiss.org/blogs/analysis/2020/06/china-india-border  \n\nhttp://biz.rfidworld.com.cn/Tender/2021-09/21023.html"
+    }
+  },
+  {
+    "name": "363rd BDR",
+    "type": "Border Defence Regiment ",
+    "locationName": "Zepu County, Kashgar Region, Xinjiang",
+    "coordinates": {
+      "lat": 38.17610555555555,
+      "lon": 77.231725
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://baike.baidu.com/item/69316%E9%83%A8%E9%98%9F%E5%A4%A9%E6%96%87%E7%82%B9%E8%BE%B9%E9%98%B2%E8%BF%9E/18523843"
+    }
+  },
+  {
+    "name": "364th BDR",
+    "type": "Border Defence Regiment ",
+    "locationName": "Tashkorgan, Akta County, Xinjiang",
+    "coordinates": {
+      "lat": 37.773944444444446,
+      "lon": 75.23504444444444
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.sgss8.net/tpdq/18377422/\nhttps://www.mayitb.com/purchasenotice/one?purchasenoticeid=463345007&brieftype=%E6%8E%A8%E8%8D%90%E6%8B%9B%E6%A0%87"
+    }
+  },
+  {
+    "name": "365th BDR",
+    "type": "Border Defence Regiment ",
+    "locationName": "Azihan Road, Artush City, Xinjiang",
+    "coordinates": {
+      "lat": 39.706186111111116,
+      "lon": 76.17027777777778
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "366th BDR",
+    "type": "Border Defence Regiment ",
+    "locationName": "Wushi County, Xinjiang",
+    "coordinates": {
+      "lat": 41.20011111111111,
+      "lon": 79.20655833333333
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "367th BDR",
+    "type": "Border Defence Regiment ",
+    "locationName": "No. 114 Jiefang Road, Zhaosu County, Xinjiang",
+    "coordinates": {
+      "lat": 43.15884444444444,
+      "lon": 81.10691944444444
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://zhidao.baidu.com/question/1305999904558664259.html?fr=search&word=69349&ie=gbk"
+    }
+  },
+  {
+    "name": "368th BDR",
+    "type": "Border Defence Regiment ",
+    "locationName": " No. 67, Chengdong Road, Huiyuan Town, Huocheng County",
+    "coordinates": {
+      "lat": 43.99485555555556,
+      "lon": 80.91045833333334
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "369th BDR",
+    "type": "Border Defence Regiment ",
+    "locationName": "Hongxing Road, Bole City, Bole, Mongolian Autonomous Prefecture, Xinjiang ",
+    "coordinates": {
+      "lat": 44.87863888888889,
+      "lon": 82.0636611111111
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.chncase.cn:9090/case/case/2844892\nhttps://tyjrswt.henan.gov.cn/2022/05-25/2455264.html"
+    }
+  },
+  {
+    "name": "370th BDR",
+    "type": "Border Defence Regiment ",
+    "locationName": "No. 1, North Kapchik Road, Toli County, Xiaobaiyang",
+    "coordinates": {
+      "lat": 45.95070555555556,
+      "lon": 83.60383888888889
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://mapcarta.com/N3168026661\nhttp://101.201.181.170:8698/glxlbzjs/13648.jhtml"
+    }
+  },
+  {
+    "name": "371st BDR^",
+    "type": "Border Defence Regiment ",
+    "locationName": "Jingshikesu, Emin County, Tacheng, Xinjiang",
+    "coordinates": {
+      "lat": 46.35951666666667,
+      "lon": 83.86504444444444
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.ccgp.gov.cn/cggg/dfgg/cjgg/202009/t20200922_15118815.htm\n https://news.sina.com.cn/o/2017-07-27/doc-ifyinwmp0327893.shtml"
+    }
+  },
+  {
+    "name": "372nd BDR",
+    "type": "Border Defence Regiment ",
+    "locationName": "Keketuohai, Yingbin Road, Fuyun County, Altai Region, Xinjiang",
+    "coordinates": {
+      "lat": 46.332947222222224,
+      "lon": 89.54304166666667
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "373rd BDR",
+    "type": "Border Defence Regiment ",
+    "locationName": "Dalhan Beiwan, Unity South Road, Habahe County, Altai Region, Xinjiang",
+    "coordinates": {
+      "lat": 48.05014444444444,
+      "lon": 86.41029722222223
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.js7tv.cn/news/202004_213756.html"
+    }
+  },
+  {
+    "name": "374th BDR",
+    "type": "Border Defence Regiment ",
+    "locationName": "Qitai Orchard Second Village, Changji, Xinjiang",
+    "coordinates": {
+      "lat": 44.00974444444444,
+      "lon": 89.61385555555555
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202010/t20201009_15197158.htm"
+    }
+  },
+  {
+    "name": "375th BDR",
+    "type": "Border Defence Regiment ",
+    "locationName": "Hami Barikol, Xinjiang",
+    "coordinates": {
+      "lat": 43.600719444444444,
+      "lon": 93.03445277777777
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "361st Shibuqi BDR",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Zanda County, Ngari Prefecture, Tibet",
+    "coordinates": {
+      "lat": 31.810980555555556,
+      "lon": 78.808875
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "361st Pulan BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Burang County, Ngari Prefecture, Tibet",
+    "coordinates": {
+      "lat": 30.302455555555557,
+      "lon": 81.17896388888889
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Pulan Border Defense Company",
+      "phone": "",
+      "reference": "https://www-tibet-cn.translate.goog/cn/news/zx/202109/t20210921_7066159.html?_x_tr_sch=http&_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc"
+    }
+  },
+  {
+    "name": "361st Siranta BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Siranta/Xilanta",
+    "coordinates": {
+      "lat": 30.755702777777778,
+      "lon": 80.59554999999999
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Siranta Border Defence Company ",
+      "phone": "",
+      "reference": "https://www-tlyshi-com.translate.goog/%E8%A5%BF%E5%85%B0%E5%A1%94%E8%BE%B9%E9%98%B2%E8%BF%9E.html?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc"
+    }
+  },
+  {
+    "name": "361st Bolin BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Bolin, Zanda County",
+    "coordinates": {
+      "lat": 31.298483333333333,
+      "lon": 79.54526388888888
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Bolin Border Defence Company ",
+      "phone": "",
+      "reference": "https://k-sina-cn.translate.goog/article_2160553221_m80c76d0503300jydb.html?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc"
+    }
+  },
+  {
+    "name": "361st Daba BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Daba, Zanda County",
+    "coordinates": {
+      "lat": 31.22778333333333,
+      "lon": 79.92505555555556
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Daba Border Defence Company ",
+      "phone": "",
+      "reference": "https://slide-mil-news-sina-com-cn.translate.goog/image_8_199_11753.html?_x_tr_sch=http&_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc"
+    }
+  },
+  {
+    "name": "362nd Kurnak Fort BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Pangong Lake. North",
+    "coordinates": {
+      "lat": 33.763619444444444,
+      "lon": 78.99073888888888
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Kurnak Fort Border Defence Company \n1st Coy 362nd BDR",
+      "phone": "",
+      "reference": "https://www.iiss.org/blogs/analysis/2020/06/china-india-border"
+    }
+  },
+  {
+    "name": "362nd Purchu BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Spanggur Lake",
+    "coordinates": {
+      "lat": 33.56451944444444,
+      "lon": 78.79903888888889
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Purchu Border Defence Company \n2nd Coy 362nd BDR",
+      "phone": "",
+      "reference": "https://www.iiss.org/blogs/analysis/2020/06/china-india-border"
+    }
+  },
+  {
+    "name": "363rd Kongka BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Kongka Pass ",
+    "coordinates": {
+      "lat": 34.329675,
+      "lon": 79.10959722222222
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Kongka Pass Border Defence Company \n3rd Coy 363rd BDR",
+      "phone": "",
+      "reference": "https://www.iiss.org/blogs/analysis/2020/06/china-india-border"
+    }
+  },
+  {
+    "name": "363rd Tiantian BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Hotan County, Hotan Prefecture",
+    "coordinates": {
+      "lat": 35.33041666666667,
+      "lon": 78.17851111111112
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Tiantian (Tianwendian) Border Defence Company \n 3rd Coy 363 BDR",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "363rd Shenxianwan BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Immortal Bay, Pishan County, Hotan Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 35.56861388888889,
+      "lon": 77.84540555555554
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "5382m, highest in PLA,",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "369th Alashankou BDR Coy^",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Alashankou, Bortala Mongol Autonomous Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 45.170449999999995,
+      "lon": 82.55496388888889
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://tyjrswt.henan.gov.cn/2022/05-25/2455264.html"
+    }
+  },
+  {
+    "name": "369th Hejiaoke BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Toli County, Tacheng Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 45.453358333333334,
+      "lon": 82.61436666666665
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://tieba.baidu.com/p/1324306182?pn=3"
+    }
+  },
+  {
+    "name": "371st Baktu BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Baketu, Tacheng, Tacheng Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 46.682455555555556,
+      "lon": 82.80063333333334
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Tacheng Baktu Frontier Defense Company",
+      "phone": "",
+      "reference": "https://bbs.360che.com/thread-629014-2-1.html"
+    }
+  },
+  {
+    "name": "372nd BDR Coy^",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Wenhua West Road, Fuyun County, Altay Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 46.99293055555555,
+      "lon": 89.54908055555555
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.sttcq.com/td/18/188535.html"
+    }
+  },
+  {
+    "name": "373rd Baihaba BDR base",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Baihaba Village, Habahe County, Xinjiang",
+    "coordinates": {
+      "lat": 48.69859444444444,
+      "lon": 86.78105555555555
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www.js7tv.cn/news/202004_213756.html"
+    }
+  },
+  {
+    "name": "375th Laoye Temple BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Laoye Temple, Bark\u00f6l Kazakh Autonomous County, Hami, Xinjiang",
+    "coordinates": {
+      "lat": 44.7286,
+      "lon": 94.06141111111111
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "http://www.ccgp.gov.cn/cggg/dfgg/zbgg/201907/t20190718_12484789.htm"
+    }
+  },
+  {
+    "name": "375th Su Haitu BDR base",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Suhaitu, Bark\u00f6l Kazakh Autonomous County, Hami, Xinjiang",
+    "coordinates": {
+      "lat": 45.00929166666667,
+      "lon": 91.83840833333333
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://tieba.baidu.com/p/5085596"
+    }
+  },
+  {
+    "name": "375th Xiamaya BDR base^",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Xiamayaxiang, Yiwu County, Hami, Xinjiang",
+    "coordinates": {
+      "lat": 43.21734444444445,
+      "lon": 95.26942222222222
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://tieba.baidu.com/p/5085596"
+    }
+  },
+  {
+    "name": "Sarang BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Zanda County, Ngari Prefecture, Tibet",
+    "coordinates": {
+      "lat": 31.566475,
+      "lon": 79.05096666666667
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Pre-fab shelters ",
+      "phone": "",
+      "reference": "\"https://k.sina.com.cn/article_6203200278_m171bd531603300tb5y.html?from=mil&_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc   \n\nhttps://zhuanlan-zhihu-com.translate.goog/p/512196199?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc\""
+    }
+  },
+  {
+    "name": "Manzha BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "",
+    "coordinates": {
+      "lat": 32.155255555555556,
+      "lon": 78.80286111111111
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "\"https://www.youtube.com/watch?v=YfXDwHGoHHc\n\nhttps://rmh-pdnews-cn.translate.goog/Pc/ArtInfoApi/article?id=25368183&_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc\"\n\nhttps://tv.cctv.com/2023/01/17/VIDE8DrZUFKETVbQ7EJ87tEL230117.shtml?spm=C52346.PiumOrlYLNUM.E0VXtwLj8YU7.5  "
+    }
+  },
+  {
+    "name": "Zhipuzi BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Qipu Jilie",
+    "coordinates": {
+      "lat": 32.57601944444445,
+      "lon": 78.6084361111111
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www-sohu-com.translate.goog/a/539677714_121124546?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc https://www-baike-com.translate.goog/wikiid/2788553576753742538?from=wiki_content&prd=innerlink&_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc"
+    }
+  },
+  {
+    "name": "Zhaxigang BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "",
+    "coordinates": {
+      "lat": 32.526152777777774,
+      "lon": 79.63345000000001
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Zhaxigang (Tashigang) Border Defence company ",
+      "phone": "",
+      "reference": "https://www-wenming-cn.translate.goog/sbhr_pd/hrhs/201208/t20120816_808340.shtml?_x_tr_sch=http&_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc\n\nhttps://k-sina-cn.translate.goog/article_2820236807_ma81966070530118vx.html?from=mil&cre=wappage&mod=r&loc=2&r=0&rfunc=71&tj=wap_news_relate&_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc"
+    }
+  },
+  {
+    "name": "Rimchang BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Banmozhang, Rutog County, Ngari Prefecture, Tibet",
+    "coordinates": {
+      "lat": 33.77005,
+      "lon": 79.07153055555555
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Rimchang Company - 2nd Coy 362nd BDR^ ",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Qiekan BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Oude, Rutog County, Ngari Prefecture, Tibet",
+    "coordinates": {
+      "lat": 32.86972222222222,
+      "lon": 79.60701944444443
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Has radars",
+      "phone": "",
+      "reference": "https://www-81-cn.translate.goog/jsjz/2020-09/15/content_9903182.htm?_x_tr_sch=http&_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc"
+    }
+  },
+  {
+    "name": "Domchiry BDR  Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Dumchele Market",
+    "coordinates": {
+      "lat": 33.076302777777784,
+      "lon": 79.17018055555556
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Dumuqilie^",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Khunjerab BDR  Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "",
+    "coordinates": {
+      "lat": 36.93279444444444,
+      "lon": 75.55448055555556
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Shares border with Pakistan",
+      "phone": "",
+      "reference": "https://www-mod-gov-cn.translate.goog/education/2018-07/21/content_4819946.htm?_x_tr_sch=http&_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc"
+    }
+  },
+  {
+    "name": "Kokturuk BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "",
+    "coordinates": {
+      "lat": 37.15724722222222,
+      "lon": 74.65874444444445
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www-mod-gov-cn.translate.goog/power/2018-07/21/content_4819902.htm?_x_tr_sch=http&_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc"
+    }
+  },
+  {
+    "name": "Tokmansu BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "",
+    "coordinates": {
+      "lat": 37.16084722222222,
+      "lon": 74.8199861111111
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Tokmansu Frontier Defence Company\nTibet-Afghanistan border",
+      "phone": "",
+      "reference": "https://photo-81-cn.translate.goog/pla/2020-05/11/content_9809010.htm?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc"
+    }
+  },
+  {
+    "name": "Ming Tiegai BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Mingtiegai",
+    "coordinates": {
+      "lat": 37.12232777777778,
+      "lon": 75.01645277777777
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Wakhan Corridor ",
+      "phone": "",
+      "reference": "https://www-lapeople-com.translate.goog/news/95346.html?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc"
+    }
+  },
+  {
+    "name": "Karachigu BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Ka Laqigu",
+    "coordinates": {
+      "lat": 37.20996944444445,
+      "lon": 75.37597222222222
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Has helipads and training area",
+      "phone": "",
+      "reference": "https://www-81-cn.translate.goog/2014wlbgjyl/2014-04/02/content_5837383.htm?_x_tr_sch=http&_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc"
+    }
+  },
+  {
+    "name": "Smkhana BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Simhana, Jigen",
+    "coordinates": {
+      "lat": 39.69635555555555,
+      "lon": 73.92515555555556
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Kyrgyzstan border",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Maidan BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Mayidancun",
+    "coordinates": {
+      "lat": 40.190949999999994,
+      "lon": 76.03035
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Kurumduk BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "",
+    "coordinates": {
+      "lat": 40.33377222222222,
+      "lon": 76.39696111111111
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Has helipads",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Alishangang BDR Coy",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Qusum Town",
+    "coordinates": {
+      "lat": 32.21138333333334,
+      "lon": 79.19349722222222
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://www-81-cn.translate.goog/2017zt/2018-01/22/content_7916912.htm?_x_tr_sch=http&_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc"
+    }
+  },
+  {
+    "name": "Tiantian trenches",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Hotan County, Hotan Prefecture",
+    "coordinates": {
+      "lat": 35.33625555555556,
+      "lon": 78.19217777777779
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Dug in positions, Helipad",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Sugai Teku Rule BDR Base^",
+    "type": "Border Defence Regiment  Post",
+    "locationName": "Pishan County, Hotan Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 36.340405555555556,
+      "lon": 78.05230833333333
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Close to heliport.  Probably a Company HQ",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Niagzu Base",
+    "type": "Border Base",
+    "locationName": "",
+    "coordinates": {
+      "lat": 33.974830555555556,
+      "lon": 78.87840833333333
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Has helipad.",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Kongka Pass Base",
+    "type": "Border Base",
+    "locationName": "",
+    "coordinates": {
+      "lat": 34.363911111111115,
+      "lon": 79.14083333333333
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Rear base and staging area",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Sirijap Base",
+    "type": "Border Base",
+    "locationName": "Pangong Tso North bank Forward Post 2",
+    "coordinates": {
+      "lat": 33.75417222222222,
+      "lon": 78.84458888888888
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Pangong Tso North",
+    "type": "Border Base",
+    "locationName": "Pangong Tso North bank Forward Post",
+    "coordinates": {
+      "lat": 33.73853888888889,
+      "lon": 78.79311388888888
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Chushul 1",
+    "type": "Border Base",
+    "locationName": "Chushul Forwrad Post 1",
+    "coordinates": {
+      "lat": 33.602783333333335,
+      "lon": 78.82617777777777
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Changguoxiang",
+    "type": "Border Base",
+    "locationName": "Saga County, Shigatse, Tibet",
+    "coordinates": {
+      "lat": 29.297880555555558,
+      "lon": 84.43440555555556
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "BDR Base^",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "South Pangong post",
+    "type": "Border Base",
+    "locationName": "",
+    "coordinates": {
+      "lat": 33.62766666666667,
+      "lon": 78.78807222222223
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "On ridge top",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "South Pangong post 2",
+    "type": "Border Base",
+    "locationName": "Pangong Tso South Forward Post",
+    "coordinates": {
+      "lat": 33.65968888888889,
+      "lon": 78.74523888888889
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "South Pangong post 3",
+    "type": "Border Base",
+    "locationName": "Pangong Tso South Forward Post",
+    "coordinates": {
+      "lat": 33.66148333333333,
+      "lon": 78.73589444444444
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "On ridge top",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Kalasu Post",
+    "type": "Border Base",
+    "locationName": "Tashkurgan, Kashgar Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 38.191516666666665,
+      "lon": 74.92524722222223
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Kulma Pass",
+    "type": "Border Base",
+    "locationName": "Kulma Pass Post",
+    "coordinates": {
+      "lat": 38.149969444444444,
+      "lon": 74.80610277777778
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Galwan Forward",
+    "type": "Border base",
+    "locationName": "Galwan, Aksai Chin",
+    "coordinates": {
+      "lat": 34.63225555555556,
+      "lon": 78.61847499999999
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Galwan supply base\t",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Sirijap Base",
+    "type": "Border base",
+    "locationName": "Pagong Tso",
+    "coordinates": {
+      "lat": 33.740008333333336,
+      "lon": 78.87683888888888
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Base with radars",
+      "phone": "",
+      "reference": "https://twitter.com/Kyangs_Thang/status/1609555396884320257?s=20&t=5gpXIrIeYROaFHCrPYw5Rw"
+    }
+  },
+  {
+    "name": "Pagong Lake north",
+    "type": "Border base",
+    "locationName": "Pagong Tso",
+    "coordinates": {
+      "lat": 33.74196388888889,
+      "lon": 78.89615833333335
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Dug in positions",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Hot springs 1",
+    "type": "Border base",
+    "locationName": "Hot springs, Aksai Chin",
+    "coordinates": {
+      "lat": 34.40778611111111,
+      "lon": 78.91948333333333
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Dug in positions",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Hot springs 2",
+    "type": "Border base",
+    "locationName": "Hot springs, Aksai Chin",
+    "coordinates": {
+      "lat": 34.42762777777777,
+      "lon": 78.92041944444445
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Dug in positions, Helipad",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Hot springs 3",
+    "type": "Border base",
+    "locationName": "Hot springs, Aksai Chin",
+    "coordinates": {
+      "lat": 34.446238888888885,
+      "lon": 78.92621944444446
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Dug in positions, Helipad",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Hot springs 4",
+    "type": "Border base",
+    "locationName": "Hot springs, Aksai Chin",
+    "coordinates": {
+      "lat": 34.47024444444445,
+      "lon": 78.91280555555556
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Dug in positions",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Hot springs 5",
+    "type": "Border base",
+    "locationName": "Hot springs, Aksai Chin",
+    "coordinates": {
+      "lat": 34.416780555555555,
+      "lon": 78.98084444444444
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Supply depo",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Gar Base",
+    "type": "Unknown",
+    "locationName": "Gar County, Ngari Prefecture,",
+    "coordinates": {
+      "lat": 32.48121388888889,
+      "lon": 80.122
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Mid sized military base, new",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Gar Base 2",
+    "type": "Unknown",
+    "locationName": "Gar County, Ngari Prefecture,",
+    "coordinates": {
+      "lat": 32.45003333333334,
+      "lon": 80.14772222222223
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Mid sized semi-permanent military base, new",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Zanda base",
+    "type": "Unknown",
+    "locationName": "Zanda County, Ngari Prefecture, Tibet",
+    "coordinates": {
+      "lat": 31.50063888888889,
+      "lon": 79.777275
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Mid sized military base, new",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Kalong Qiongwa",
+    "type": "Unknown",
+    "locationName": "Rutog County, Ngari Prefecture, Tibet",
+    "coordinates": {
+      "lat": 33.40703611111111,
+      "lon": 79.806725
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Large military base",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "11th Training Base",
+    "type": "Training Base",
+    "locationName": "No. 591 Donghuan Road, Korla ",
+    "coordinates": {
+      "lat": 41.65456111111111,
+      "lon": 86.30559444444444
+    },
+    "details": {
+      "corps": "XMR, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": "https://new.qq.com/rain/a/20220625A05J7200  https://www.sgss8.net/tpdq/16920628/"
+    }
+  },
+  {
+    "name": "Tingawati ",
+    "type": "Training Base",
+    "locationName": "Aksu City, Aksu Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 41.19520277777777,
+      "lon": 80.28311388888889
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Training",
+    "type": "Training Base",
+    "locationName": "Doilungd\u00eaq\u00ean District, Lhasa, Tibet",
+    "coordinates": {
+      "lat": 29.61305,
+      "lon": 90.97783611111112
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Vehicle training^",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Training",
+    "type": "Training Base",
+    "locationName": "Doilungd\u00eaq\u00ean District, Lhasa, Tibet",
+    "coordinates": {
+      "lat": 29.60101666666667,
+      "lon": 91.087925
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Infantry training^",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Training",
+    "type": "Training Base",
+    "locationName": "Golmud, Haixi Mongol and Tibetan Autonomous Prefecture, Qinghai",
+    "coordinates": {
+      "lat": 36.02898333333333,
+      "lon": 94.84524166666667
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Comprehensive Training Base^",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Training",
+    "type": "Training Base",
+    "locationName": "Baiuhe, Korla, Bayingolin Mongol Autonomous Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 41.69630833333333,
+      "lon": 86.26506111111111
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Comprehensive Training Base^",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Training",
+    "type": "Training Base",
+    "locationName": "Baxiezicun, Korla, Bayingolin Mongol Autonomous Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 41.645725,
+      "lon": 86.34231944444444
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Comprehensive Training Base^",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Training",
+    "type": "Training Base",
+    "locationName": "Tu Telieke, Kashgar, Kashgar Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 39.56379722222222,
+      "lon": 76.00011111111111
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Training",
+    "type": "Training Base",
+    "locationName": "Dagz\u00ea District, Lhasa, Tibet",
+    "coordinates": {
+      "lat": 29.676825,
+      "lon": 91.33084722222222
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Training",
+    "type": "Training Base",
+    "locationName": "Rutog County, Ngari Prefecture, Tibet",
+    "coordinates": {
+      "lat": 33.51361388888889,
+      "lon": 80.40043333333334
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Mililtary exercise in Aug 2022",
+      "phone": "",
+      "reference": "https://twitter.com/isekaimint/status/1560360697279795209/photo/4"
+    }
+  },
+  {
+    "name": "Maili",
+    "type": "Firing Range",
+    "locationName": "Saga County, Shigatse, Tibet",
+    "coordinates": {
+      "lat": 29.313480555555557,
+      "lon": 85.21015277777778
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Training^",
+    "type": "Training Base",
+    "locationName": "Qigeleke, Xinjiang, Kashgar Prefecture, Kashgar",
+    "coordinates": {
+      "lat": 39.512766666666664,
+      "lon": 75.92397222222223
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Vehicle training^",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Wuzunsayi",
+    "type": "Training Base",
+    "locationName": "Wuzunsayi, Kashgar, Kashgar Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 39.54965833333333,
+      "lon": 75.94916666666667
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Qingtongxia Training",
+    "type": "Training Base",
+    "locationName": " Wudatai, Qingtongxia City, Wuzhong City, Ningxia Hui Autonomous Region",
+    "coordinates": {
+      "lat": 37.88028333333333,
+      "lon": 106.03129444444444
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "5 CTB",
+    "type": "Training Base",
+    "locationName": "No. 23 Yingbin Road, Liangzhou District, Wuwei City, Gansu ",
+    "coordinates": {
+      "lat": 37.918105555555556,
+      "lon": 102.62371388888889
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "5 CTB 2^",
+    "type": "Training Base",
+    "locationName": "Xiaan Village, Ganzhou District, Zhangye City, Gansu Province",
+    "coordinates": {
+      "lat": 38.933302777777776,
+      "lon": 100.48416388888889
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "Perhaps 55th Brigade^^\t77th GA, WTC\tInfantry Brigade\t\t68307\tNo. 99, Jincheng Road, Ganzhou District, Zhangye City, Gansu ",
+      "phone": "",
+      "reference": "http://www.gsds.gov.cn/gongzuodongtai/20161115/0939138560787.htm\nhttp://gsds.gov.cn/dangshixuanchuan/jiaoyujidi/20161130/143728716afef.htm"
+    }
+  },
+  {
+    "name": "5 CTB 3^",
+    "type": "Training Base",
+    "locationName": "Dianzizha Village, Ganzhou District, Zhangye City, Gansu Province",
+    "coordinates": {
+      "lat": 38.856319444444445,
+      "lon": 100.39382777777779
+    },
+    "details": {
+      "corps": "77th GA, WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "351 BDR Training",
+    "type": "Firing range",
+    "locationName": "Xiachayu, Zayu, Nyingchi, Tibet",
+    "coordinates": {
+      "lat": 28.527544444444445,
+      "lon": 96.986
+    },
+    "details": {
+      "corps": "BDR, XMR, WTC",
+      "division": "",
+      "remarks": "Firing range",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Bronze Gorge Training Base",
+    "type": "Training Base",
+    "locationName": "Qingtongxia, Wuzhong, Ningxia",
+    "coordinates": {
+      "lat": 37.86966666666667,
+      "lon": 105.86415555555556
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Wudatai Training",
+    "type": "Unknown",
+    "locationName": "Wudatai, Qingtongxia, Wuzhong, Ningxia",
+    "coordinates": {
+      "lat": 37.87430277777778,
+      "lon": 106.0295388888889
+    },
+    "details": {
+      "corps": "61st Inf Div, 76th GA, WTC",
+      "division": "",
+      "remarks": "Vehicle training^",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Training^",
+    "type": "Training Base",
+    "locationName": "Litong District, Wuzhong, Ningxia",
+    "coordinates": {
+      "lat": 38.007641666666665,
+      "lon": 106.18005555555555
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "Small new base",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Daliang Mountain Training Base",
+    "type": "Firing range",
+    "locationName": "Longtanggou, Xide County, Liangshan Yi Autonomous Prefecture, Sichuan Province",
+    "coordinates": {
+      "lat": 28.396941666666667,
+      "lon": 102.53421388888889
+    },
+    "details": {
+      "corps": "WTC",
+      "division": "",
+      "remarks": "78029",
+      "phone": "",
+      "reference": "Joseph Wen\nhttps://zh.wikipedia.org/zh-tw/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E8%A7%A3%E6%94%BE%E5%86%9B%E9%99%86%E5%86%9B%E5%A4%A7%E5%87%89%E5%B1%B1%E5%90%88%E5%90%8C%E6%88%98%E6%9C%AF%E8%AE%AD%E7%BB%83%E5%9F%BA%E5%9C%B0"
+    }
+  },
+  {
+    "name": "Zhaxigang BDR",
+    "type": "Unknown",
+    "locationName": "",
+    "coordinates": {
+      "lat": 32.522952777777775,
+      "lon": 79.6320611111111
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "Near Zhaxigang BDR Coy",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Galwan",
+    "type": "Unknown",
+    "locationName": "Aksai Chin",
+    "coordinates": {
+      "lat": 34.660783333333335,
+      "lon": 78.57841111111111
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Gogra",
+    "type": "Unknown",
+    "locationName": "Aksai Chin",
+    "coordinates": {
+      "lat": 34.32766111111111,
+      "lon": 79.1067861111111
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "361 Daba BDR",
+    "type": "Unknown",
+    "locationName": " Zanda County ",
+    "coordinates": {
+      "lat": 31.220919444444444,
+      "lon": 79.92805555555556
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "361st Daba BDR Coy",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Xiachayu",
+    "type": "Unknown",
+    "locationName": "Zayu, Nyingchi, Tibet",
+    "coordinates": {
+      "lat": 28.449525,
+      "lon": 97.06199444444444
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "Perhaps BDR",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Shendga",
+    "type": "Unknown",
+    "locationName": "Karuo District, Chamdo, Tibet",
+    "coordinates": {
+      "lat": 31.17123888888889,
+      "lon": 97.16708333333334
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Xiachayu BDR^",
+    "type": "Unknown",
+    "locationName": "Zayu, Nyingchi, Tibet",
+    "coordinates": {
+      "lat": 28.355372222222222,
+      "lon": 97.00883888888889
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Gainaguo",
+    "type": "Unknown",
+    "locationName": "Damxung County, Lhasa, Tibet",
+    "coordinates": {
+      "lat": 30.120769444444445,
+      "lon": 90.50878888888889
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "Vehicle storage",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Langniuqu",
+    "type": "Unknown",
+    "locationName": "Damxung County, Lhasa, Tibet",
+    "coordinates": {
+      "lat": 29.949944444444444,
+      "lon": 90.36899166666666
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "Large training & exercise area",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Gongtang",
+    "type": "Unknown",
+    "locationName": "Lhasa, Tibet",
+    "coordinates": {
+      "lat": 29.63517222222222,
+      "lon": 91.22150277777779
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Menzhun",
+    "type": "Unknown",
+    "locationName": "Doilungd\u00eaq\u00ean District, Lhasa, Tibet",
+    "coordinates": {
+      "lat": 29.52449722222222,
+      "lon": 91.01406666666666
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Duobu Yuri",
+    "type": "Unknown",
+    "locationName": "Gar County, Ngari Prefecture, Tibet",
+    "coordinates": {
+      "lat": 32.56744166666667,
+      "lon": 80.05819166666666
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Yaka",
+    "type": "Unknown",
+    "locationName": "Shanshan County, Turpan, Xinjiang",
+    "coordinates": {
+      "lat": 42.892922222222225,
+      "lon": 90.18027222222223
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Kezi Letu'er",
+    "type": "Unknown",
+    "locationName": "Gaochang District, Turpan, Xinjiang",
+    "coordinates": {
+      "lat": 42.982394444444445,
+      "lon": 89.19909166666667
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "32nd Regiment^ XMR training",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Wulapocun",
+    "type": "Unknown",
+    "locationName": "Tianshan District, \u00dcr\u00fcmqi, Xinjiang",
+    "coordinates": {
+      "lat": 43.687013888888885,
+      "lon": 87.57310555555556
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Wulabo",
+    "type": "Unknown",
+    "locationName": "Tianshan District, \u00dcr\u00fcmqi, Xinjiang",
+    "coordinates": {
+      "lat": 43.70294166666667,
+      "lon": 87.60825833333332
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Hongyan",
+    "type": "Unknown",
+    "locationName": "Tianshan District, \u00dcr\u00fcmqi, Xinjiang",
+    "coordinates": {
+      "lat": 43.7476,
+      "lon": 87.67122222222223
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Baiuhe",
+    "type": "Unknown",
+    "locationName": "Korla, Bayingolin Mongol Autonomous Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 41.69991944444444,
+      "lon": 86.27258888888889
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Yan hu",
+    "type": "Unknown",
+    "locationName": "Toutunhe District, \u00dcr\u00fcmqi, Xinjiang",
+    "coordinates": {
+      "lat": 43.85062777777778,
+      "lon": 87.42638611111111
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "Vehicles",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Jianquanyi Street",
+    "type": "Unknown",
+    "locationName": "Tianshan District, \u00dcr\u00fcmqi, Xinjiang",
+    "coordinates": {
+      "lat": 43.80118611111111,
+      "lon": 87.66860833333334
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Dongdaliang W Street",
+    "type": "Unknown",
+    "locationName": "Tianshan District, \u00dcr\u00fcmqi, Xinjiang",
+    "coordinates": {
+      "lat": 43.79295,
+      "lon": 87.64601666666667
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Huaergou Street",
+    "type": "Unknown",
+    "locationName": "Tianshan District, \u00dcr\u00fcmqi, Xinjiang",
+    "coordinates": {
+      "lat": 43.74673333333333,
+      "lon": 87.63913333333333
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "Vehicles",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Banjiegou",
+    "type": "Unknown",
+    "locationName": "Tianshan District, \u00dcr\u00fcmqi, Xinjiang",
+    "coordinates": {
+      "lat": 43.71799722222222,
+      "lon": 87.67079722222223
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "Vehicles",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Hongyanchi",
+    "type": "Unknown",
+    "locationName": "Tianshan District, \u00dcr\u00fcmqi, Xinjiang",
+    "coordinates": {
+      "lat": 43.70857777777778,
+      "lon": 87.59289166666666
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Zanda (north)",
+    "type": "Unknown",
+    "locationName": "Zanda County, Ngari Prefecture, Tibet",
+    "coordinates": {
+      "lat": 31.49844722222222,
+      "lon": 79.78113055555555
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Xianhong Tuchang",
+    "type": "Unknown",
+    "locationName": "\u00dcr\u00fcmqi County, \u00dcr\u00fcmqi, Xinjiang",
+    "coordinates": {
+      "lat": 43.84194166666667,
+      "lon": 87.42675
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "Vehicles",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Maliaodi",
+    "type": "Unknown",
+    "locationName": "Saybag District, \u00dcr\u00fcmqi, Xinjiang",
+    "coordinates": {
+      "lat": 43.817975000000004,
+      "lon": 87.53838611111111
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "Vehicles",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Suowu Erbayi",
+    "type": "Unknown",
+    "locationName": "Yizhou, Hami, Xinjiang",
+    "coordinates": {
+      "lat": 43.08475555555556,
+      "lon": 92.80556666666666
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "Aircraft",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Bailuhe 2",
+    "type": "Unknown",
+    "locationName": "Korla, Bayingolin Mongol",
+    "coordinates": {
+      "lat": 41.720444444444446,
+      "lon": 86.28748055555555
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Niumo Hu",
+    "type": "Unknown",
+    "locationName": "Saybag District, \u00dcr\u00fcmqi, Xinjiang",
+    "coordinates": {
+      "lat": 43.80837777777778,
+      "lon": 87.44916111111111
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "Special Forces",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Xincheng",
+    "type": "Unknown",
+    "locationName": "Korla, Bayingolin Mongol Autonomous Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 41.707172222222226,
+      "lon": 86.20726388888889
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Lanshan Community",
+    "type": "Unknown",
+    "locationName": "Luntai County, Bazhou, Xinjiang",
+    "coordinates": {
+      "lat": 41.810377777777774,
+      "lon": 84.278575
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "12th Reg, XMR, WTC\t",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Guo Dao",
+    "type": "Unknown",
+    "locationName": "Xinyuan County, Ili, Xinjiang",
+    "coordinates": {
+      "lat": 43.541799999999995,
+      "lon": 83.31095555555555
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Shanghai S Road",
+    "type": "Unknown",
+    "locationName": "Samzhubz\u00ea District, Shigatse, Tibet",
+    "coordinates": {
+      "lat": 29.252516666666665,
+      "lon": 88.8886138888889
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Sama",
+    "type": "Unknown",
+    "locationName": "Samzhubz\u00ea District, Shigatse, Tibet",
+    "coordinates": {
+      "lat": 29.229544444444443,
+      "lon": 88.88931666666667
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Sayibage",
+    "type": "Unknown",
+    "locationName": "Yarkant County, Kashgar Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 38.21935277777778,
+      "lon": 77.12026388888889
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Zhangmu^",
+    "type": "Unknown",
+    "locationName": "Samzhubz\u00ea District, Shigatse, Tibet",
+    "coordinates": {
+      "lat": 29.26535833333333,
+      "lon": 88.84495833333332
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Senge Zangbu^",
+    "type": "Unknown",
+    "locationName": "Gar County, Ngari Prefecture, Tibet",
+    "coordinates": {
+      "lat": 32.43741111111111,
+      "lon": 79.8043
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Jiang Gale",
+    "type": "Unknown",
+    "locationName": "Shufu County, Kashgar Prefecture, Xinjiang",
+    "coordinates": {
+      "lat": 39.420830555555554,
+      "lon": 75.93219722222223
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Huangdixiang",
+    "type": "Unknown",
+    "locationName": "Huangdixiang, Shule",
+    "coordinates": {
+      "lat": 39.54739444444444,
+      "lon": 75.94916666666667
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "Vehicles",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Axi",
+    "type": "Unknown",
+    "locationName": "Axi, Lhasa",
+    "coordinates": {
+      "lat": 29.60101666666667,
+      "lon": 91.087925
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Aksu",
+    "type": "Unknown",
+    "locationName": "Aksu",
+    "coordinates": {
+      "lat": 41.19520277777777,
+      "lon": 80.28311388888889
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Dagan Ditch Bridge",
+    "type": "Unknown",
+    "locationName": "",
+    "coordinates": {
+      "lat": 36.02898333333333,
+      "lon": 94.84524166666667
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Ruomuqu",
+    "type": "Unknown",
+    "locationName": "Lhasa",
+    "coordinates": {
+      "lat": 29.610225,
+      "lon": 90.98004722222223
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Unidentified^",
+    "type": "Unidentified",
+    "locationName": "Aksu",
+    "coordinates": {
+      "lat": 41.15391111111111,
+      "lon": 80.2168361111111
+    },
+    "details": {
+      "corps": "Unknown",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Qinghai-Tibet Military Railway Station",
+    "type": "Logistics",
+    "locationName": "Xining City, Qinghai",
+    "coordinates": {
+      "lat": 36.37027222222222,
+      "lon": 94.89665000000001
+    },
+    "details": {
+      "corps": "Unknown",
+      "division": "",
+      "remarks": "Qinghai-Tibet Military Station Department, https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E8%A7%A3%E6%94%BE%E5%86%9B%E9%99%86%E5%86%9B%E9%9D%92%E8%97%8F%E5%85%B5%E7%AB%99%E9%83%A8",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Unidentified^",
+    "type": "Unidentified",
+    "locationName": "Xining City, Qinghai",
+    "coordinates": {
+      "lat": 36.44403888888888,
+      "lon": 94.81003333333334
+    },
+    "details": {
+      "corps": "Unknown",
+      "division": "",
+      "remarks": "New large base with barracks and vehicle sheds",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Unidentified^",
+    "type": "Unidentified",
+    "locationName": "Miao'ergoucun Badui, Urumqi",
+    "coordinates": {
+      "lat": 43.51250833333334,
+      "lon": 87.50108333333333
+    },
+    "details": {
+      "corps": "Unknown",
+      "division": "",
+      "remarks": "",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Malan Nuclear Test Base ",
+    "type": "Testing",
+    "locationName": "Nairenker Township , Heshuo County , Bayingoleng",
+    "coordinates": {
+      "lat": 42.386916666666664,
+      "lon": 87.30896666666666
+    },
+    "details": {
+      "corps": "Unknown",
+      "division": "",
+      "remarks": "Directly under the Aerospace System Department of the Strategic Support Force",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Unidentified^",
+    "type": "Unidentified",
+    "locationName": "Baju, Lhasa",
+    "coordinates": {
+      "lat": 29.65360833333333,
+      "lon": 91.05372222222222
+    },
+    "details": {
+      "corps": "Unknown",
+      "division": "",
+      "remarks": "Vehicle, storage or garage^",
+      "phone": "",
+      "reference": ""
+    }
+  },
+  {
+    "name": "Unidentified^",
+    "type": "Unidentified",
+    "locationName": "Donggashakang, Lhasa",
+    "coordinates": {
+      "lat": 29.644469444444443,
+      "lon": 91.02836666666667
+    },
+    "details": {
+      "corps": "Unknown",
+      "division": "",
+      "remarks": "Vehicle, storage or garage^",
+      "phone": "",
+      "reference": ""
+    }
+  }
+]
