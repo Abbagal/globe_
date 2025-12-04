@@ -19,7 +19,7 @@ const CPECSidebar: React.FC<CPECSidebarProps> = ({ isVisible, onClose }) => {
       color: 'white',
       padding: '20px',
       boxSizing: 'border-box',
-      zIndex: 2000,
+      zIndex: 500,
       fontFamily: 'monospace',
       overflow: 'auto'
     }}>

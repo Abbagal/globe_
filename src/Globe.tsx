@@ -25,6 +25,7 @@ import {
   PinBuilder,
   CustomDataSource,
 } from "cesium";
+import "../src/infobox-css.css"
 import { CameraController } from "./CameraController";
 import "cesium/Build/Cesium/Widgets/widgets.css";
 
@@ -447,6 +448,7 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
       // FIX 1: Turn this OFF to ensure instant UI updates
       requestRenderMode: false,
     });
+  
 
     const infoBoxFrame = viewer.infoBox.frame;
     if (infoBoxFrame) {
@@ -454,6 +456,7 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
         "sandbox",
         "allow-same-origin allow-scripts allow-popups allow-forms"
       );
+   
     }
 
     viewer.targetFrameRate = 60;
@@ -758,7 +761,7 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
           style={{
             position: "absolute",
             top: 120,
-            right: 20,
+            left: 20,
             backgroundColor: "rgba(0, 0, 0, 0.8)",
             color: "white",
             padding: "15px",
