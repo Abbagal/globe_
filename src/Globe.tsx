@@ -375,6 +375,7 @@ export interface GlobeRef {
   hideCPECRoute: () => void;
   showSingleRoute: (routeId: string) => void;
   showAllRoutes: () => void;
+  searchUnit: (query: string) => boolean;
 }
 
 const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
@@ -701,6 +702,62 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
     }
   };
 
+  // -------------------------------------------------------------
+  // SEARCH FUNCTION - Find and fly to a unit
+  // -------------------------------------------------------------
+  const searchUnit = (query: string): boolean => {
+    if (!query.trim() || !viewerRef.current || !dataSourceRef.current) {
+      return false;
+    }
+
+    const searchLower = query.toLowerCase().trim();
+
+    // Search in allLocations for coordinates
+    const matchedUnit = allLocations.find(
+      (unit) =>
+        unit.name.toLowerCase().includes(searchLower) ||
+        unit.type?.toLowerCase().includes(searchLower) ||
+        unit.locationName?.toLowerCase().includes(searchLower)
+    );
+
+    if (
+      matchedUnit &&
+      matchedUnit.coordinates?.lat &&
+      matchedUnit.coordinates?.lon
+    ) {
+      // Show markers if not already showing
+      if (!showMarkers) {
+        setShowMarkers(true);
+      }      // Fly to the unit location
+      if (cameraControllerRef.current) {
+        cameraControllerRef.current.rotateAndZoomTo(
+          Number(matchedUnit.coordinates.lon),
+          Number(matchedUnit.coordinates.lat),
+          { zoomHeight: 50000 }
+        );
+      }
+
+      // Find and select the entity in the data source
+      const entities = dataSourceRef.current.entities.values;
+      const matchedEntity = entities.find(
+        (entity) =>
+          entity.name?.toLowerCase() === matchedUnit.name.toLowerCase()
+      );
+
+      if (matchedEntity) {
+        // Make sure the entity is visible
+        matchedEntity.show = true;
+
+        // Select the entity to show its info box
+        viewerRef.current.selectedEntity = matchedEntity;
+      }
+
+      return true;
+    }
+
+    return false;
+  };
+
   useImperativeHandle(ref, () => ({
     flyTo: (lon: number, lat: number, height: number = 2000) => {
       if (cameraControllerRef.current)
@@ -716,6 +773,7 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
     hideCPECRoute,
     showSingleRoute,
     showAllRoutes,
+    searchUnit,
   }));
 
   // =============================================================
@@ -730,8 +788,8 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
         onClick={() => setShowMarkers(!showMarkers)}
         style={{
           position: "absolute",
-          top: "20px",
-          left: "350px",
+          top: "100px",
+          left: "20px",
           backgroundColor: showMarkers
             ? "rgba(0, 229, 255, 0.8)"
             : "rgba(0, 0, 0, 0.6)",
@@ -760,7 +818,7 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
         <div
           style={{
             position: "absolute",
-            top: 120,
+            top: 140,
             left: 20,
             backgroundColor: "rgba(0, 0, 0, 0.8)",
             color: "white",

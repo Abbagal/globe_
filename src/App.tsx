@@ -55,8 +55,7 @@ function App() {
     
     setOsintLoading(false);
     setOsintLoadingText('');
-  };
-  const handleSearch = async (e: React.FormEvent) => {
+  };  const handleSearch = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!query.trim()) return;
 
@@ -64,6 +63,15 @@ function App() {
     setError(null);
     
     try {
+      // First, try to search for a unit in the Globe
+      if (globeRef.current && globeRef.current.searchUnit(query)) {
+        // Unit found! Clear CPEC sidebar if it was open
+        setShowCPECSidebar(false);
+        setLoading(false);
+        return;
+      }
+
+      // If not a unit, try geocoding service
       const result = await geocodingService.search(query);
       if (result) {
         // Handle CPEC special case with loading animation

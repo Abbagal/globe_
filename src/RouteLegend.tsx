@@ -25,7 +25,7 @@ const RouteLegend: React.FC<RouteLegendProps> = ({ visible, selectedRoute, onRou
     <div
       style={{
         position: 'absolute',
-        bottom: 10,
+        bottom: 0,
         left: 20,
         zIndex: 1000,
         background: 'rgba(0, 0, 0, 0.8)',
