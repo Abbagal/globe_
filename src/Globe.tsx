@@ -21,9 +21,9 @@ import {
   UrlTemplateImageryProvider,
   Cartesian2,
   HeightReference,
-  DistanceDisplayCondition,
   PinBuilder,
   CustomDataSource,
+  JulianDate,
 } from "cesium";
 import "../src/infobox-css.css"
 import { CameraController } from "./CameraController";
@@ -394,7 +394,7 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
     const cats = new Map();
     allLocations.forEach((u) => {
       const style = getUnitStyle(u.type);
-      cats.set(style.category, style.color);
+      cats.set(style.category, { color: style.color, icon: style.icon });
     });
     return Array.from(cats.entries()).sort();
   }, []);
@@ -406,9 +406,10 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
     if (!dataSourceRef.current) return;
 
     const entities = dataSourceRef.current.entities.values;
+    const now = JulianDate.now();
     entities.forEach((entity) => {
-      const category = entity.properties?.getValue(new Date())?.category;
-      const source = entity.properties?.getValue(new Date())?.source;
+      const category = entity.properties?.getValue(now)?.category;
+      const source = entity.properties?.getValue(now)?.source;
 
       let isVisible = showMarkers;
 
@@ -505,47 +506,68 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
     // ---------------------------------------------------------
     // LOAD LOCATIONS
     // ---------------------------------------------------------
-    allLocations.forEach(async (unit: any) => {
-      if (!unit.coordinates?.lat || !unit.coordinates?.lon) return;
-
-      const style = getUnitStyle(unit.type);
-      const iconUrl = await createCircularIcon(style.icon, style.color);
-
-      dataSource.entities.add({
-        name: unit.name,
-        show: false,
-        description: generateDescription(unit),
-        position: Cartesian3.fromDegrees(
-          unit.coordinates.lon,
-          unit.coordinates.lat
-        ),
-        properties: {
-          category: style.category,
-          source: unit.source,
-        },
-        billboard: {
-          image: iconUrl,
-          verticalOrigin: VerticalOrigin.BOTTOM,
-          heightReference: HeightReference.CLAMP_TO_GROUND,
-          eyeOffset: new Cartesian3(0.0, 0.0, -50.0),
-          disableDepthTestDistance: Number.POSITIVE_INFINITY,
-          // FIX 2: REMOVED Distance Display Condition (Always visible)
-        },
-        label: {
-          text: unit.name,
-          font: "14px sans-serif",
-          showBackground: true,
-          backgroundColor: Color.BLACK.withAlpha(0.8),
-          pixelOffset: new Cartesian2(0, -60),
-          horizontalOrigin: HorizontalOrigin.CENTER,
-          verticalOrigin: VerticalOrigin.BOTTOM,
-          heightReference: HeightReference.CLAMP_TO_GROUND,
-          eyeOffset: new Cartesian3(0.0, 0.0, -100.0),
-          disableDepthTestDistance: Number.POSITIVE_INFINITY,
-          // FIX 3: REMOVED Distance Display Condition (Labels always visible)
-        },
+    const loadLocations = async () => {
+      // Pre-load all unique icons first
+      const uniqueStyles = new Map<string, { icon: any; color: string }>();
+      allLocations.forEach((unit: any) => {
+        const style = getUnitStyle(unit.type);
+        const key = `${style.icon.name}-${style.color}`;
+        if (!uniqueStyles.has(key)) {
+          uniqueStyles.set(key, { icon: style.icon, color: style.color });
+        }
       });
-    });
+
+      // Pre-cache all icons
+      const iconPromises = Array.from(uniqueStyles.values()).map(({ icon, color }) =>
+        createCircularIcon(icon, color)
+      );
+      await Promise.all(iconPromises);
+
+      // Now add all entities with cached icons (synchronous lookups)
+      for (const unit of allLocations) {
+        if (!unit.coordinates?.lat || !unit.coordinates?.lon) continue;
+
+        const style = getUnitStyle(unit.type);
+        const iconUrl = await createCircularIcon(style.icon, style.color); // Will return cached
+
+        dataSource.entities.add({
+          name: unit.name,
+          show: false,
+          description: generateDescription(unit),
+          position: Cartesian3.fromDegrees(
+            Number(unit.coordinates.lon),
+            Number(unit.coordinates.lat)
+          ),
+          properties: {
+            category: style.category,
+            source: unit.source,
+          },
+          billboard: {
+            image: iconUrl,
+            verticalOrigin: VerticalOrigin.BOTTOM,
+            heightReference: HeightReference.CLAMP_TO_GROUND,
+            eyeOffset: new Cartesian3(0.0, 0.0, -50.0),
+            disableDepthTestDistance: Number.POSITIVE_INFINITY,
+          },
+          label: {
+            text: unit.name,
+            font: "14px sans-serif",
+            showBackground: true,
+            backgroundColor: Color.BLACK.withAlpha(0.8),
+            pixelOffset: new Cartesian2(0, -60),
+            horizontalOrigin: HorizontalOrigin.CENTER,
+            verticalOrigin: VerticalOrigin.BOTTOM,
+            heightReference: HeightReference.CLAMP_TO_GROUND,
+            eyeOffset: new Cartesian3(0.0, 0.0, -100.0),
+            disableDepthTestDistance: Number.POSITIVE_INFINITY,
+          },
+        });
+      }
+
+      // Force a render after all entities are added
+      viewer.scene.requestRender();
+    };
+    loadLocations();
 
     // ---------------------------------------------------------
     // LOAD GOOGLE 3D TILES
@@ -931,7 +953,7 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
             Show All Types
           </div>
 
-          {categories.map(([catName, color]) => (
+          {categories.map(([catName, { color, icon: IconComponent }]) => (
             <div
               key={catName}
               onClick={() => setActiveCategory(catName)}
@@ -947,14 +969,10 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
                 fontWeight: activeCategory === catName ? "bold" : "normal",
               }}
             >
-              <div
+              <IconComponent
                 style={{
-                  width: "12px",
-                  height: "12px",
-                  borderRadius: "50%",
-                  backgroundColor: color,
+                  color: color,
                   marginRight: "10px",
-                  border: "1px solid white",
                 }}
               />
               {catName}

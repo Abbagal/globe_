@@ -2318,5 +2318,21 @@
       "phone": "",
       "reference": ""
     }
+  },
+  {
+    "name": "National Counter Terrorism Center",
+    "type": "Special Forces",
+    "locationName": "Pabbi, Nowshera District, Khyber Pakhtunkhwa",
+    "coordinates": {
+      "lat": 32.231583,
+      "lon": 74.104454
+    },
+    "details": {
+      "corps": "",
+      "division": "",
+      "remarks": "Counter-terrorism training facility",
+      "phone": "",
+      "reference": ""
+    }
   }
 ]
