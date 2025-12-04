@@ -24,6 +24,8 @@ import {
   PinBuilder,
   CustomDataSource,
   JulianDate,
+  DistanceDisplayCondition,
+  LabelStyle,
 } from "cesium";
 import "../src/infobox-css.css"
 import { CameraController } from "./CameraController";
@@ -389,6 +391,7 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
   const [activeCategory, setActiveCategory] = useState<string>("ALL");
   const [activeSource, setActiveSource] = useState<string>("ALL");
   const [showMarkers, setShowMarkers] = useState<boolean>(false);
+  const [showClusterHint, setShowClusterHint] = useState<boolean>(false);
 
   const categories = useMemo(() => {
     const cats = new Map();
@@ -551,15 +554,18 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
           },
           label: {
             text: unit.name,
-            font: "14px sans-serif",
-            showBackground: true,
-            backgroundColor: Color.BLACK.withAlpha(0.8),
-            pixelOffset: new Cartesian2(0, -60),
+            font: "bold 13px sans-serif",
+            style: LabelStyle.FILL_AND_OUTLINE,
+            fillColor: Color.WHITE,
+            outlineColor: Color.BLACK,
+            outlineWidth: 3,
+            pixelOffset: new Cartesian2(0, -50),
             horizontalOrigin: HorizontalOrigin.CENTER,
             verticalOrigin: VerticalOrigin.BOTTOM,
             heightReference: HeightReference.CLAMP_TO_GROUND,
             eyeOffset: new Cartesian3(0.0, 0.0, -100.0),
             disableDepthTestDistance: Number.POSITIVE_INFINITY,
+            distanceDisplayCondition: new DistanceDisplayCondition(0, 500000),
           },
         });
       }
@@ -801,13 +807,134 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
   // =============================================================
   // RENDER UI
   // =============================================================
+
+  const handleToggleMarkers = () => {
+    const newShowMarkers = !showMarkers;
+    setShowMarkers(newShowMarkers);
+    
+    // Show cluster hint when enabling markers
+    if (newShowMarkers) {
+      setShowClusterHint(true);
+      setTimeout(() => setShowClusterHint(false), 5000);
+    } else {
+      setShowClusterHint(false);
+    }
+  };
+
   return (
     <div style={{ position: "relative", width: "100%", height: "100%" }}>
       <div ref={containerRef} style={{ width: "100%", height: "100%" }} />
 
+      {/* CLUSTER HINT BOX */}
+      {showClusterHint && (
+        <div
+          style={{
+            position: "absolute",
+            top: "100px",
+            right: "20px",
+            backgroundColor: "rgba(0, 0, 0, 0.9)",
+            color: "white",
+            padding: "16px 20px",
+            borderRadius: "12px",
+            border: "1px solid rgba(0, 229, 255, 0.5)",
+            fontFamily: "sans-serif",
+            fontSize: "13px",
+            zIndex: 1000,
+            boxShadow: "0 8px 32px rgba(0, 229, 255, 0.2)",
+            backdropFilter: "blur(8px)",
+            maxWidth: "280px",
+            animation: "fadeInOut 5s ease-in-out forwards",
+          }}
+        >
+          <div style={{ 
+            display: "flex", 
+            alignItems: "center", 
+            gap: "8px", 
+            marginBottom: "12px",
+            borderBottom: "1px solid rgba(255,255,255,0.2)",
+            paddingBottom: "8px"
+          }}>
+            <span style={{ fontSize: "18px" }}>💡</span>
+            <span style={{ fontWeight: "bold", color: "#00E5FF", fontSize: "14px" }}>
+              Understanding Clusters
+            </span>
+          </div>
+
+          <p style={{ 
+            color: "#aaa", 
+            fontSize: "12px", 
+            margin: "0 0 12px 0",
+            lineHeight: "1.4"
+          }}>
+            Numbers on the map represent <strong style={{ color: "#fff" }}>clusters</strong> — groups of military units in close proximity. The color indicates cluster size:
+          </p>
+          
+          <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+              <div style={{
+                width: "28px",
+                height: "28px",
+                borderRadius: "50%",
+                backgroundColor: "#1E90FF",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontSize: "11px",
+                fontWeight: "bold",
+                flexShrink: 0,
+              }}>5</div>
+              <span style={{ color: "#ccc" }}>Small cluster (2-9 units)</span>
+            </div>
+            
+            <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+              <div style={{
+                width: "28px",
+                height: "28px",
+                borderRadius: "50%",
+                backgroundColor: "#FFA500",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontSize: "11px",
+                fontWeight: "bold",
+                flexShrink: 0,
+              }}>15</div>
+              <span style={{ color: "#ccc" }}>Medium cluster (10-19 units)</span>
+            </div>
+            
+            <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+              <div style={{
+                width: "28px",
+                height: "28px",
+                borderRadius: "50%",
+                backgroundColor: "#FF0000",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontSize: "11px",
+                fontWeight: "bold",
+                flexShrink: 0,
+              }}>25</div>
+              <span style={{ color: "#ccc" }}>Large cluster (20+ units)</span>
+            </div>
+          </div>
+          
+          <div style={{ 
+            marginTop: "12px", 
+            paddingTop: "10px", 
+            borderTop: "1px solid rgba(255,255,255,0.2)",
+            color: "#888",
+            fontSize: "11px",
+            textAlign: "center"
+          }}>
+            🔍 Zoom in to see individual units
+          </div>
+        </div>
+      )}
+
       {/* TOGGLE BUTTON */}
       <div
-        onClick={() => setShowMarkers(!showMarkers)}
+        onClick={handleToggleMarkers}
         style={{
           position: "absolute",
           top: "100px",

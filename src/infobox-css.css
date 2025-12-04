@@ -9,3 +9,23 @@
   .cesium-selection-wrapper {
     z-index: 9999 !important;
   }
+
+  /* Cluster hint animation */
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    10% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    85% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+  }
