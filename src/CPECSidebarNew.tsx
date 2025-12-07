@@ -1,16 +1,34 @@
 import React, { useState } from 'react';
 import PhotoGalleryModal from './PhotoGalleryModal';
+import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
+import { CPEC_ROUTE_INFO } from './Globe';
 
 interface CPECSidebarProps {
   isVisible: boolean;
   onClose: () => void;
   onViewKeyOfficials: () => void;
+  selectedRoute: string | null;
+  onRouteSelect: (routeId: string | null) => void;
 }
 
-const CPECSidebar: React.FC<CPECSidebarProps> = ({ isVisible, onClose, onViewKeyOfficials }) => {
+const CPECSidebar: React.FC<CPECSidebarProps> = ({ isVisible, onClose, onViewKeyOfficials, selectedRoute, onRouteSelect }) => {
   const [showPhotoGallery, setShowPhotoGallery] = useState(false);
   const [galleryLoading, setGalleryLoading] = useState(false);
   const [loadingText, setLoadingText] = useState('');
+  const [isMinimized, setIsMinimized] = useState(false);
+
+  const getColorValue = (colorName: string): string => {
+    switch (colorName) {
+      case 'RED': return '#FF3333';
+      case 'CYAN': return '#00FFFF';
+      case 'YELLOW': return '#FFFF00';
+      case 'LIME': return '#00FF00';
+      case 'MAGENTA': return '#FF00FF';
+      case 'ORANGE': return '#FFA500'; // backwards compatibility
+      case 'GREEN': return '#00FF00'; // backwards compatibility
+      default: return '#ffffff';
+    }
+  };
 
   const handleSourceClick = async () => {
     setGalleryLoading(true);
@@ -36,22 +54,94 @@ const CPECSidebar: React.FC<CPECSidebarProps> = ({ isVisible, onClose, onViewKey
   if (!isVisible) return null;
 
   return (
-    <div
-      style={{
-        position: "absolute",
-        top: 0,
-        right: 0,
-        width: "350px",
-        height: "100vh",
-        background: "rgba(0, 0, 0, 0.9)",
-        color: "white",
-        padding: "20px",
-        boxSizing: "border-box",
-        zIndex: 500,
-        fontFamily: "monospace",
-        overflow: "auto",
-      }}
-    >
+    <>
+      {/* Expand Button - Only visible when minimized */}
+      <button
+        onClick={() => setIsMinimized(false)}
+        title="Expand CPEC Sidebar"
+        style={{
+          position: "absolute",
+          right: 0,
+          top: "50%",
+          transform: "translateY(-50%)",
+          background: "rgba(0, 0, 0, 0.9)",
+          border: "1px solid #00ffff",
+          borderRight: "none",
+          borderRadius: "4px 0 0 4px",
+          color: "#00ffff",
+          fontSize: "18px",
+          cursor: "pointer",
+          padding: "15px 8px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          transition: "all 0.4s ease-in-out",
+          zIndex: 499,
+          opacity: isMinimized ? 1 : 0,
+          pointerEvents: isMinimized ? "auto" : "none",
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.background = "rgba(0, 255, 255, 0.2)";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.background = "rgba(0, 0, 0, 0.9)";
+        }}
+      >
+        <FaChevronLeft />
+      </button>
+
+      {/* Minimize Button - Outside left edge, vertically centered */}
+      <button
+        onClick={() => setIsMinimized(true)}
+        title="Minimize Sidebar"
+        style={{
+          position: "absolute",
+          right: isMinimized ? "-50px" : "350px",
+          top: "50%",
+          transform: "translateY(-50%)",
+          background: "rgba(0, 0, 0, 0.9)",
+          border: "1px solid #00ffff",
+          borderRight: "none",
+          borderRadius: "4px 0 0 4px",
+          color: "#00ffff",
+          fontSize: "14px",
+          cursor: "pointer",
+          padding: "12px 8px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          transition: "all 0.4s ease-in-out",
+          zIndex: 501,
+          opacity: isMinimized ? 0 : 1,
+          pointerEvents: isMinimized ? "none" : "auto",
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.background = "rgba(0, 255, 255, 0.2)";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.background = "rgba(0, 0, 0, 0.9)";
+        }}
+      >
+        <FaChevronRight />
+      </button>
+
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          right: isMinimized ? "-350px" : "0px",
+          width: "350px",
+          height: "100vh",
+          background: "rgba(0, 0, 0, 0.9)",
+          color: "white",
+          padding: "20px",
+          boxSizing: "border-box",
+          zIndex: 500,
+          fontFamily: "monospace",
+          overflow: "auto",
+          transition: "right 0.4s ease-in-out",
+        }}
+      >
       {/* Header */}
       <div
         style={{
@@ -352,6 +442,138 @@ const CPECSidebar: React.FC<CPECSidebarProps> = ({ isVisible, onClose, onViewKey
         <div>⚡ SECURE CONNECTION</div>
       </div>
 
+      {/* CPEC Routes Legend */}
+      <div
+        style={{
+          marginTop: "25px",
+          borderTop: "1px solid #333",
+          paddingTop: "20px",
+        }}
+      >
+        <div
+          style={{
+            color: "#00ffff",
+            fontSize: "12px",
+            fontWeight: "bold",
+            textTransform: "uppercase",
+            letterSpacing: "2px",
+            marginBottom: "15px",
+            borderBottom: "1px solid rgba(0, 255, 255, 0.3)",
+            paddingBottom: "8px",
+          }}
+        >
+          CPEC ROUTES
+        </div>
+
+        {/* Show All Routes button */}
+        <div
+          onClick={() => onRouteSelect(null)}
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "10px",
+            padding: "8px 10px",
+            marginBottom: "8px",
+            cursor: "pointer",
+            borderRadius: "6px",
+            background: selectedRoute === null ? "rgba(0, 255, 255, 0.2)" : "transparent",
+            border: selectedRoute === null ? "1px solid rgba(0, 255, 255, 0.5)" : "1px solid transparent",
+            transition: "all 0.2s ease",
+          }}
+          onMouseEnter={(e) => {
+            if (selectedRoute !== null) {
+              e.currentTarget.style.background = "rgba(0, 255, 255, 0.1)";
+            }
+          }}
+          onMouseLeave={(e) => {
+            if (selectedRoute !== null) {
+              e.currentTarget.style.background = "transparent";
+            }
+          }}
+        >
+          <div
+            style={{
+              width: "20px",
+              height: "4px",
+              background: "linear-gradient(90deg, #ff4444, #00ffff, #ffa500, #00ff00, #ff00ff)",
+              borderRadius: "2px",
+            }}
+          />
+          <span
+            style={{
+              color: selectedRoute === null ? "#00ffff" : "#ffffff",
+              fontSize: "11px",
+              fontWeight: selectedRoute === null ? "bold" : "normal",
+            }}
+          >
+            ALL ROUTES
+          </span>
+        </div>
+
+        {/* Individual route items */}
+        {CPEC_ROUTE_INFO.map((route) => (
+          <div
+            key={route.id}
+            onClick={() => onRouteSelect(route.id)}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "10px",
+              padding: "8px 10px",
+              marginBottom: "4px",
+              cursor: "pointer",
+              borderRadius: "6px",
+              background: selectedRoute === route.id ? "rgba(0, 255, 255, 0.2)" : "transparent",
+              border: selectedRoute === route.id ? "1px solid rgba(0, 255, 255, 0.5)" : "1px solid transparent",
+              transition: "all 0.2s ease",
+            }}
+            onMouseEnter={(e) => {
+              if (selectedRoute !== route.id) {
+                e.currentTarget.style.background = "rgba(0, 255, 255, 0.1)";
+              }
+            }}
+            onMouseLeave={(e) => {
+              if (selectedRoute !== route.id) {
+                e.currentTarget.style.background = "transparent";
+              }
+            }}
+          >
+            <div
+              style={{
+                width: "20px",
+                height: "4px",
+                background: getColorValue(route.color),
+                borderRadius: "2px",
+                boxShadow: `0 0 6px ${getColorValue(route.color)}`,
+              }}
+            />
+            <span
+              style={{
+                color: selectedRoute === route.id ? getColorValue(route.color) : "#cccccc",
+                fontSize: "11px",
+                fontWeight: selectedRoute === route.id ? "bold" : "normal",
+                textTransform: "uppercase",
+              }}
+            >
+              {route.name}
+            </span>
+          </div>
+        ))}
+
+        <div
+          style={{
+            marginTop: "12px",
+            paddingTop: "8px",
+            borderTop: "1px solid rgba(0, 255, 255, 0.2)",
+            fontSize: "9px",
+            color: "rgba(255, 255, 255, 0.5)",
+            textAlign: "center",
+          }}
+        >
+          CLICK TO FILTER ROUTES
+        </div>
+      </div>
+
       {/* Add CSS animation */}
       <style>
         {`
@@ -444,6 +666,7 @@ const CPECSidebar: React.FC<CPECSidebarProps> = ({ isVisible, onClose, onViewKey
         onClose={() => setShowPhotoGallery(false)}
       />
     </div>
+    </>
   );
 };
 

@@ -26,6 +26,9 @@ import {
   JulianDate,
   DistanceDisplayCondition,
   LabelStyle,
+  SceneTransforms,
+  EllipseGraphics,
+  CallbackProperty,
 } from "cesium";
 import "../src/infobox-css.css"
 import { CameraController } from "./CameraController";
@@ -152,12 +155,45 @@ const getUnitStyle = (type: string) => {
 // HELPER: HTML Description
 // -------------------------------------------------------------
 const generateDescription = (data: any) => {
+  // Encode unit data as JSON for the button
+  const unitDataJson = encodeURIComponent(JSON.stringify({
+    name: data.name,
+    type: data.type,
+    locationName: data.locationName,
+    coordinates: data.coordinates,
+    details: data.details,
+    source: data.source,
+  }));
+  
   return `
     <style>
       .cesium-infoBox-description table { width: 100%; border-collapse: collapse; font-family: sans-serif; font-size: 13px; }
       .cesium-infoBox-description th { text-align: left; border-bottom: 1px solid #555; padding: 5px; color: #ccc; }
       .cesium-infoBox-description td { padding: 5px; border-bottom: 1px solid #444; }
       .cesium-infoBox-description a { color: #00E5FF; text-decoration: none; }
+      .intel-workspace-btn {
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+        padding: 12px 16px;
+        background: linear-gradient(180deg, #ff0064 0%, #cc0050 100%);
+        border: 1px solid #ff3388;
+        border-radius: 6px;
+        color: white;
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+        text-align: center;
+        transition: all 0.2s ease;
+        box-shadow: 0 4px 15px rgba(255, 0, 100, 0.3);
+      }
+      .intel-workspace-btn:hover {
+        background: linear-gradient(180deg, #ff3388 0%, #ff0064 100%);
+        box-shadow: 0 6px 20px rgba(255, 0, 100, 0.5);
+        transform: translateY(-1px);
+      }
     </style>
     <table class="cesium-infoBox-defaultTable">
       <tbody>
@@ -179,7 +215,9 @@ const generateDescription = (data: any) => {
             : ""
         }
       </tbody>
-    </table>
+    </table>    <button class="intel-workspace-btn" data-unit="${unitDataJson}">
+      🎯 Enter Intel Workspace
+    </button>
   `;
 };
 
@@ -340,7 +378,7 @@ const CPEC_ROUTES = {
     name: "Western Route",
     path: CPEC_WESTERN_PATH,
     labels: WESTERN_LABELS,
-    color: "ORANGE",
+    color: "YELLOW",
     lineWidth: 3,
     showLabels: false,
   },
@@ -349,7 +387,7 @@ const CPEC_ROUTES = {
     name: "Central Route",
     path: CPEC_CENTRAL_PATH,
     labels: CENTRAL_LABELS,
-    color: "GREEN",
+    color: "LIME",
     lineWidth: 3,
     showLabels: false,
   },
@@ -378,13 +416,52 @@ export interface GlobeRef {
   showSingleRoute: (routeId: string) => void;
   showAllRoutes: () => void;
   searchUnit: (query: string) => boolean;
+  getScreenPosition: (lon: number, lat: number) => { x: number; y: number } | null;
+  addTargetEntity: (lon: number, lat: number, name: string, destructionRadius?: number) => void;
+  updateTargetRings: (destructionRadius: number) => void;
+  removeTargetEntity: () => void;
+  flyToUnit: (lon: number, lat: number, height?: number) => void;
 }
 
-const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
+export interface UnitData {
+  name: string;
+  type: string;
+  locationName: string;
+  coordinates: {
+    lat: number;
+    lon: number;
+  };
+  details?: {
+    corps?: string;
+    division?: string;
+    remarks?: string;
+    reference?: string;
+  };
+  source?: string;
+}
+
+interface GlobeProps {
+  onEnterIntelWorkspace?: (unit: UnitData) => void;
+}
+
+const Globe = forwardRef<GlobeRef, GlobeProps>((props, ref) => {
+  const { onEnterIntelWorkspace } = props;
   const containerRef = useRef<HTMLDivElement>(null);
   const viewerRef = useRef<CesiumViewer | null>(null);
   const cameraControllerRef = useRef<CameraController | null>(null);
   const cpecEntitiesRef = useRef<Entity[]>([]);
+  const targetEntityRef = useRef<Entity | null>(null);
+  const targetRingsRef = useRef<{
+    outer: Entity | null;
+    middle: Entity | null;
+    inner: Entity | null;
+    center: Entity | null;
+  }>({ outer: null, middle: null, inner: null, center: null });
+  const animationRef = useRef<{
+    currentRadius: number;
+    targetRadius: number;
+    animationId: number | null;
+  }>({ currentRadius: 500, targetRadius: 500, animationId: null });
 
   const dataSourceRef = useRef<CustomDataSource | null>(null);
 
@@ -461,7 +538,41 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
         "sandbox",
         "allow-same-origin allow-scripts allow-popups allow-forms"
       );
-   
+      
+      // Set up a MutationObserver to watch for the intel workspace button
+      const setupButtonListener = () => {
+        try {
+          const iframeDoc = infoBoxFrame.contentDocument || infoBoxFrame.contentWindow?.document;
+          if (!iframeDoc) return;
+          
+          const observer = new MutationObserver(() => {
+            const button = iframeDoc.querySelector('.intel-workspace-btn');
+            if (button && !button.getAttribute('data-listener-attached')) {
+              button.setAttribute('data-listener-attached', 'true');
+              button.addEventListener('click', () => {
+                const unitDataStr = button.getAttribute('data-unit');
+                if (unitDataStr) {
+                  window.postMessage({
+                    type: 'ENTER_INTEL_WORKSPACE',
+                    unitData: unitDataStr
+                  }, '*');
+                }
+              });
+            }
+          });
+          
+          observer.observe(iframeDoc.body || iframeDoc, { 
+            childList: true, 
+            subtree: true 
+          });
+        } catch (e) {
+          console.error('Error setting up button listener:', e);
+        }
+      };
+      
+      infoBoxFrame.addEventListener('load', setupButtonListener);
+      // Also try immediately in case iframe is already loaded
+      setTimeout(setupButtonListener, 100);
     }
 
     viewer.targetFrameRate = 60;
@@ -595,7 +706,7 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
       }
     };
     addGoogleTiles();
-
+    
     return () => {
       if (viewerRef.current) {
         viewerRef.current.destroy();
@@ -603,6 +714,33 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
       }
     };
   }, []);
+  // ---------------------------------------------------------
+  // MESSAGE LISTENER FOR INTEL WORKSPACE BUTTON
+  // ---------------------------------------------------------
+  useEffect(() => {
+    const handleMessage = (event: MessageEvent) => {
+      if (event.data?.type === 'ENTER_INTEL_WORKSPACE' && event.data?.unitData) {
+        try {
+          const unitData = JSON.parse(decodeURIComponent(event.data.unitData));
+          
+          // Close the info box immediately
+          if (viewerRef.current) {
+            viewerRef.current.selectedEntity = undefined;
+          }
+
+          // Trigger callback to parent - camera fly will happen after loading
+          if (onEnterIntelWorkspace) {
+            onEnterIntelWorkspace(unitData);
+          }
+        } catch (e) {
+          console.error('Error parsing unit data:', e);
+        }
+      }
+    };
+
+    window.addEventListener('message', handleMessage);
+    return () => window.removeEventListener('message', handleMessage);
+  }, [onEnterIntelWorkspace]);
 
   useEffect(() => {
     if (viewerRef.current) {
@@ -618,19 +756,22 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
       });
     }
   }, []);
-
   const getColor = (name: string) => {
     switch (name) {
       case "RED":
-        return Color.RED;
+        return Color.fromCssColorString('#FF3333'); // Bright red
       case "CYAN":
-        return Color.CYAN;
-      case "ORANGE":
-        return Color.ORANGE;
-      case "GREEN":
-        return Color.GREEN;
+        return Color.fromCssColorString('#00FFFF'); // Bright cyan
+      case "YELLOW":
+        return Color.fromCssColorString('#FFFF00'); // Bright yellow (was orange)
+      case "LIME":
+        return Color.fromCssColorString('#00FF00'); // Bright lime green
       case "MAGENTA":
-        return Color.MAGENTA;
+        return Color.fromCssColorString('#FF00FF'); // Bright magenta
+      case "ORANGE":
+        return Color.fromCssColorString('#FFA500'); // Keep for backwards compatibility
+      case "GREEN":
+        return Color.fromCssColorString('#00FF00'); // Keep for backwards compatibility
       default:
         return Color.WHITE;
     }
@@ -802,6 +943,214 @@ const Globe = forwardRef<GlobeRef, {}>((_props, ref) => {
     showSingleRoute,
     showAllRoutes,
     searchUnit,
+    getScreenPosition: (lon: number, lat: number) => {
+      if (!viewerRef.current) return null;
+      const position = Cartesian3.fromDegrees(lon, lat);
+      const screenPos = SceneTransforms.worldToWindowCoordinates(
+        viewerRef.current.scene,
+        position
+      );
+      if (screenPos) {
+        return { x: screenPos.x, y: screenPos.y };
+      }
+      return null;
+    },
+    addTargetEntity: (lon: number, lat: number, name: string, destructionRadius: number = 500) => {
+      if (!viewerRef.current) return;
+      
+      // Cancel any ongoing animation
+      if (animationRef.current.animationId) {
+        cancelAnimationFrame(animationRef.current.animationId);
+        animationRef.current.animationId = null;
+      }
+      
+      // Remove existing target entity if any
+      if (targetEntityRef.current) {
+        viewerRef.current.entities.remove(targetEntityRef.current);
+      }
+      
+      // Remove any existing target rings
+      const existingTargets = viewerRef.current.entities.values.filter(
+        e => e.name?.startsWith('Target')
+      );
+      existingTargets.forEach(e => viewerRef.current!.entities.remove(e));
+      
+      // Initialize animation state
+      animationRef.current.currentRadius = destructionRadius;
+      animationRef.current.targetRadius = destructionRadius;
+      
+      // Create callback properties for dynamic ring sizes
+      const outerRadiusCallback = new CallbackProperty(() => {
+        return animationRef.current.currentRadius;
+      }, false);
+      
+      const middleRadiusCallback = new CallbackProperty(() => {
+        return animationRef.current.currentRadius * 0.7;
+      }, false);
+      
+      const innerRadiusCallback = new CallbackProperty(() => {
+        return animationRef.current.currentRadius * 0.4;
+      }, false);
+      
+      // Create target entity with animated rings using CallbackProperty
+      const outerRing = viewerRef.current.entities.add({
+        name: `Target: ${name}`,
+        position: Cartesian3.fromDegrees(lon, lat),
+        ellipse: new EllipseGraphics({
+          semiMajorAxis: outerRadiusCallback,
+          semiMinorAxis: outerRadiusCallback,
+          material: Color.fromCssColorString('rgba(255, 0, 100, 0.3)'),
+          outline: true,
+          outlineColor: Color.fromCssColorString('#ff0064'),
+          outlineWidth: 3,
+          heightReference: HeightReference.CLAMP_TO_GROUND,
+        }),
+      });
+      
+      // Add additional ring entities with callback properties
+      const middleRing = viewerRef.current.entities.add({
+        name: `Target Ring 2: ${name}`,
+        position: Cartesian3.fromDegrees(lon, lat),
+        ellipse: new EllipseGraphics({
+          semiMajorAxis: middleRadiusCallback,
+          semiMinorAxis: middleRadiusCallback,
+          material: Color.TRANSPARENT,
+          outline: true,
+          outlineColor: Color.fromCssColorString('rgba(255, 0, 100, 0.5)'),
+          outlineWidth: 2,
+          heightReference: HeightReference.CLAMP_TO_GROUND,
+        }),
+      });
+      
+      const innerRingEntity = viewerRef.current.entities.add({
+        name: `Target Ring 3: ${name}`,
+        position: Cartesian3.fromDegrees(lon, lat),
+        ellipse: new EllipseGraphics({
+          semiMajorAxis: innerRadiusCallback,
+          semiMinorAxis: innerRadiusCallback,
+          material: Color.TRANSPARENT,
+          outline: true,
+          outlineColor: Color.fromCssColorString('rgba(255, 0, 100, 0.7)'),
+          outlineWidth: 2,
+          heightReference: HeightReference.CLAMP_TO_GROUND,
+        }),
+      });
+      
+      // Center point
+      const centerPoint = viewerRef.current.entities.add({
+        name: `Target Center: ${name}`,
+        position: Cartesian3.fromDegrees(lon, lat),
+        point: new PointGraphics({
+          pixelSize: 12,
+          color: Color.fromCssColorString('#ff0064'),
+          outlineColor: Color.WHITE,
+          outlineWidth: 2,
+          heightReference: HeightReference.CLAMP_TO_GROUND,
+        }),
+      });
+      
+      // Store references to ring entities
+      targetRingsRef.current = {
+        outer: outerRing,
+        middle: middleRing,
+        inner: innerRingEntity,
+        center: centerPoint,
+      };
+      
+      // Store target position for updateTargetRings
+      (viewerRef.current as any)._targetPosition = { lon, lat, name };
+      
+      targetEntityRef.current = outerRing;
+      viewerRef.current.scene.requestRender();
+    },
+    updateTargetRings: (destructionRadius: number) => {
+      if (!viewerRef.current) return;
+      
+      const targetPos = (viewerRef.current as any)._targetPosition;
+      if (!targetPos) return;
+      
+      // Cancel any ongoing animation
+      if (animationRef.current.animationId) {
+        cancelAnimationFrame(animationRef.current.animationId);
+        animationRef.current.animationId = null;
+      }
+      
+      // Set target radius for animation
+      animationRef.current.targetRadius = destructionRadius;
+      
+      // Animation parameters
+      const animationDuration = 400; // milliseconds
+      const startTime = performance.now();
+      const startRadius = animationRef.current.currentRadius;
+      const radiusDiff = destructionRadius - startRadius;
+      
+      // Easing function for smooth animation (ease-out cubic)
+      const easeOutCubic = (t: number): number => {
+        return 1 - Math.pow(1 - t, 3);
+      };
+      
+      // Animation loop
+      const animate = (currentTime: number) => {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / animationDuration, 1);
+        const easedProgress = easeOutCubic(progress);
+        
+        // Update current radius
+        animationRef.current.currentRadius = startRadius + (radiusDiff * easedProgress);
+        
+        // Request render to update the visualization
+        if (viewerRef.current) {
+          viewerRef.current.scene.requestRender();
+        }
+        
+        // Continue animation if not complete
+        if (progress < 1) {
+          animationRef.current.animationId = requestAnimationFrame(animate);
+        } else {
+          // Ensure we end exactly at the target radius
+          animationRef.current.currentRadius = destructionRadius;
+          animationRef.current.animationId = null;
+          if (viewerRef.current) {
+            viewerRef.current.scene.requestRender();
+          }
+        }
+      };
+      
+      // Start animation
+      animationRef.current.animationId = requestAnimationFrame(animate);
+    },    removeTargetEntity: () => {
+      if (!viewerRef.current) return;
+      
+      // Cancel any ongoing animation
+      if (animationRef.current.animationId) {
+        cancelAnimationFrame(animationRef.current.animationId);
+        animationRef.current.animationId = null;
+      }
+      
+      // Reset animation state
+      animationRef.current.currentRadius = 500;
+      animationRef.current.targetRadius = 500;
+      
+      // Remove all target-related entities
+      const entitiesToRemove = viewerRef.current.entities.values.filter(
+        e => e.name?.startsWith('Target')
+      );
+      entitiesToRemove.forEach(e => viewerRef.current!.entities.remove(e));
+      
+      // Clear refs
+      targetRingsRef.current = { outer: null, middle: null, inner: null, center: null };
+      targetEntityRef.current = null;
+      (viewerRef.current as any)._targetPosition = null;
+      
+      viewerRef.current.scene.requestRender();
+    },
+    flyToUnit: (lon: number, lat: number, height: number = 50000) => {
+      if (cameraControllerRef.current) {
+        cameraControllerRef.current.rotateAndZoomTo(lon, lat, {
+          zoomHeight: height,
+        });
+      }
+    },
   }));
 
   // =============================================================

@@ -9,11 +9,13 @@ interface RouteLegendProps {
 
 const getColorValue = (colorName: string): string => {
   switch (colorName) {
-    case 'RED': return '#ff4444';
-    case 'CYAN': return '#00ffff';
-    case 'ORANGE': return '#ffa500';
-    case 'GREEN': return '#00ff00';
-    case 'MAGENTA': return '#ff00ff';
+    case 'RED': return '#FF3333';
+    case 'CYAN': return '#00FFFF';
+    case 'YELLOW': return '#FFFF00';
+    case 'LIME': return '#00FF00';
+    case 'MAGENTA': return '#FF00FF';
+    case 'ORANGE': return '#FFA500'; // backwards compatibility
+    case 'GREEN': return '#00FF00'; // backwards compatibility
     default: return '#ffffff';
   }
 };
