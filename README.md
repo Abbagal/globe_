@@ -1,4 +1,73 @@
-# 🌍 Globe-1 - CPEC Intelligence & Visualization PlatformA sophisticated interactive 3D globe visualization application built with **React**, **CesiumJS**, and **TypeScript**. This platform provides intelligence visualization for China-Pakistan Economic Corridor (CPEC) infrastructure, military unit tracking, and mission planning capabilities.![Tech Stack](https://img.shields.io/badge/React-18.2.0-blue) ![Cesium](https://img.shields.io/badge/CesiumJS-1.114.0-green) ![TypeScript](https://img.shields.io/badge/TypeScript-5.2.2-blue) ![Vite](https://img.shields.io/badge/Vite-5.0.8-purple)---## 📋 Table of Contents1. [Features Overview](#-features-overview)2. [Tech Stack](#-tech-stack)3. [Getting Started](#-getting-started)4. [Project Structure](#-project-structure)5. [Component Documentation](#-component-documentation)6. [Data Files](#-data-files)7. [Feature Guide](#-feature-guide)8. [Customization Guide](#-customization-guide)9. [Common Tasks](#-common-tasks)10. [Troubleshooting](#-troubleshooting)11. [API Keys & Configuration](#-api-keys--configuration)---## 🚀 Features Overview### Core Features| Feature | Description | File(s) ||---------|-------------|---------|| **3D Globe Visualization** | Interactive Cesium globe with Google 3D tiles | `Globe.tsx` || **CPEC Routes** | Three color-coded economic corridor routes | `Globe.tsx`, `CPECSidebarNew.tsx` || **Unit Markers** | Military/strategic unit visualization with clustering | `Globe.tsx` || **Intel Workspace** | Mission planning and target analysis interface | `IntelWorkspace.tsx` || **Key Officials Sidebar** | Interactive cards for key personnel | `KeyOfficialsSidebar.tsx` || **Photo Gallery** | CPEC infrastructure image gallery | `PhotoGalleryModal.tsx` |### Intel Workspace Features- **Target Rings**: Animated destruction radius visualization with smooth transitions- **Asset Management**: Air, Surface, and Land asset selection with filtering- **Timeline Panel**: Resizable mission timeline with drag handle (up/down arrows)- **Mission Control**: Real-time status indicators and threat assessment- **Weaponeering**: Auto-calculated weapon-target pairing- **Unique Destruction Radii**: Each of the 9 assets has a specific destruction radius### Interactive Elements- Smooth camera animations with custom easing- Entity clustering for dense marker areas- Infobox popups with "Enter Intel Workspace" functionality- Route legend with visibility toggles- Minimizable sidebars with slide animations---## 🛠 Tech Stack| Technology | Purpose ||------------|---------|| **React 18** | UI Framework || **TypeScript** | Type-safe development || **CesiumJS** | 3D Globe rendering engine || **Vite** | Build tool & dev server || **React Icons** | Icon library (Fa, Gi icons) || **Google 3D Tiles** | Photorealistic terrain |
+# 🌍 Globe-1 - CPEC Intelligence & Visualization Platform
+
+A sophisticated interactive 3D globe visualization application built with **React**, **CesiumJS**, and **TypeScript**. This platform provides intelligence visualization for China-Pakistan Economic Corridor (CPEC) infrastructure, military unit tracking, and mission planning capabilities.
+
+![React](https://img.shields.io/badge/React-18.2.0-blue)
+![Cesium](https://img.shields.io/badge/CesiumJS-1.114.0-green)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.2.2-blue)
+![Vite](https://img.shields.io/badge/Vite-5.0.8-purple)
+
+---
+
+## 📋 Table of Contents
+
+1. [Features Overview](#-features-overview)
+2. [Tech Stack](#-tech-stack)
+3. [Getting Started](#-getting-started)
+4. [Project Structure](#-project-structure)
+5. [Component Documentation](#-component-documentation)
+6. [Data Files](#-data-files)
+7. [Feature Guide](#-feature-guide)
+8. [Customization Guide](#-customization-guide)
+9. [Common Tasks](#-common-tasks)
+10. [Troubleshooting](#-troubleshooting)
+11. [API Keys & Configuration](#-api-keys--configuration)
+
+---
+
+## 🚀 Features Overview
+
+### Core Features
+
+| Feature | Description | File(s) |
+|---------|-------------|---------|
+| **3D Globe Visualization** | Interactive Cesium globe with Google 3D tiles | `Globe.tsx` |
+| **CPEC Routes** | Three color-coded economic corridor routes | `Globe.tsx`, `CPECSidebarNew.tsx` |
+| **Unit Markers** | Military/strategic unit visualization with clustering | `Globe.tsx` |
+| **Intel Workspace** | Mission planning and target analysis interface | `IntelWorkspace.tsx` |
+| **Key Officials Sidebar** | Interactive cards for key personnel | `KeyOfficialsSidebar.tsx` |
+| **Photo Gallery** | CPEC infrastructure image gallery | `PhotoGalleryModal.tsx` |
+
+### Intel Workspace Features
+
+- **Target Rings**: Animated destruction radius visualization with smooth transitions
+- **Asset Management**: Air, Surface, and Land asset selection with filtering
+- **Timeline Panel**: Resizable mission timeline with drag handle (up/down arrows)
+- **Mission Control**: Real-time status indicators and threat assessment
+- **Weaponeering**: Auto-calculated weapon-target pairing
+- **Unique Destruction Radii**: Each of the 9 assets has a specific destruction radius
+
+### Interactive Elements
+
+- Smooth camera animations with custom easing
+- Entity clustering for dense marker areas
+- Infobox popups with "Enter Intel Workspace" functionality
+- Route legend with visibility toggles
+- Minimizable sidebars with slide animations
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **React 18** | UI Framework |
+| **TypeScript** | Type-safe development |
+| **CesiumJS** | 3D Globe rendering engine |
+| **Vite** | Build tool & dev server |
+| **React Icons** | Icon library (Fa, Gi icons) |
+| **Google 3D Tiles** | Photorealistic terrain |
+
 ---
 
 ## 🏁 Getting Started
@@ -26,9 +95,9 @@ npm install
 The application uses API keys configured directly in the source files:
 
 1. **Google Maps API Key**: Located in `Globe.tsx` line ~512
-   ```typescript
-   GoogleMaps.defaultApiKey = "YOUR_GOOGLE_MAPS_API_KEY";
-   ```
+```typescript
+GoogleMaps.defaultApiKey = "YOUR_GOOGLE_MAPS_API_KEY";
+```
 
 2. **Cesium Ion Token**: Configured in `vite.config.ts` or directly in code
 
@@ -48,7 +117,7 @@ npm run preview
 npm run lint
 ```
 
-**Development URL**: [http://localhost:5173](http://localhost:5173)
+**Development URL**: http://localhost:5173
 
 ---
 
@@ -56,71 +125,73 @@ npm run lint
 
 ```
 Globe-1/
-├── index.html              # Entry HTML file
-├── package.json            # Dependencies & scripts
-├── vite.config.ts          # Vite configuration with Cesium plugin
-├── tsconfig.json           # TypeScript configuration
+├── index.html                    # Entry HTML file
+├── package.json                  # Dependencies & scripts
+├── vite.config.ts               # Vite configuration with Cesium plugin
+├── tsconfig.json                # TypeScript configuration
 │
-├── data/                   # JSON data files
-│   ├── pakistan_army_locations.json    # Pakistan military units (~2338 lines)
-│   └── Ground_Forces_Locations.json    # Chinese military units (~5154 lines)
+├── data/                        # JSON data files
+│   ├── pakistan_army_locations.json    # Pakistan military units
+│   └── Ground_Forces_Locations.json    # Chinese military units
 │
 ├── public/
-│   └── assets/             # Static images
-│       ├── cpec-*.jpg      # CPEC infrastructure photos
-│       └── *.jpg           # Official profile photos
+│   └── assets/                  # Static images
+│       ├── cpec-*.jpg          # CPEC infrastructure photos
+│       └── *.jpg               # Official profile photos
 │
 └── src/
-    ├── main.tsx            # React entry point
-    ├── index.css           # Global styles
-    ├── infobox-css.css     # Cesium infobox custom styles
+    ├── main.tsx                 # React entry point
+    ├── index.css                # Global styles
+    ├── infobox-css.css          # Cesium infobox custom styles
     │
-    ├── App.tsx             # Main application component (state management)
-    ├── Globe.tsx           # 🌍 Core globe component (~1464 lines)
-    ├── IntelWorkspace.tsx  # 🎯 Intel/mission planning UI (~1100 lines)
+    ├── App.tsx                  # Main application component
+    ├── Globe.tsx                # 🌍 Core globe component (~1464 lines)
+    ├── IntelWorkspace.tsx       # 🎯 Intel/mission planning UI
     │
-    ├── CPECSidebarNew.tsx  # CPEC info sidebar (active version)
-    ├── CPECSidebar.tsx     # Legacy sidebar v1 (deprecated)
-    ├── CPECSidebar2.tsx    # Legacy sidebar v2 (deprecated)
+    ├── CPECSidebarNew.tsx       # CPEC info sidebar (active)
+    ├── CPECSidebar.tsx          # Legacy sidebar v1
+    ├── CPECSidebar2.tsx         # Legacy sidebar v2
     │
     ├── KeyOfficialsSidebar.tsx  # Officials directory
-    ├── OfficialModal.tsx        # Official detail modal with documents
+    ├── OfficialModal.tsx        # Official detail modal
     ├── PhotoGalleryModal.tsx    # Image gallery modal
-    ├── RouteLegend.tsx          # CPEC route legend component
+    ├── RouteLegend.tsx          # CPEC route legend
     │
     ├── CameraController.ts      # Camera animation utilities
-    └── GeocodingService.ts      # Location search service (Nominatim)
+    └── GeocodingService.ts      # Location search service
 ```
 
 ---
 
 ## 📦 Component Documentation
 
-### 1. `Globe.tsx` - Core Globe Component
+### 1. Globe.tsx - Core Globe Component
 
 **Purpose**: Renders the 3D Cesium globe with all entities, routes, and interactions.
 
-**Location**: `/src/Globe.tsx` (~1464 lines)
+**Location**: `src/Globe.tsx` (~1464 lines)
 
 **Key Exports**:
+
 ```typescript
 interface GlobeRef {
-  flyTo: (lon, lat, height?) => void;           // Fly to coordinates
-  flyToBounds: (bbox) => void;                  // Fly to bounding box
-  showCPECRoute: () => void;                    // Show all CPEC routes
-  hideCPECRoute: () => void;                    // Hide all CPEC routes
-  showSingleRoute: (routeId) => void;           // Show specific route
-  showAllRoutes: () => void;                    // Show all routes
-  searchUnit: (query) => boolean;               // Search for unit
-  getScreenPosition: (lon, lat) => {x, y};      // World to screen coords
-  addTargetEntity: (lon, lat, name, radius?) => void;  // Add target rings
-  updateTargetRings: (radius) => void;          // Animate ring size change
-  removeTargetEntity: () => void;               // Remove target
-  flyToUnit: (lon, lat, height?) => void;       // Fly to unit location
+  flyTo: (lon, lat, height?) => void;
+  flyToBounds: (bbox) => void;
+  showCPECRoute: () => void;
+  hideCPECRoute: () => void;
+  showSingleRoute: (routeId) => void;
+  showAllRoutes: () => void;
+  searchUnit: (query) => boolean;
+  getScreenPosition: (lon, lat) => {x, y};
+  addTargetEntity: (lon, lat, name, radius?) => void;
+  updateTargetRings: (radius) => void;
+  removeTargetEntity: () => void;
+  flyToUnit: (lon, lat, height?) => void;
 }
 ```
 
 **Key Sections by Line Numbers**:
+
 | Lines | Section |
 |-------|---------|
 | 1-60 | Imports (Cesium, React, Icons, Data) |
@@ -137,6 +208,7 @@ interface GlobeRef {
 | 1150-1400 | UI rendering (filters, buttons) |
 
 **CPEC Routes** (around line 770):
+
 ```typescript
 const cpecRoutes = [
   { 
@@ -160,18 +232,13 @@ const cpecRoutes = [
 ];
 ```
 
-**Target Ring Animation** (lines 1028-1120):
-- Uses `CallbackProperty` for smooth radius updates
-- Animation duration: 400ms with ease-out cubic easing
-- Three concentric rings: outer (100%), middle (70%), inner (40%)
-
 ---
 
-### 2. `IntelWorkspace.tsx` - Mission Planning Interface
+### 2. IntelWorkspace.tsx - Mission Planning Interface
 
 **Purpose**: Full-screen overlay for target analysis and asset assignment.
 
-**Location**: `/src/IntelWorkspace.tsx` (~1100 lines)
+**Location**: `src/IntelWorkspace.tsx` (~1100 lines)
 
 **Key Features**:
 - Target selection and aimpoints display
@@ -180,13 +247,9 @@ const cpecRoutes = [
 - Resizable bottom timeline panel (100px-500px)
 - Mission Control sidebar with threat assessment
 
-**Important Functions**:
+**Asset Radius Mapping** (lines 32-45):
 
 ```typescript
-// Calculate unique destruction radius per asset (lines 27-90)
-const getDestructionRadius = (assetId: string, assetType: string, munitions: string[]): number
-
-// Asset radius mapping (lines 32-45)
 const assetRadiusMap: { [key: string]: number } = {
   // Air Assets
   'dragnet71-11-2': 850,    // E-8C with BGM-109 (24x)
@@ -206,19 +269,18 @@ const assetRadiusMap: { [key: string]: number } = {
 ```
 
 **Props Interface**:
+
 ```typescript
 interface IntelWorkspaceProps {
-  isVisible: boolean;                    // Show/hide workspace
-  onClose: () => void;                   // Exit callback
-  unit: UnitData | null;                 // Selected target unit
-  onAssetSelected?: (                    // Asset selection callback
-    assetId: string | null, 
-    destructionRadius: number
-  ) => void;
+  isVisible: boolean;
+  onClose: () => void;
+  unit: UnitData | null;
+  onAssetSelected?: (assetId: string | null, destructionRadius: number) => void;
 }
 ```
 
 **Layout Structure**:
+
 ```
 ┌─────────────────────────────────────────────────────────┐
 │                     TOP BAR (50px)                       │
@@ -232,31 +294,18 @@ interface IntelWorkspaceProps {
 │  - Target    │   [TARGET LOCKED HUD]   │  MISSION       │
 │  - Assets    │   [ASSIGN ASSET BAR]    │  CONTROL       │
 │  - Filters   │                         │                │
-│              │                         │  - Threat      │
-│              │                         │  - Parameters  │
-│              │                         │  - Weaponeering│
-├──────────────┴─────────────────────────┼────────────────┤
-│           BOTTOM TIMELINE PANEL         │    (extends)   │
-│  [Resize Handle with ↑↓]               │                │
-│  - Time markers                         │                │
-│  - Asset timeline rows                  │                │
-│  - Mission status indicators            │                │
-└─────────────────────────────────────────┴────────────────┘
-```
-
-**Resize Handle Implementation** (lines 260-310):
-```typescript
-// Min/Max constraints
-const newHeight = Math.min(Math.max(height, 100), 500);
-
-// Drag state
-const [bottomPanelHeight, setBottomPanelHeight] = useState(220);
-const [isDragging, setIsDragging] = useState(false);
+├──────────────┴─────────────────────────┴────────────────┤
+│              BOTTOM TIMELINE PANEL                       │
+│  [Resize Handle with ↑↓]                                │
+│  - Time markers                                          │
+│  - Asset timeline rows                                   │
+│  - Mission status indicators                             │
+└──────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-### 3. `CPECSidebarNew.tsx` - CPEC Information Sidebar
+### 3. CPECSidebarNew.tsx - CPEC Information Sidebar
 
 **Purpose**: Displays CPEC corridor information with minimize/expand animation.
 
@@ -267,55 +316,45 @@ const [isDragging, setIsDragging] = useState(false);
 - Project statistics and metrics
 - Minimize button (chevron icon)
 
-**Props**:
-```typescript
-interface CPECSidebarNewProps {
-  isVisible: boolean;
-  onClose: () => void;
-  globeRef: React.RefObject<GlobeRef>;
-}
-```
-
 ---
 
-### 4. `KeyOfficialsSidebar.tsx` - Officials Directory
+### 4. KeyOfficialsSidebar.tsx - Officials Directory
 
 **Purpose**: Interactive list of key personnel with profile cards.
 
 **Data Structure**:
+
 ```typescript
 interface Official {
   id: string;
   name: string;
   role: string;
-  image: string;           // Path to /public/assets/
+  image: string;
   country: 'Pakistan' | 'China';
   description: string;
-  documents?: Document[];  // Associated documents
 }
 ```
 
 ---
 
-### 5. `CameraController.ts` - Camera Utilities
+### 5. CameraController.ts - Camera Utilities
 
 **Purpose**: Smooth camera animations and transitions.
 
-**Location**: `/src/CameraController.ts` (56 lines)
+**Location**: `src/CameraController.ts` (56 lines)
 
 **Methods**:
+
 ```typescript
 class CameraController {
   constructor(camera: Camera);
   
-  // Smooth fly-to with easing
   rotateAndZoomTo(
     lon: number, 
     lat: number, 
     options?: { duration?: number; zoomHeight?: number }
   ): void;
   
-  // Fly to bounding box region
   flyToBoundingBox(bbox: [minLat, maxLat, minLon, maxLon]): void;
 }
 ```
@@ -327,57 +366,31 @@ class CameraController {
 
 ---
 
-### 6. `App.tsx` - Application Shell
+### 6. App.tsx - Application Shell
 
 **Purpose**: Main layout, state management, sidebar coordination.
 
-**Location**: `/src/App.tsx` (~745 lines)
+**Location**: `src/App.tsx` (~745 lines)
 
 **Key State Variables**:
+
 ```typescript
 const [showCPECSidebar, setShowCPECSidebar] = useState(false);
 const [showKeyOfficialsSidebar, setShowKeyOfficialsSidebar] = useState(false);
 const [showIntelWorkspace, setShowIntelWorkspace] = useState(false);
 const [selectedUnit, setSelectedUnit] = useState<UnitData | null>(null);
-const [cpecLoading, setCpecLoading] = useState(false);
-const [intelLoading, setIntelLoading] = useState(false);
-```
-
-**Intel Workspace Entry Point** (lines 235-260):
-```typescript
-onEnterIntelWorkspace={async (unit) => {
-  setSelectedUnit(unit);
-  setShowCPECSidebar(false);
-  await animateIntelLoading();
-  setShowIntelWorkspace(true);
-  
-  // Fly to unit with consistent zoom
-  globeRef.current.flyToUnit(
-    unit.coordinates.lon,
-    unit.coordinates.lat,
-    8000  // Consistent height for all terrains
-  );
-  
-  // Add target rings
-  globeRef.current.addTargetEntity(
-    unit.coordinates.lon,
-    unit.coordinates.lat,
-    unit.name
-  );
-}}
 ```
 
 ---
 
 ## 📊 Data Files
 
-### `pakistan_army_locations.json`
+### pakistan_army_locations.json
 
-**Location**: `/data/pakistan_army_locations.json`
-
-**Size**: ~2338 lines
+**Location**: `data/pakistan_army_locations.json`
 
 **Structure**:
+
 ```json
 {
   "name": "General HQ",
@@ -397,35 +410,21 @@ onEnterIntelWorkspace={async (unit) => {
 }
 ```
 
-**Unit Types Available**:
-- HQ, Strike Corps, Infantry Division
-- Armoured Brigade, Artillery Regiment
-- Air Defence, Signal Corps
-- And many more...
+### Ground_Forces_Locations.json
 
----
+**Location**: `data/Ground_Forces_Locations.json`
 
-### `Ground_Forces_Locations.json`
-
-**Location**: `/data/Ground_Forces_Locations.json`
-
-**Size**: ~5154 lines
-
-**Contains**: Chinese PLA Ground Forces locations
-
-**Same Structure** as Pakistan data with additional:
-- Theater Command (TC) information
-- More detailed remarks about deployments
+**Contains**: Chinese PLA Ground Forces locations (same structure as Pakistan data)
 
 **Source Tags** (added at runtime):
-- `"PAK"` - Pakistan units (from pakistan_army_locations.json)
-- `"CHN"` - Chinese units (from Ground_Forces_Locations.json)
+- `"PAK"` - Pakistan units
+- `"CHN"` - Chinese units
 
 ---
 
 ## 🎯 Feature Guide
 
-### How to Open Intel Workspace
+### Opening Intel Workspace
 
 1. **Enable Markers**: Click the eye icon toggle on the globe UI
 2. **Select a Unit**: Click on any unit marker (not a cluster)
@@ -434,7 +433,7 @@ onEnterIntelWorkspace={async (unit) => {
 5. **Loading Animation**: Brief cyber-themed loading screen
 6. **Workspace Opens**: Globe zooms to target with animated rings
 
-### How Target Rings Work
+### Target Ring Animation
 
 - **Three Concentric Rings**: Outer, Middle (70%), Inner (40%)
 - **Color**: Pink/Magenta (#ff0064)
@@ -448,14 +447,6 @@ onEnterIntelWorkspace={async (unit) => {
 3. **Click an asset** (e.g., "Dragnet71-11-2")
 4. Rings **animate smoothly** to the asset's destruction radius
 5. Click the same asset again to **deselect** (returns to default 500m)
-
-### Asset Categories
-
-| Filter | Assets |
-|--------|--------|
-| **Air** | E-8C, E-3, F-16CM, AWACS |
-| **Surface** | CVN-68 Nimitz, CG-64 Gettysburg |
-| **Land** | M1A2 Abrams, M777A2, HIMARS |
 
 ### CPEC Route Visibility
 
@@ -475,7 +466,6 @@ onEnterIntelWorkspace={async (unit) => {
 | Zoom | Mouse scroll |
 | Pan | Right-click + drag |
 | Tilt | Middle-click + drag |
-| Fly to Location | Use search or click marker |
 
 ### Bottom Panel Resize
 
@@ -483,7 +473,6 @@ onEnterIntelWorkspace={async (unit) => {
 2. **Grab Handle**: Click and hold the ↑↓ icon
 3. **Drag**: Move up/down to resize
 4. **Constraints**: Min 100px, Max 500px
-5. **Visual Feedback**: Handle highlights when dragging
 
 ---
 
@@ -496,24 +485,16 @@ onEnterIntelWorkspace={async (unit) => {
 ```typescript
 const getUnitStyle = (unitType: string) => {
   switch (unitType.toLowerCase()) {
-    // Add your new type here
     case "special forces":
       return { 
         category: "SPECIAL", 
-        color: "#FF00FF",  // Magenta
-        icon: FaUserSecret  // Import from react-icons
+        color: "#FF00FF",
+        icon: FaUserSecret
       };
-    
     // ... existing types
-    default:
-      return { category: "OTHER", color: "#888888", icon: FaQuestion };
   }
 };
 ```
-
-**Don't forget to**:
-1. Import the icon at the top of the file
-2. Add the category to filter UI if needed
 
 ---
 
@@ -522,9 +503,10 @@ const getUnitStyle = (unitType: string) => {
 **File**: `IntelWorkspace.tsx`
 
 **Step 1**: Add to `generateMockAssets()` array (line ~96):
+
 ```typescript
 {
-  id: 'new-asset-unique-id',      // Must be unique
+  id: 'new-asset-unique-id',
   name: 'Asset Display Name',
   type: 'Platform Type',
   category: 'air' | 'surface' | 'land',
@@ -536,17 +518,13 @@ const getUnitStyle = (unitType: string) => {
   duration: '1h 30m 00s',
   status: 'LIVE',
   proposed: '3 PROPOSED',
-  approved: '1 APPROVED',  // Optional
-  subType: '(2x)',         // Optional
-},
+}
 ```
 
 **Step 2**: Add to `assetRadiusMap` (line ~32):
+
 ```typescript
-const assetRadiusMap: { [key: string]: number } = {
-  // ... existing assets
-  'new-asset-unique-id': 600,  // Radius in meters
-};
+'new-asset-unique-id': 600,  // Radius in meters
 ```
 
 ---
@@ -555,24 +533,16 @@ const assetRadiusMap: { [key: string]: number } = {
 
 **File**: `Globe.tsx` → `cpecRoutes` array (around line 780)
 
-**Add New Route**:
 ```typescript
 {
   id: "new_route",
   name: "New Route Name",
   color: "#HEX_COLOR",
   coordinates: [
-    [longitude1, latitude1],  // Start point
-    [longitude2, latitude2],  // Waypoint
-    [longitude3, latitude3],  // End point
-    // Add more waypoints as needed
+    [longitude1, latitude1],
+    [longitude2, latitude2],
   ]
 }
-```
-
-**Modify Existing Route Color**:
-```typescript
-{ id: "western", color: "#FF0000", ... }  // Change to red
 ```
 
 ---
@@ -585,12 +555,12 @@ const assetRadiusMap: { [key: string]: number } = {
 globeRef.current.flyToUnit(
   unit.coordinates.lon,
   unit.coordinates.lat,
-  8000  // <-- Change this value (meters above sea level)
+  8000  // Change this value (meters above sea level)
 );
 ```
 
 **Recommended Values**:
-- `4000`: Close-up view (may clip into terrain in highlands)
+- `4000`: Close-up (may clip terrain in highlands)
 - `8000`: Default - works for all terrains
 - `15000`: Regional overview
 - `50000`: Wide area view
@@ -599,68 +569,17 @@ globeRef.current.flyToUnit(
 
 ### Adding New Officials
 
-**File**: `KeyOfficialsSidebar.tsx` → officials array
+**File**: `KeyOfficialsSidebar.tsx`
 
 ```typescript
 {
   id: "unique-id",
   name: "Official Full Name",
   role: "Title / Position",
-  image: "/assets/official-photo.jpg",  // Add image to public/assets/
+  image: "/assets/official-photo.jpg",
   country: "Pakistan" | "China",
-  description: "Brief biography and role description..."
+  description: "Brief biography..."
 }
-```
-
-**Image Requirements**:
-- Format: JPG or PNG
-- Size: ~200x200px recommended
-- Location: `/public/assets/`
-
----
-
-### Styling Infobox Popups
-
-**File**: `infobox-css.css`
-
-This controls the Cesium infobox styling including the "ENTER INTEL WORKSPACE" button.
-
-```css
-/* Main infobox container */
-.cesium-infoBox {
-  background: rgba(13, 13, 21, 0.95);
-}
-
-/* Intel Workspace button */
-.intel-workspace-btn {
-  background: linear-gradient(...);
-  color: #00e5ff;
-}
-```
-
----
-
-### Modifying Animation Durations
-
-**Ring Animation** (`Globe.tsx` line ~1078):
-```typescript
-const animationDuration = 400; // Change milliseconds
-```
-
-**Camera Fly Animation** (`CameraController.ts` line ~23):
-```typescript
-const { duration = 3.0, zoomHeight = 2000 } = options;
-```
-
-**Easing Functions Available**:
-```typescript
-import { EasingFunction } from 'cesium';
-
-// Options:
-EasingFunction.LINEAR
-EasingFunction.QUADRATIC_IN_OUT
-EasingFunction.CUBIC_IN_OUT
-EasingFunction.EXPONENTIAL_IN_OUT
 ```
 
 ---
@@ -669,11 +588,9 @@ EasingFunction.EXPONENTIAL_IN_OUT
 
 ### Task 1: Add a New Military Unit
 
-1. Open appropriate data file:
-   - Pakistan: `data/pakistan_army_locations.json`
-   - China: `data/Ground_Forces_Locations.json`
-
+1. Open `data/pakistan_army_locations.json` or `data/Ground_Forces_Locations.json`
 2. Add new entry:
+
 ```json
 {
   "name": "New Unit Name",
@@ -692,7 +609,7 @@ EasingFunction.EXPONENTIAL_IN_OUT
 }
 ```
 
-3. Save file and refresh browser
+3. Save and refresh browser
 
 ---
 
@@ -703,56 +620,20 @@ EasingFunction.EXPONENTIAL_IN_OUT
 3. Modify the `color` property:
 
 ```typescript
-{ id: "western", color: "#FF0000", ... }   // Red
-{ id: "central", color: "#00FFFF", ... }   // Cyan
-{ id: "eastern", color: "#FF00FF", ... }   // Magenta
+{ id: "western", color: "#FF0000", ... }  // Red
 ```
 
 ---
 
-### Task 3: Add New Filter Category
+### Task 3: Modify Bottom Panel Constraints
 
-1. **Globe.tsx**: Update `getUnitStyle()` to return new category
-2. **Globe.tsx**: Add filter button in render section (~line 1350):
-
-```typescript
-<button
-  onClick={() => setActiveCategory("NEW_CATEGORY")}
-  style={{
-    background: activeCategory === "NEW_CATEGORY" ? "#00e5ff" : "transparent",
-    // ...
-  }}
->
-  New Category
-</button>
-```
-
----
-
-### Task 4: Modify Bottom Panel Constraints
-
-**File**: `IntelWorkspace.tsx` → `useEffect` with `handleMouseMove` (~line 280)
+**File**: `IntelWorkspace.tsx` (~line 280)
 
 ```typescript
 const newHeight = Math.min(
-  Math.max(dragStartHeight.current + deltaY, 150),  // Change min (was 100)
-  600   // Change max (was 500)
+  Math.max(dragStartHeight.current + deltaY, 150),  // Min height
+  600   // Max height
 );
-```
-
----
-
-### Task 5: Add Loading Animation Text
-
-**File**: `App.tsx` → Loading overlay section (~line 290-350)
-
-Find the loading messages array and add/modify:
-```typescript
-const loadingMessages = [
-  "Initializing Intel Systems...",
-  "Your New Message...",
-  // ...
-];
 ```
 
 ---
@@ -761,94 +642,38 @@ const loadingMessages = [
 
 ### Globe Not Loading
 
-**Symptoms**: Black screen, no terrain
-
 **Solutions**:
 1. Check browser console (F12) for errors
-2. Verify Google Maps API key in `Globe.tsx`:
-   ```typescript
-   GoogleMaps.defaultApiKey = "YOUR_VALID_KEY";
-   ```
-3. Ensure API key has Maps JavaScript API and Map Tiles API enabled
+2. Verify Google Maps API key in `Globe.tsx`
+3. Ensure API key has Maps JavaScript API enabled
 4. Check for CORS errors in Network tab
-5. Try clearing browser cache
-
----
 
 ### Markers Not Showing
-
-**Symptoms**: Globe loads but no unit markers
 
 **Solutions**:
 1. Click the "Show Markers" eye icon toggle
 2. Check if filters are excluding all units
 3. Try "ALL" source and "ALL" category filters
-4. Verify JSON data files are valid (no syntax errors)
-5. Check console for data loading errors
-
----
 
 ### Intel Workspace Not Opening
-
-**Symptoms**: Click marker but no workspace appears
 
 **Solutions**:
 1. Ensure markers are visible (not just clusters)
 2. Click directly on a single marker (zoom in if needed)
-3. Check console for errors in message handler
-4. Verify `onEnterIntelWorkspace` callback is set in App.tsx
+3. Check console for errors
 
----
-
-### Animation Lag / Performance Issues
-
-**Symptoms**: Choppy animations, slow response
-
-**Solutions**:
-1. Reduce number of visible entities (use filters)
-2. Check `requestRenderMode` in Globe.tsx (~line 530):
-   ```typescript
-   requestRenderMode: true,  // Enable for better performance
-   ```
-3. Close other browser tabs
-4. Check GPU usage in Task Manager
-5. Try a different browser (Chrome recommended)
-
----
-
-### Chinese Units Zoom Too Close / Into Terrain
-
-**Symptoms**: Camera goes underground for Chinese units
+### Chinese Units Zoom Too Close
 
 **Cause**: Terrain elevation differences (Tibet plateau vs Pakistan lowlands)
 
-**Solution**: Fixed by using 8000m zoom height in `App.tsx`:
-```typescript
-globeRef.current.flyToUnit(lon, lat, 8000);
-```
-
----
+**Solution**: Fixed by using 8000m zoom height in `App.tsx`
 
 ### Target Rings Not Animating
-
-**Symptoms**: Rings change size instantly, no smooth transition
 
 **Solutions**:
 1. Verify `CallbackProperty` is imported in Globe.tsx
 2. Check `animationRef` is properly initialized
-3. Ensure `requestAnimationFrame` is not being blocked
-4. Check browser console for errors
-
----
-
-### Sidebar Not Sliding
-
-**Symptoms**: Sidebar appears/disappears instantly
-
-**Solutions**:
-1. Check CSS transition properties in component
-2. Verify `transform` style is being applied
-3. Ensure `transition` duration is set (e.g., `0.3s ease`)
+3. Check browser console for errors
 
 ---
 
@@ -857,113 +682,58 @@ globeRef.current.flyToUnit(lon, lat, 8000);
 ### Google Maps API
 
 **Location**: `Globe.tsx` line ~512
+
 ```typescript
 GoogleMaps.defaultApiKey = "YOUR_API_KEY";
 ```
 
-**Required APIs** (enable in Google Cloud Console):
+**Required APIs**:
 - Maps JavaScript API
 - Map Tiles API (for 3D Tiles)
 
-**Getting a Key**:
-1. Go to [Google Cloud Console](https://console.cloud.google.com/)
-2. Create new project or select existing
-3. Enable required APIs
-4. Create credentials → API Key
-5. (Recommended) Restrict key to your domain
-
----
-
 ### Cesium Ion
 
-**Location**: `vite.config.ts` or directly in code
-
 **Getting a Token**:
-1. Go to [Cesium Ion](https://cesium.com/ion/)
+1. Go to https://cesium.com/ion/
 2. Create free account
 3. Go to Access Tokens
-4. Create new token with asset access
-
-**Configuration in vite.config.ts**:
-```typescript
-import cesium from 'vite-plugin-cesium';
-
-export default defineConfig({
-  plugins: [
-    react(),
-    cesium({
-      cesiumBaseUrl: 'cesium',
-    })
-  ],
-  define: {
-    CESIUM_BASE_URL: JSON.stringify('/cesium'),
-  }
-});
-```
+4. Create new token
 
 ---
 
 ## 📚 Additional Resources
 
-### Cesium Documentation
 - [CesiumJS Docs](https://cesium.com/learn/cesiumjs/ref-doc/)
-- [Cesium Sandcastle](https://sandcastle.cesium.com/) - Interactive examples
-
-### React Icons
+- [Cesium Sandcastle](https://sandcastle.cesium.com/)
 - [React Icons Gallery](https://react-icons.github.io/react-icons/)
-
-### TypeScript
-- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/)
 
 ---
 
 ## 🤝 Contributing
 
 1. Create a feature branch from `main`
-2. Follow existing code style (TypeScript, React hooks, inline styles)
+2. Follow existing code style
 3. Test on both Pakistan and Chinese unit data
-4. Test all three CPEC routes
-5. Verify Intel Workspace functionality
-6. Update this README if adding new features
-7. Submit pull request with clear description
-
-### Code Style Guidelines
-
-- Use TypeScript strict mode
-- Prefer functional components with hooks
-- Use inline styles (existing pattern) or CSS modules
-- Add comments for complex logic
-- Keep components under 500 lines when possible
-
----
-
-## 📜 License
-
-Proprietary - KonectU
-
----
-
-## 👨‍💻 Authors
-
-- Development Team @ KonectU
-
----
-
-## 📞 Support
-
-For questions or issues, contact the development team or create an issue in the repository.
+4. Update this README if adding new features
+5. Submit pull request
 
 ---
 
 ## 📝 Changelog
 
 ### December 2024
+
 - Added smooth animated radius transitions for target rings
 - Fixed zoom consistency for Chinese/Pakistan units (8000m)
 - Added unique destruction radius per asset (9 assets)
 - Added resize handle with up/down arrows for bottom panel
-- Improved TARGET LOCKED visibility with background
 - Updated CPEC route colors (Western=Yellow, Central=Lime)
+
+---
+
+## 📜 License
+
+Proprietary - KonectU
 
 ---
 
