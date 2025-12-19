@@ -9,12 +9,15 @@ const CPEC_PATH = [
   [39.4677, 75.9938]  // Kashgar, China
 ];
 
+const ORMARA_COORDS = { lat: 25.201862, lon: 64.674147 };
+
 interface GeocodeResult {
   lat: number;
   lon: number;
   displayName: string;
   bbox?: [number, number, number, number]; // minLat, maxLat, minLon, maxLon
   isCPEC?: boolean; // Special flag for CPEC route
+  isOrmara?: boolean; // Special flag for Ormara
 }
 
 class GeocodingService {
@@ -43,6 +46,18 @@ class GeocodingService {
       };
       this.cache.set(query, cpecResult);
       return cpecResult;
+    }
+
+    // Handle Ormara special case
+    if (query.toLowerCase() === 'ormara') {
+      const ormaraResult: GeocodeResult = {
+        lat: ORMARA_COORDS.lat,
+        lon: ORMARA_COORDS.lon,
+        displayName: 'Ormara Coastal Area - Jinnah Naval Base',
+        isOrmara: true
+      };
+      this.cache.set(query, ormaraResult);
+      return ormaraResult;
     }
 
     try {

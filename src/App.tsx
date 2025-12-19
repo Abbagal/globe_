@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import Globe, { GlobeRef, UnitData } from './Globe';
 import { geocodingService } from './GeocodingService';
 import CPECSidebar from './CPECSidebarNew';
+import OrmaraSidebar from './OrmaraSidebar';
 import KeyOfficialsSidebar from './KeyOfficialsSidebar';
 import IntelWorkspace from './IntelWorkspace';
 
@@ -9,10 +10,13 @@ function App() {
   const [query, setQuery] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [showCPECSidebar, setShowCPECSidebar] = useState(false);  const [showKeyOfficialsSidebar, setShowKeyOfficialsSidebar] = useState(false);
+  const [showCPECSidebar, setShowCPECSidebar] = useState(false); const [showKeyOfficialsSidebar, setShowKeyOfficialsSidebar] = useState(false);
+  const [showOrmaraSidebar, setShowOrmaraSidebar] = useState(false);
   const [selectedRoute, setSelectedRoute] = useState<string | null>(null);
   const [cpecLoading, setCpecLoading] = useState(false);
-  const [loadingText, setLoadingText] = useState('');  const [osintLoading, setOsintLoading] = useState(false);
+  const [loadingText, setLoadingText] = useState(''); const [osintLoading, setOsintLoading] = useState(false);
+  const [ormaraLoading, setOrmaraLoading] = useState(false);
+  const [ormaraLoadingText, setOrmaraLoadingText] = useState('');
   const [osintLoadingText, setOsintLoadingText] = useState('');
   const [showIntelWorkspace, setShowIntelWorkspace] = useState(false);
   const [selectedUnit, setSelectedUnit] = useState<UnitData | null>(null);
@@ -35,7 +39,7 @@ function App() {
       setLoadingText(loadingMessages[i]);
       await new Promise(resolve => setTimeout(resolve, 800));
     }
-    
+
     setCpecLoading(false);
     setLoadingText('');
   };
@@ -55,8 +59,29 @@ function App() {
       setOsintLoadingText(osintMessages[i]);
       await new Promise(resolve => setTimeout(resolve, 800));
     }
-      setOsintLoading(false);
+    setOsintLoading(false);
     setOsintLoadingText('');
+  };
+
+  const animateOrmaraLoading = async () => {
+    setOrmaraLoading(true);
+    const ormaraMessages = [
+      'ESTABLISHING SECURE NAVAL UPLINK...',
+      'SCANNING ORMARA COASTAL DEFENSES...',
+      'ACCESSING JINNAH NAVAL BASE RECORDS...',
+      'TRIANGULATING MARITIME ASSETS...',
+      'SYNCHRONIZING SENSOR FEED...',
+      'ORMARA INTELLIGENCE SYSTEM BYPASS READY',
+      'ACCESS GRANTED: ORMARA SECTOR'
+    ];
+
+    for (let i = 0; i < ormaraMessages.length; i++) {
+      setOrmaraLoadingText(ormaraMessages[i]);
+      await new Promise(resolve => setTimeout(resolve, 800));
+    }
+
+    setOrmaraLoading(false);
+    setOrmaraLoadingText('');
   };
 
   const animateIntelLoading = async () => {
@@ -77,16 +102,16 @@ function App() {
       setIntelLoadingText(intelMessages[i]);
       await new Promise(resolve => setTimeout(resolve, 400));
     }
-    
+
     setIntelLoading(false);
     setIntelLoadingText('');
-  };  const handleSearch = async (e: React.FormEvent) => {
+  }; const handleSearch = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!query.trim()) return;
 
     setLoading(true);
     setError(null);
-    
+
     try {
       // First, try to search for a unit in the Globe
       if (globeRef.current && globeRef.current.searchUnit(query)) {
@@ -103,7 +128,7 @@ function App() {
         if (result.isCPEC && globeRef.current) {
           setLoading(false); // Stop normal loading
           await animateCPECLoading(); // Show CPEC loading animation
-          
+
           // Show CPEC route, sidebar, and fly to the overview
           globeRef.current.showCPECRoute();
           setShowCPECSidebar(true);
@@ -112,11 +137,21 @@ function App() {
           } else {
             globeRef.current.flyTo(result.lon, result.lat, 2000000); // Higher altitude for overview
           }
+        } else if (result.isOrmara && globeRef.current) {
+          setLoading(false);
+          await animateOrmaraLoading();
+
+          setShowOrmaraSidebar(true);
+          // Fly to Ormara coordinates with a good zoom level
+          globeRef.current.flyTo(result.lon, result.lat, 50000);
+
+          // Add a temporary target marker or just fly there
+          globeRef.current.addTargetEntity(result.lon, result.lat, 'Ormara Intelligence Target');
         } else if (globeRef.current) {
           // Clear CPEC route and sidebar for non-CPEC searches
           globeRef.current.hideCPECRoute();
           setShowCPECSidebar(false);
-          
+
           if (result.bbox) {
             // If we have a bounding box, fly to it
             globeRef.current.flyToBounds(result.bbox);
@@ -230,18 +265,18 @@ function App() {
             {error}
           </div>
         )}
-         </div>}      <Globe 
-        ref={globeRef} 
+      </div>}      <Globe
+        ref={globeRef}
         onEnterIntelWorkspace={async (unit) => {
           setSelectedUnit(unit);
           setShowCPECSidebar(false);
           setShowKeyOfficialsSidebar(false);
-          
+
           // Show loading animation first
           await animateIntelLoading();
-          
+
           setShowIntelWorkspace(true);
-            // Fly to the unit location AFTER loading completes
+          // Fly to the unit location AFTER loading completes
           if (globeRef.current && unit.coordinates) {
             // Use consistent zoom height that works for all terrains
             // (Pakistan lowlands, Chinese highlands/Tibet plateau)
@@ -250,7 +285,7 @@ function App() {
               unit.coordinates.lat,
               8000 // Consistent altitude above sea level for all units
             );
-            
+
             // Add target entity on the globe
             globeRef.current.addTargetEntity(
               unit.coordinates.lon,
@@ -260,14 +295,29 @@ function App() {
           }
         }}
       />
-        {/* Intel Workspace */}
+
+      <OrmaraSidebar
+        isVisible={showOrmaraSidebar && !showIntelWorkspace}
+        onClose={() => setShowOrmaraSidebar(false)}
+        onViewKeyOfficials={() => {
+          setShowOrmaraSidebar(false);
+          setShowKeyOfficialsSidebar(true);
+        }}
+        onZoomTarget={(lon, lat, height) => {
+          if (globeRef.current) {
+            globeRef.current.flyTo(lon, lat, height);
+          }
+        }}
+      />
+
+      {/* Intel Workspace */}
       <IntelWorkspace
         isVisible={showIntelWorkspace}
         unit={selectedUnit}
         onClose={() => {
           setShowIntelWorkspace(false);
           setSelectedUnit(null);
-          
+
           // Remove target entity from the globe
           if (globeRef.current) {
             globeRef.current.removeTargetEntity();
@@ -281,7 +331,7 @@ function App() {
           console.log(`Asset ${assetId ? assetId : 'none'} selected, destruction radius: ${destructionRadius}m`);
         }}
       />
-      
+
       {/* CPEC Loading Overlay */}
       {cpecLoading && (
         <div
@@ -427,6 +477,98 @@ function App() {
               letterSpacing: "1px",
             }}
           >            TOP SECRET - INTELLIGENCE PERSONNEL ONLY
+          </div>
+        </div>
+      )}
+
+      {/* Ormara Loading Overlay */}
+      {ormaraLoading && (
+        <div
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "100vw",
+            height: "100vh",
+            background: "rgba(0, 5, 10, 0.98)",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: 5500,
+            fontFamily: "monospace",
+          }}
+        >
+          <div style={{
+            position: "absolute",
+            width: "100%",
+            height: "100%",
+            background: "radial-gradient(circle at center, rgba(0, 255, 170, 0.05) 0%, transparent 70%)",
+            pointerEvents: "none"
+          }} />
+
+          <div
+            style={{
+              color: "#00ffaa",
+              fontSize: "24px",
+              marginBottom: "30px",
+              letterSpacing: "4px",
+              textTransform: "uppercase",
+              display: "flex",
+              alignItems: "center",
+              gap: "15px"
+            }}
+          >
+            <div style={{ animation: "rotate 2s linear infinite" }}>⚓</div>
+            ORMARA INTELLIGENCE NETWORK
+          </div>
+
+          <div
+            style={{
+              color: "#fff",
+              fontSize: "14px",
+              marginBottom: "40px",
+              textAlign: "center",
+              minHeight: "20px",
+              letterSpacing: "1px",
+              background: "rgba(0, 255, 170, 0.1)",
+              padding: "10px 20px",
+              border: "1px solid rgba(0, 255, 170, 0.3)",
+              borderRadius: "4px"
+            }}
+          >
+            {ormaraLoadingText}
+          </div>
+
+          <div
+            style={{
+              width: "350px",
+              height: "2px",
+              background: "rgba(255, 255, 255, 0.1)",
+              borderRadius: "1px",
+              overflow: "hidden",
+              position: "relative",
+            }}
+          >
+            <div
+              style={{
+                width: "120px",
+                height: "100%",
+                background: "linear-gradient(90deg, transparent, #00ffaa, transparent)",
+                animation: "loading 1.5s linear infinite",
+              }}
+            />
+          </div>
+
+          <div
+            style={{
+              color: "#444",
+              fontSize: "10px",
+              marginTop: "20px",
+              letterSpacing: "2px",
+            }}
+          >
+            RESTRICTED ACCESS • NAVAL SECTOR 7
           </div>
         </div>
       )}
