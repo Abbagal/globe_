@@ -1,0 +1,3126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Hotan Military.kmz</name>
+	<StyleMap id="msn_airports">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_airports4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_airports5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_airports0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_airports2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_airports7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_airports1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_airports3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_airports</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_airports3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_airports1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_airports0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_arrow-reverse1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_arrow-reverse</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_arrow-reverse</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_gas_stations010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_gas_stations40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_gas_stations40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_gas_stations110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_gas_stations30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_gas_stations50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_gas_stations2000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_gas_stations11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_gas_stations30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_heliport">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_heliport0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_heliport3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_icon-4_8_3_0_0_0_0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_icon-4_8_3_0_0_0_0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_icon-4_8_3_0_0_0_0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ltblu-diamond">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-diamond10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-diamond</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ltblu-diamond18">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-diamond12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-diamond0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ltblu-diamond180">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-diamond5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-diamond04</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_swimming3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_swimming9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_swimming</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_target">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_target1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_target6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_target4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_target6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_target0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_target8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_target2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_target</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-diamond5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-diamond7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-diamond12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin34</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1226</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin29</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin15100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7511</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin813</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1641">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3821</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin55000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin16410">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin38200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin550001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1690">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin915</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1242</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1711">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin54100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2321</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1730">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6131</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5710</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin27">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin274200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin39530</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin30850</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin277400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin286200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4273</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin28603">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin42760</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin49810</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin296101">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin46631</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3280000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin32802">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin53200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2894</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin337020">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin288002</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3553</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin33920">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin35311</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin29511</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin34601">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin38530</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin37421</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin37">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin38811">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin259012</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin48900</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin457</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin45501">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin32521</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4495</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin56</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin71110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5320</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2210</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin714">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin31400</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin31201</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin7140">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin314000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin312010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_airports">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_airports0">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_airports5">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_airports7">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_arrow-reverse">
+		<IconStyle>
+			<scale>1.06364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow-reverse.png</href>
+			</Icon>
+			<hotSpot x="54" y="42" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_gas_stations30">
+		<IconStyle>
+			<scale>1.06364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_gas_stations40">
+		<IconStyle>
+			<scale>1.06364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_gas_stations50">
+		<IconStyle>
+			<scale>1.06364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_heliport3">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/heliport.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_icon-4_8_3_0_0_0_0">
+		<IconStyle>
+			<Icon>
+				<href>files/icon-4_8_3_0_0_0_0.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ltblu-diamond">
+		<IconStyle>
+			<scale>1.06364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ltblu-diamond0">
+		<IconStyle>
+			<scale>1.06364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ltblu-diamond04">
+		<IconStyle>
+			<scale>1.06364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_swimming">
+		<IconStyle>
+			<scale>1.06364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_target">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_target0">
+		<IconStyle>
+			<color>ff7f55ff</color>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_target6">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-diamond12">
+		<IconStyle>
+			<scale>1.06364</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feff5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feffaa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1226">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1242">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin14">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin15">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2210">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2321">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2894">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feff55ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin29511">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feff55ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin30850">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>fe0055ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin31201">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin312010">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3280000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feff5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin34">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3553">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin37421">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>fe0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffffaa</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4273">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feff5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4495">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin457">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin48900">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>fe7fffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin49810">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feff5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin55000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin550001">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5710">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin813">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_airports1">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_airports2">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_airports3">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_airports4">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_arrow-reverse">
+		<IconStyle>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/arrow-reverse.png</href>
+			</Icon>
+			<hotSpot x="54" y="42" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_gas_stations11">
+		<IconStyle>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_gas_stations30">
+		<IconStyle>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_gas_stations40">
+		<IconStyle>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_heliport0">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/heliport.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_icon-4_8_3_0_0_0_0">
+		<IconStyle>
+			<Icon>
+				<href>files/icon-4_8_3_0_0_0_0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_ltblu-diamond10">
+		<IconStyle>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ltblu-diamond12">
+		<IconStyle>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ltblu-diamond5">
+		<IconStyle>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_swimming9">
+		<IconStyle>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_target1">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_target2">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_target6">
+		<IconStyle>
+			<color>ff7f55ff</color>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_ylw-diamond7">
+		<IconStyle>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feffaa00</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin259012">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>fe7fffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin286200">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feff5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin288002">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin29">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055aa</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin31400">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin314000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin32521">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin35311">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feff55ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin38200">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3821">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin38530">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>fe0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin39530">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>fe0055ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin42760">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feff5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin46631">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feff5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffffaa</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin50">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin5320">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin53200">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feff55ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin54100">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin56">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>feff5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin6131">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7511">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin915">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>1.3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Hotan Military</name>
+		<description>Jaidev Jamwal
+http://jjamwal.in</description>
+		<Folder>
+			<name>18th SAM Briagde Gazong SAM</name>
+			<Placemark>
+				<name>18th SAM Briagde Gazong Battery</name>
+				<description><![CDATA[UNIT: PLAAF 18th SAM Brigade, Unknown Battalion
+MUCD: 94059
+Equipment: HQ-9 SAM Battery, Perhaps some HQ-22 vehicles.
+
+<img style="max-width:500px;" src="files/18th radar brigade.jpeg">]]></description>
+				<LookAt>
+					<gx:TimeStamp><when>2022-11-12</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>79.93026474927402</longitude>
+					<latitude>36.99793943427862</latitude>
+					<altitude>0</altitude>
+					<heading>-4.564449927384858</heading>
+					<tilt>0</tilt>
+					<range>2273.594805594736</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_arrow-reverse1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.92633589091545,37.00049733314965,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>18th SAM Briagde Gazong Battery</name>
+				<styleUrl>#msn_ylw-pushpin7140</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.92757359581697,36.99760024424706,0 79.92922830482405,37.00216564914637,0 79.92498824216894,37.00356909657751,0 79.92434520525849,37.00206996776392,0 79.92441845819637,37.00198374161074,0 79.92432304537627,37.00183351594676,0 79.92424638259411,37.00182576005469,0 79.92308006550596,36.99905630154159,0 79.92757359581697,36.99760024424706,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>18th SAM Briagde Gazong SAM Radar Ramp</name>
+				<styleUrl>#msn_ylw-pushpin37</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.92598769280211,36.99909621357844,0 79.92609116294096,36.99906367499561,0 79.92636880098388,36.99963748466882,0 79.92626238256773,36.99966679615189,0 79.92598769280211,36.99909621357844,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>18th SAM Briagde Gazong SAM Positions</name>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.92481746758051,36.99962083186225,0 79.92479779347514,36.9993808950342,0 79.92484297270198,36.99905937941976,0 79.92506592065143,36.998701594071,0 79.92531513276185,36.99848831819218,0 79.92564922870139,36.99835729140182,0 79.92589021695366,36.99829130277365,0 79.92615225033833,36.99826645313348,0 79.92652712565192,36.99831086484834,0 79.92686661558268,36.99843168958251,0 79.92712168038454,36.99856659712015,0 79.92741692788321,36.99888673091852,0 79.92749990398373,36.99907299281011,0 79.92756448388167,36.99934495899078,0 79.92754603347869,36.99957110925865,0 79.92743616089605,36.99983212876261,0 79.92740197729367,36.99995674363941,0 79.92753102704589,37.0001539655545,0 79.92746566661157,37.00017494214801,0 79.92584657435562,37.00068257301972,0 79.92565201172208,37.00041016194651,0 79.92549356492492,37.00035636429705,0 79.92528607763714,37.0002402353344,0 79.92504530285561,37.00002349857134,0 79.92487165824745,36.99978895591497,0 79.92481746758051,36.99962083186225,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>PLA Storage SIte Fulaxi</name>
+			<Placemark>
+				<name>PLA Storage SIte Fulaxi</name>
+				<LookAt>
+					<longitude>79.90877313704226</longitude>
+					<latitude>37.00389928852508</latitude>
+					<altitude>0</altitude>
+					<heading>-4.577407771960686</heading>
+					<tilt>0</tilt>
+					<range>710.9710180681518</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-diamond5</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.90607289346556,37.00495840656573,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PLA Storage SIte Fulaxi</name>
+				<styleUrl>#msn_ylw-pushpin11</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.90382197431269,37.00388188909884,0 79.91089573610462,37.00044668574182,0 79.91326096907481,37.00360904439709,0 79.90621248500979,37.00702718417115,0 79.90231984745475,37.00891989950144,0 79.89994528783646,37.00576591966025,0 79.90347798595175,37.00403841816964,0 79.90357270869987,37.00406069022977,0 79.90379723480403,37.00395098218261,0 79.90382197431269,37.00388188909884,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>PLA Base Gazong</name>
+			<Placemark>
+				<name>PLA Base Gazong</name>
+				<description>Possibly a training unit</description>
+				<LookAt>
+					<longitude>79.92778822404684</longitude>
+					<latitude>36.99474872081345</latitude>
+					<altitude>0</altitude>
+					<heading>-4.565959352657833</heading>
+					<tilt>0</tilt>
+					<range>2603.040059339553</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ltblu-diamond180</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.92439983863169,36.99515778044123,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PLA Base Gazong</name>
+				<description>Possibly a training unit</description>
+				<styleUrl>#msn_ylw-pushpin7140</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.91951700273613,36.99053862965143,0 79.91622001331335,36.98264774160588,0 79.92424465689653,36.98049226774625,0 79.92440432683897,36.98558921463707,0 79.9247375162616,36.98835479679403,0 79.92511025731392,36.99096438312787,0 79.92560356837322,36.99220586271297,0 79.92518060061805,36.9923923813576,0 79.92765669763071,36.99731121328716,0 79.92561453905039,36.99798627983214,0 79.92544943399149,36.99798399098668,0 79.92529756914675,36.99803889451773,0 79.92519917016361,36.99812751295571,0 79.92297410502485,36.99886170100454,0 79.91951700273613,36.99053862965143,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>PLA Base Gazong Training</name>
+				<styleUrl>#msn_ylw-pushpin1730</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.91627518011039,36.98267935049554,0 79.92421823247413,36.98058111609109,0 79.92426350465179,36.98175465841479,0 79.92427583596501,36.98251779636855,0 79.92430935186417,36.98347781281849,0 79.92435540209591,36.98571003311218,0 79.92463870470915,36.9881079446161,0 79.92508100693263,36.99097916995812,0 79.92556733059904,36.99219344758819,0 79.92515594189506,36.99237432456642,0 79.92091596153185,36.99378299078155,0 79.91627518011039,36.98267935049554,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>PLA Logistics Gazong</name>
+			<Placemark>
+				<name>PLA Fuel Storage Gazong</name>
+				<LookAt>
+					<longitude>79.92900825802515</longitude>
+					<latitude>37.0076193312937</latitude>
+					<altitude>0</altitude>
+					<heading>-4.565229865439646</heading>
+					<tilt>0</tilt>
+					<range>1659.786530774676</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_gas_stations010</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.92840003157571,37.00857435270714,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PLA Fuel Storage Gazong</name>
+				<styleUrl>#msn_ylw-pushpin714</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.92730809461639,37.00832537661965,0 79.92870282710192,37.00755978479646,0 79.92953479483037,37.00853120814168,0 79.92815279931183,37.00929732779177,0 79.92730809461639,37.00832537661965,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>PLA Storage Gazong</name>
+				<LookAt>
+					<longitude>79.931312663597</longitude>
+					<latitude>37.00314007307759</latitude>
+					<altitude>0</altitude>
+					<heading>-4.563837430325435</heading>
+					<tilt>0</tilt>
+					<range>2094.435459434145</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-diamond5</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.92867170361657,37.00435925738494,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PLA Storage Gazong</name>
+				<styleUrl>#msn_ylw-pushpin714</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.92496461011696,37.0035959462682,0 79.92923770780551,37.00218974183505,0 79.93071877411964,37.00520499311776,0 79.92627684272762,37.00667977532376,0 79.92496461011696,37.0035959462682,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>PLA Fuel Storage Gazong 1</name>
+				<LookAt>
+					<longitude>79.91830541697203</longitude>
+					<latitude>36.98841441117243</latitude>
+					<altitude>0</altitude>
+					<heading>-4.57166543350943</heading>
+					<tilt>0</tilt>
+					<range>581.7700413771256</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_gas_stations110</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.91812134135043,36.98885620574647,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PLA Fuel Storage Gazong 1</name>
+				<styleUrl>#msn_ylw-pushpin16410</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.91824151557688,36.98810320400275,0 79.91902288635509,36.99001238869819,0 79.91813101537095,36.99024045959848,0 79.91721290714774,36.98832603978705,0 79.91824151557688,36.98810320400275,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Folder>
+				<name>PLA Vehicle Storage Gazong</name>
+				<Placemark>
+					<name>PLA Vehicle Storage Gazong</name>
+					<styleUrl>#msn_ylw-pushpin1641</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									79.9106523757056,36.99193598755519,0 79.91117230578061,36.99088672734206,0 79.91232590427005,36.99095618895956,0 79.91225723860977,36.99202191246022,0 79.91230348710576,36.99206402432648,0 79.91228581567512,36.99215693830448,0 79.91225319008828,36.99228705515048,0 79.91222483558481,36.99274181554328,0 79.91220782042545,36.99274294875156,0 79.91219745994364,36.99280554719752,0 79.91221792244684,36.99281254250131,0 79.91206636877213,36.99456077831216,0 79.90981200329175,36.99396584501847,0 79.90966570734433,36.99378757168736,0 79.9106523757056,36.99193598755519,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>PLA Fuel Kakeqia</name>
+			<Placemark>
+				<name>PLA Fuel Kakeqia</name>
+				<LookAt>
+					<longitude>79.88786202070051</longitude>
+					<latitude>37.04013568910245</latitude>
+					<altitude>0</altitude>
+					<heading>-4.460155073334015</heading>
+					<tilt>0</tilt>
+					<range>666.9793965315275</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_gas_stations2000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.88886974736917,37.0404315773236,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PLA Fuel Kakeqia</name>
+				<styleUrl>#msn_ylw-pushpin1641</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.88999803759344,37.03944775143383,0 79.89005372587113,37.04153021880327,0 79.887453219733,37.04160527888469,0 79.88737344116875,37.04057121823037,0 79.88739046499535,37.04006425425047,0 79.88743912328023,37.03956750668092,0 79.88999803759344,37.03944775143383,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>PLAAF Katiqi Base</name>
+			<Placemark>
+				<name>PLAAF Katiqi Base</name>
+				<description>Unknonw unid ID</description>
+				<LookAt>
+					<longitude>79.87684054430747</longitude>
+					<latitude>37.05443998051707</latitude>
+					<altitude>0</altitude>
+					<heading>-4.466793902488091</heading>
+					<tilt>0</tilt>
+					<range>524.5059886828706</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ltblu-diamond</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.87796748094824,37.0547910384137,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PLAAF Katiqi Base</name>
+				<styleUrl>#msn_ylw-pushpin1641</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87725682082431,37.05305505137457,0 79.87778592075678,37.05352100841343,0 79.87837553450933,37.05404470221362,0 79.87834191837683,37.05407034354338,0 79.87912297465262,37.05476167071728,0 79.87896899123832,37.05485510272549,0 79.87926113506755,37.05513739779368,0 79.87841170012054,37.0555546342483,0 79.87831956134207,37.05560594087328,0 79.8781549748945,37.05530452137555,0 79.87679738106728,37.05529096295037,0 79.87651378809963,37.05489523187882,0 79.87650103313283,37.05485629912117,0 79.87635844722045,37.05479325444765,0 79.8763742472232,37.05433231861434,0 79.87593066521801,37.05385177665338,0 79.87725682082431,37.05305505137457,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>PLAAF Katiqi Base 1</name>
+				<description>Unknonw unid ID</description>
+				<LookAt>
+					<longitude>79.87087220920255</longitude>
+					<latitude>37.04792110758593</latitude>
+					<altitude>0</altitude>
+					<heading>-4.470389955452243</heading>
+					<tilt>0</tilt>
+					<range>576.862629370799</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ltblu-diamond</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.87133205157684,37.04885179798038,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PLAAF Katiqi Base 1</name>
+				<styleUrl>#msn_ylw-pushpin1641</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87001605217959,37.0463500127775,0 79.87130484010497,37.04755932144035,0 79.87187693897049,37.04807898452994,0 79.87175722530759,37.04814242044937,0 79.87212945600309,37.04848696519301,0 79.87219178490113,37.04848001280351,0 79.87332805411209,37.04945079090702,0 79.86999426656493,37.05152353750461,0 79.86877667518681,37.0515400607577,0 79.86872554854591,37.05095578057227,0 79.86843144037684,37.05074852578289,0 79.86835015123641,37.05045499797939,0 79.86840754409781,37.05043762529426,0 79.86790918288452,37.0490160978437,0 79.86712564410185,37.04920178157104,0 79.86629410866965,37.04734395081835,0 79.86796087829391,37.04673596087731,0 79.86747255233254,37.04544535151041,0 79.86799759780592,37.04528357820327,0 79.86863020264678,37.04526287050272,0 79.86978651730701,37.04616435962755,0 79.86991134110032,37.04638652007586,0 79.87001605217959,37.0463500127775,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>PLAAF Katiqi Base 1 Vehicles</name>
+				<styleUrl>#msn_ylw-pushpin71110</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87040148517664,37.0474145465779,0 79.87051679252052,37.04753379928385,0 79.86971325855195,37.04810828676835,0 79.86945688994315,37.047871091733,0 79.87040148517664,37.0474145465779,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>PLAAF Katiqi Base 1 Vehicles 1</name>
+				<styleUrl>#msn_ylw-pushpin71110</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.86807081392365,37.04749672061545,0 79.86662412087374,37.04796325129311,0 79.86632651836962,37.04735235551164,0 79.86776000098754,37.04683575780988,0 79.86807081392365,37.04749672061545,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>PLAAF Katiqi Base 1 Vehicles 2</name>
+				<styleUrl>#msn_ylw-pushpin71110</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.8697938299856,37.0463643561858,0 79.86983329275708,37.0464315099412,0 79.86999627502546,37.04638072498771,0 79.8704626724147,37.04687719326471,0 79.86940543325548,37.04723472414456,0 79.86908056312444,37.04660094715892,0 79.8697938299856,37.0463643561858,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>PLAAF Katiqi Base 2</name>
+				<description>Unknonw unid ID</description>
+				<LookAt>
+					<longitude>79.8768123212343</longitude>
+					<latitude>37.04587159422518</latitude>
+					<altitude>0</altitude>
+					<heading>-4.466811495511816</heading>
+					<tilt>0</tilt>
+					<range>1779.884230863879</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ltblu-diamond</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.8735186831812,37.04703163306875,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PLAAF Katiqi Base 2</name>
+				<styleUrl>#msn_ylw-pushpin1711</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87490722011854,37.04320015879656,0 79.87854603067856,37.04652131210752,0 79.87758532504817,37.04707615569578,0 79.877547885377,37.04707259408191,0 79.87748184492838,37.04711354572019,0 79.8774765735356,37.04713187786395,0 79.87383186060768,37.04922607323148,0 79.87229096466834,37.04781506997007,0 79.87019491260349,37.04591517405348,0 79.87490722011854,37.04320015879656,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>PLAAF Katiqi Base 2 Vehicles</name>
+				<styleUrl>#msn_ylw-pushpin1690</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87258807409015,37.04457697040068,0 79.87269810184996,37.0446761036951,0 79.87372552053667,37.04397174223796,0 79.87417872913306,37.04437844750866,0 79.87142815570334,37.04633480603778,0 79.87080074315215,37.04574090317891,0 79.87258807409015,37.04457697040068,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>PLAAF Katiqi Base 2 Antennas</name>
+				<styleUrl>#msn_ylw-pushpin15100</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87340689623635,37.04661370840898,0 79.87360896059606,37.04678978370466,0 79.87352452353768,37.04686295792538,0 79.87331336388411,37.0466832172318,0 79.87340689623635,37.04661370840898,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>PLA Sipusiyacun Base</name>
+			<Placemark>
+				<name>PLA Sipusiyacun Base</name>
+				<description>Possibly PLAAF Base</description>
+				<styleUrl>#msn_ylw-pushpin7140</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.85420551046626,37.04675385685226,0 79.85598811116853,37.04565391834134,0 79.85612984340511,37.04565559618045,0 79.85657213408362,37.04538619135015,0 79.85660632327919,37.04529486794387,0 79.85793829937539,37.04448096257737,0 79.86234720050507,37.04848046026907,0 79.85846929639445,37.05060310846302,0 79.85420551046626,37.04675385685226,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>PLA Sipusiyacun Base</name>
+				<description><![CDATA[Possibly PLAAF Base.<br>
+Has Underground buildings, perhaps Command and Control Nodes
+<img style="max-width:500px;" src="files/hotan.png">]]></description>
+				<LookAt>
+					<longitude>79.86105876401997</longitude>
+					<latitude>37.04841284496649</latitude>
+					<altitude>0</altitude>
+					<heading>-4.476303695986521</heading>
+					<tilt>0</tilt>
+					<range>1085.784505703481</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ltblu-diamond18</styleUrl>
+				<gx:balloonVisibility>1</gx:balloonVisibility>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.85741004032585,37.04645925549607,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Hotan Airport</name>
+			<open>1</open>
+			<Placemark>
+				<name>Hotan Airport</name>
+				<description><![CDATA[REGION: Xinjiang Autonomous Region<br>TYPE: medium_airport<br>USAGE: Military<br>latitude: 37.03850174<br>longitude: 79.86489868<br>REMARK: <br>UNITS: 99th Brigade<br>DIVISION: <br>MUCD: <br>SERIAL: 71X0X
+<br>UAV Unit SERIAL: 53x3x<br>AIRCRAFT: J-16, KJ-500, Y-9<br>MR: Western<br>BRANCH: Air Force<br>LENGTH (m): 3000<br>ELEVATION (ft): 4672<br>ELEVATION (m): 1,424.026<br>RUNWAYS: 1<br>ID: 27235<br>MUNICIPALITY: Hotan<br>GPS CODE: ZWTN<br>IATA CODE: HTN<br>IDENT: ZWTN<br>Classification: medium_airport Military<br>ISO REGION: CN-65<br>home_link: <br>wikipedia_link: https://en.wikipedia.org/wiki/Hotan_Airport
+<br> Other equipment spotted with unclear unit IDs: H-6 Bombers, KJ-200 & KJ-500 AWACS, Y-20 Trasnporter, YY-20 Tanker, J-20 Fighter, CH-5  and GJ-2 UAVs, MI-17 Helicopters, Old retired J-7s (possibly modified to UCAV role)]]></description>
+				<styleUrl>#msn_icon-4_8_3_0_0_0_0</styleUrl>
+				<ExtendedData>
+					<Data name="REGION">
+						<value>Xinjiang Autonomous Region</value>
+					</Data>
+					<Data name="TYPE">
+						<value>medium_airport</value>
+					</Data>
+					<Data name="USAGE">
+						<value>Military</value>
+					</Data>
+					<Data name="latitude">
+						<value>37.03850174</value>
+					</Data>
+					<Data name="longitude">
+						<value>79.86489868</value>
+					</Data>
+					<Data name="REMARK">
+					</Data>
+					<Data name="UNITS">
+						<value>99th Brigade</value>
+					</Data>
+					<Data name="DIVISION">
+					</Data>
+					<Data name="MUCD">
+					</Data>
+					<Data name="SERIAL">
+						<value>71X0X</value>
+					</Data>
+					<Data name="AIRCRAFT">
+						<value>J-16, KJ-500, Y-9</value>
+					</Data>
+					<Data name="MR">
+						<value>Western</value>
+					</Data>
+					<Data name="BRANCH">
+						<value>Air Force</value>
+					</Data>
+					<Data name="LENGTH (m)">
+						<value>3000.0</value>
+					</Data>
+					<Data name="ELEVATION (ft)">
+						<value>4672.0</value>
+					</Data>
+					<Data name="ELEVATION (m)">
+						<value>1424.025554</value>
+					</Data>
+					<Data name="RUNWAYS">
+						<value>1.0</value>
+					</Data>
+					<Data name="ID">
+						<value>27235</value>
+					</Data>
+					<Data name="MUNICIPALITY">
+						<value>Hotan</value>
+					</Data>
+					<Data name="GPS CODE">
+						<value>ZWTN</value>
+					</Data>
+					<Data name="IATA CODE">
+						<value>HTN</value>
+					</Data>
+					<Data name="IDENT">
+						<value>ZWTN</value>
+					</Data>
+					<Data name="Classification">
+						<value>medium_airport Military</value>
+					</Data>
+					<Data name="ISO REGION">
+						<value>CN-65</value>
+					</Data>
+					<Data name="home_link">
+					</Data>
+					<Data name="wikipedia_link">
+						<value>https://en.wikipedia.org/wiki/Hotan_Airport</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>79.86489868,37.03850174,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport</name>
+				<styleUrl>#msn_ylw-pushpin34601</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.84051382887873,37.04061706751951,0 79.84098731725746,37.04039746316977,0 79.83994029575986,37.03791632229199,0 79.83945617045096,37.03709896158777,0 79.83853171048557,37.03507477150399,0 79.83844362814098,37.03510990328249,0 79.83764061104985,37.03337522643058,0 79.83670561120559,37.0313737531906,0 79.84906627541022,37.02769984478699,0 79.86395520780376,37.0233361140406,0 79.88113874815721,37.01827565819188,0 79.88120475640279,37.01812625698028,0 79.87398200333699,37.00222574136116,0 79.87368356026666,37.00260127630461,0 79.87365399098218,37.00208316516409,0 79.8799025151862,37.00121396667036,0 79.88788681402575,37.01849623332649,0 79.88808069643126,37.01859200944018,0 79.88819152844721,37.01878361450063,0 79.88809003374146,37.01893840967039,0 79.88906497629011,37.02110588896384,0 79.88728844017646,37.02167362143464,0 79.88775791332934,37.02305927380307,0 79.88740261798092,37.02325225465651,0 79.88878190528388,37.02619793591452,0 79.89114786450878,37.0300380764556,0 79.88878023529934,37.0315557941392,0 79.88941795619776,37.03298110937732,0 79.88507694749651,37.03425718181121,0 79.88491104934522,37.03447446981558,0 79.88454390378656,37.03625687472413,0 79.88257322415333,37.03683943789073,0 79.88247361382462,37.03669637909356,0 79.88175668766034,37.03683425681749,0 79.88114322951408,37.03648299910426,0 79.87876889098925,37.03718188541045,0 79.87930023208935,37.03814091538798,0 79.87767241952984,37.03871426486924,0 79.87766513775397,37.03900082408373,0 79.87566679449398,37.03968321488968,0 79.87585004657306,37.0402773895263,0 79.87311808142417,37.04121107360404,0 79.87293489760216,37.04105318830857,0 79.87260520542263,37.04116432454558,0 79.87264824354672,37.04138654690063,0 79.86817227526191,37.04288219540167,0 79.86760180104058,37.04310641679023,0 79.86750451720941,37.0430705815071,0 79.86736981209779,37.0428794507899,0 79.86701810072798,37.04301086214193,0 79.86633711548717,37.04313033196531,0 79.8658427498181,37.04327368741355,0 79.86518038559196,37.04329758264852,0 79.86430015235393,37.04307060928066,0 79.86359493830304,37.04321992675077,0 79.86295136195243,37.04337521622406,0 79.86266992161295,37.04345285906402,0 79.86239750729098,37.04363204569925,0 79.86051555421795,37.04381715432049,0 79.85759741640584,37.04386479054852,0 79.85753013774298,37.04315997730959,0 79.85746278777806,37.0431540002877,0 79.85693145089884,37.0432614804059,0 79.85509378409483,37.04379417989428,0 79.85529578110997,37.04421827593772,0 79.85517276558528,37.04429591629701,0 79.84929573887227,37.04595153026366,0 79.84851419574109,37.0461168098828,0 79.84825174463622,37.046116780015,0 79.84645929295159,37.04544399153548,0 79.84423531002835,37.04567519091253,0 79.84233879822136,37.04483694247499,0 79.84171770483768,37.04333750938476,0 79.84051382887873,37.04061706751951,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Runway</name>
+				<styleUrl>#msn_ylw-pushpin45501</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.84705127287839,37.0436719460957,0 79.84678998866667,37.0431557740704,0 79.88053767532566,37.03320034973165,0 79.8807727036135,37.03370346421791,0 79.84705127287839,37.0436719460957,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Runway 1</name>
+				<styleUrl>#msn_ylw-pushpin45501</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.88309889812004,37.01984676946467,0 79.88330534320299,37.02034752910258,0 79.8412135577107,37.03278978814467,0 79.840988048029,37.0323052159528,0 79.88309889812004,37.01984676946467,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Apron</name>
+				<styleUrl>#msn_ylw-pushpin296101</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.84716142916157,37.0442191183534,0 79.84774883988423,37.04403995140257,0 79.84804240109659,37.04456395230211,0 79.84848289960868,37.0446743183611,0 79.86382952796414,37.0400836953736,0 79.86426991375923,37.04081279177901,0 79.85757063999166,37.04283309345151,0 79.8573532005929,37.04236871487461,0 79.85378838819776,37.04341534762359,0 79.85407189331602,37.04397768720462,0 79.85384350652502,37.04406880744222,0 79.85372934101825,37.04394293976283,0 79.84849738417664,37.04547812215463,0 79.84828541643249,37.0450788250121,0 79.84699666584953,37.04547791366144,0 79.84665429518658,37.04472272282153,0 79.84716142916157,37.0442191183534,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Apron 1</name>
+				<styleUrl>#msn_ylw-pushpin296101</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87444938742485,37.03754416833709,0 79.8749814386868,37.03866675848153,0 79.86926565201502,37.04040867480459,0 79.86890184461888,37.03960224275421,0 79.86877297017871,37.03930573831526,0 79.87444938742485,37.03754416833709,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Apron 2</name>
+				<styleUrl>#msn_ylw-pushpin296101</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87645628774179,37.03640232555315,0 79.88055660985795,37.03516462250477,0 79.88075474748115,37.03478031968626,0 79.88884051249528,37.03246778654904,0 79.88901052106593,37.03281435532426,0 79.88166929855633,37.03491879435896,0 79.88097087951365,37.0352127483192,0 79.8809520637311,37.03550660936517,0 79.88101530549015,37.03591957238247,0 79.87678490055544,37.03714971611053,0 79.87645628774179,37.03640232555315,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Civilian Area</name>
+				<styleUrl>#msn_ylw-pushpin274200</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87191381861147,37.04150450450938,0 79.87022618963958,37.04206629652743,0 79.8686610850702,37.03933832136201,0 79.87087030399391,37.03874780599778,0 79.87444963960577,37.03755585937517,0 79.87579006526856,37.04024069230955,0 79.87191381861147,37.04150450450938,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Taxiway</name>
+				<styleUrl>#msn_ylw-pushpin28603</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.88303409566512,37.02182493027207,0 79.8831647808038,37.022121712081,0 79.87430636094459,37.02477203331582,0 79.8748290227235,37.02616776350587,0 79.86438414404522,37.02925420617166,0 79.86377123451031,37.0278423934848,0 79.84260153074959,37.03410109268874,0 79.84250599636245,37.03379572133147,0 79.88303409566512,37.02182493027207,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Storage Reinforced</name>
+				<styleUrl>#msn_ylw-pushpin33920</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.85961235571773,37.03133213682276,0 79.85963420308231,37.0313146978901,0 79.85966333242619,37.03129725931955,0 79.85967061627541,37.0312681928762,0 79.85969246359961,37.03125075392325,0 79.85972887505584,37.03123331569389,0 79.86101781403706,37.03090200988368,0 79.86228478688648,37.03362847666272,0 79.86076278078968,37.03405280265586,0 79.85961235571773,37.03133213682276,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Directional Antenna</name>
+				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.86939423057876,37.03449311697511,0 79.86954532567026,37.03484703910237,0 79.86913152097056,37.03496240886536,0 79.86897714327894,37.03460324292197,0 79.86939423057876,37.03449311697511,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Satellite Comm and Radar vehicles</name>
+				<styleUrl>#msn_ylw-pushpin337020</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.86851463728463,37.03908626097036,0 79.86877014820804,37.03959766653803,0 79.86861087340188,37.03964140603119,0 79.86907837352159,37.04069156348981,0 79.86772807126808,37.04110599324593,0 79.86766190610521,37.0411068962855,0 79.86717421336604,37.04020131713111,0 79.86689440985879,37.03957609012188,0 79.86851463728463,37.03908626097036,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Storage Reinforced 1</name>
+				<styleUrl>#msn_ylw-pushpin32802</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.86118038043344,37.04193258705028,0 79.86161014068738,37.042791915279,0 79.86211088058121,37.04266203231661,0 79.86245302417355,37.04343142250727,0 79.86219847661198,37.04358129686173,0 79.85974242689221,37.04380437300971,0 79.85783039360939,37.0438142684221,0 79.85763017210459,37.04300823188417,0 79.86118038043344,37.04193258705028,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Hangars</name>
+				<styleUrl>#msn_ylw-pushpin38811</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87997615971652,37.03109357619677,0 79.87948585472822,37.02996339818493,0 79.88425332323277,37.02859649289798,0 79.88452570278262,37.02906221145879,0 79.88503908126617,37.02896276307548,0 79.88532775358964,37.02954645566578,0 79.87997615971652,37.03109357619677,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Apron 3</name>
+				<description>Possibly UAV section</description>
+				<styleUrl>#msn_ylw-pushpin6</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87923259748618,37.03086389291182,0 79.87896017702595,37.03008765758091,0 79.87940356651933,37.02998203429999,0 79.87972265030004,37.0306837403944,0 79.87994056497887,37.03118052183162,0 79.88518206711289,37.02960859116266,0 79.8854856034654,37.03018607972601,0 79.87971959755571,37.03185744958198,0 79.87924502551644,37.03164015503835,0 79.87755699655764,37.03211232165402,0 79.87728460079839,37.03138576269055,0 79.87923259748618,37.03086389291182,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Apron 4</name>
+				<styleUrl>#msn_ylw-pushpin277400</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.84185744085785,37.03491893406945,0 79.84277160378373,37.03464292409728,0 79.84271676979435,37.03434945769124,0 79.84309482677136,37.03433276240627,0 79.84621666089427,37.04082466658311,0 79.84580704650135,37.04092519784823,0 79.84334845989012,37.03565692471759,0 79.84293891051831,37.03560655122458,0 79.8422352441561,37.03579084455773,0 79.84185744085785,37.03491893406945,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Apron 5</name>
+				<styleUrl>#msn_ylw-pushpin277400</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87457006571232,37.00219649963318,0 79.87497653954104,37.00212086887268,0 79.88302695188123,37.01978112503858,0 79.88263811426333,37.01989122690465,0 79.87457006571232,37.00219649963318,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Truck Mounted Antennas, Permanent presence</name>
+				<description><![CDATA[Possibly Rocket Force equipment for missile tracking
+<img style="max-width:500px;" src="files/radar-truck.png">]]></description>
+				<LookAt>
+					<longitude>79.86793056751698</longitude>
+					<latitude>37.03960870238123</latitude>
+					<altitude>0</altitude>
+					<heading>-2.586698313327409</heading>
+					<tilt>0</tilt>
+					<range>220.9968575508433</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_target8</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.86745310504207,37.03973194567413,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SATCOM Vehicles, Permanent presence</name>
+				<LookAt>
+					<longitude>79.86795166319327</longitude>
+					<latitude>37.03941074659512</latitude>
+					<altitude>0</altitude>
+					<heading>-2.586684872051271</heading>
+					<tilt>0</tilt>
+					<range>307.6800449215936</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_target8</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.86807788020646,37.03939814398435,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Training Area</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.84848702319663,37.04554777633499,0 79.85374660903807,37.04400570974809,0 79.85379215789636,37.04407613643246,0 79.85480067430761,37.04380483447664,0 79.85497654006215,37.04419807478322,0 79.84917699343805,37.04591637619905,0 79.84878551377541,37.04598796457191,0 79.84848702319663,37.04554777633499,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GJ-2 UAVs, 2023</name>
+				<description><![CDATA[<img style="max-width:500px;" src="files/GJ-2 UAVs.jpeg"><img style="max-width:500px;" src="files/GJ-2 UAV.jpeg">]]></description>
+				<LookAt>
+					<longitude>79.87525440807836</longitude>
+					<latitude>37.03528214802122</latitude>
+					<altitude>0</altitude>
+					<heading>-4.467737932831676</heading>
+					<tilt>0</tilt>
+					<range>1079.830308806343</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_airports1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.87513371341441,37.03515638154344,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CH-5 UAV, 2020</name>
+				<description><![CDATA[<img style="max-width:500px;" src="files/CH-5.png">]]></description>
+				<LookAt>
+					<longitude>79.880210321645</longitude>
+					<latitude>37.03060020766915</latitude>
+					<altitude>0</altitude>
+					<heading>-4.464753302311423</heading>
+					<tilt>0</tilt>
+					<range>1029.250930818092</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_airports1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.88039833647973,37.03144682490908,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Retired F-7s. Permanenrt Presence</name>
+				<LookAt>
+					<longitude>79.88243620925184</longitude>
+					<latitude>37.03029545413757</latitude>
+					<altitude>0</altitude>
+					<heading>-4.463412868714799</heading>
+					<tilt>0</tilt>
+					<range>549.7376770478298</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_airports0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.88250797628838,37.03088344350611,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Fuel</name>
+				<styleUrl>#msn_ylw-pushpin12</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.87738315312214,37.0376169554646,0 79.87872472110216,37.0372086419254,0 79.87925154656232,37.03814751703994,0 79.87788920013458,37.03857354089397,0 79.87738315312214,37.0376169554646,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Mi-17s, Almost permanent presense</name>
+				<description><![CDATA[<img style="max-width:500px;" src="files/Mi-17s.png">]]></description>
+				<LookAt>
+					<gx:TimeStamp><when>2020-06-22</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>79.87876107643947</longitude>
+					<latitude>37.03132972489502</latitude>
+					<altitude>0</altitude>
+					<heading>-4.465622761668834</heading>
+					<tilt>0</tilt>
+					<range>308.7751538988134</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_heliport</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.87867507431027,37.03134299291508,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hotan Airport Construction Equipment</name>
+				<styleUrl>#msn_ylw-pushpin14</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.88094155939378,37.02821036382635,0 79.88344073091244,37.02754461771406,0 79.88388232215736,37.02856518456285,0 79.88148922219523,37.02928704298098,0 79.88094155939378,37.02821036382635,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>J-20s, Mid 2020 and 2022</name>
+				<description><![CDATA[<img style="max-width:500px;" src="files/J-20-mid2020.png">]]></description>
+				<LookAt>
+					<gx:TimeStamp><when>2020-06-22</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>79.86304591367939</longitude>
+					<latitude>37.04092235243569</latitude>
+					<altitude>0</altitude>
+					<heading>-4.475087215603625</heading>
+					<tilt>0</tilt>
+					<range>752.7884541916627</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_airports3</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.86135414713692,37.04123889422154,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>J-8II, Mid 2020</name>
+				<description><![CDATA[<img style="max-width:500px;" src="files/J-8II June 2020.png">]]></description>
+				<LookAt>
+					<gx:TimeStamp><when>2020-06-22</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>79.84961015181187</longitude>
+					<latitude>37.04455291885769</latitude>
+					<altitude>0</altitude>
+					<heading>-4.48318094761663</heading>
+					<tilt>0</tilt>
+					<range>267.3778172427983</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_airports3</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.84952697130956,37.04468334688697,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>KJ-500, Y-8, Permanent presence</name>
+				<LookAt>
+					<gx:TimeStamp><when>2022-11-12</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>79.86998339286008</longitude>
+					<latitude>37.03929392426814</latitude>
+					<altitude>0</altitude>
+					<heading>-4.470908245592801</heading>
+					<tilt>0</tilt>
+					<range>520.6776975270786</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_airports3</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.86998339286008,37.03929392426814,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>J-16. Permanent</name>
+				<description>UNIT: 99th Air Brigade (Former 99th Air Regiment flying J-7IIs)
+MUCD: Unknown
+SERIAL: 71X0X 
+AIRCRAFT: J-16</description>
+				<LookAt>
+					<gx:TimeStamp><when>2022-11-12</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>79.85900914731685</longitude>
+					<latitude>37.04211092338444</latitude>
+					<altitude>0</altitude>
+					<heading>-4.477518912424453</heading>
+					<tilt>0</tilt>
+					<range>1159.096286399308</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_airports</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.85867307542118,37.04203034259448,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Kuoreke Radar</name>
+			<open>1</open>
+			<Placemark>
+				<name>Kuoreke Radar</name>
+				<description>Kuoreke
+
+Unknown PLAAF unit
+
+					 37° 2&apos;42.98&quot;N	 79°51&apos;45.58&quot;E</description>
+				<LookAt>
+					<gx:TimeStamp><when>2021-03-27</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>79.86299077838724</longitude>
+					<latitude>37.04459437911386</latitude>
+					<altitude>0</altitude>
+					<heading>-19.83691031026702</heading>
+					<tilt>0</tilt>
+					<range>711.3661782355554</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_target4</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.86266111111111,37.04527222222222,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kuoreke Radar</name>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.86128748389064,37.04414753253253,0 79.86224129925274,37.04400855590952,0 79.86269465938554,37.04396587033936,0 79.86273571181896,37.04400243809483,0 79.86285566825683,37.04400162600322,0 79.86289788562678,37.04395721781422,0 79.86373777346326,37.04390209212884,0 79.86402914687929,37.04462940340304,0 79.86317482576928,37.04496796923274,0 79.86348046056075,37.04570292339861,0 79.86216029934035,37.04607581526911,0 79.86127117595639,37.04436068533445,0 79.86128748389064,37.04414753253253,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Kuoreke Radar Ramp 1, possibly YLC-18 radar</name>
+				<styleUrl>#msn_ylw-pushpin27</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.86152224066203,37.04420782116475,0 79.8618122449477,37.04417815895017,0 79.86185150528769,37.04440820653189,0 79.86155261858623,37.0444443953062,0 79.86152224066203,37.04420782116475,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Kuoreke Radar Ramp</name>
+				<styleUrl>#msn_ylw-pushpin4</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.86371930260091,37.0444920038607,0 79.86384631655905,37.04447722470511,0 79.86386750376752,37.04457112686652,0 79.86374303903716,37.04458912911802,0 79.86371930260091,37.0444920038607,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Kuoreke Radar Ramp 2</name>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.86207307952009,37.04556624915867,0 79.8623055420618,37.04554725140422,0 79.86232819534679,37.04572199973612,0 79.86210204561414,37.04574497658768,0 79.86207307952009,37.04556624915867,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Kuoreke Radar Radome</name>
+				<styleUrl>#msn_ylw-pushpin4</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.86314637186902,37.04538071953889,0 79.8630655388546,37.04523800436229,0 79.86325215879729,37.04517689027278,0 79.863320562776,37.04532751007248,0 79.86314637186902,37.04538071953889,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Possibly YLC-18 radar</name>
+				<LookAt>
+					<longitude>79.86224407538714</longitude>
+					<latitude>37.04420015786644</latitude>
+					<altitude>0</altitude>
+					<heading>-4.475570485314422</heading>
+					<tilt>0</tilt>
+					<range>217.0371236046309</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_target</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.86173720631936,37.04426306605701,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Kanjieke Firing Range</name>
+			<open>1</open>
+			<Placemark>
+				<name>Kanjieke Training Area</name>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								79.91739229608027,37.03581890729527,0 79.91780569088905,37.03773379004811,0 79.91584720652828,37.03856899460281,0 79.91555541826013,37.03777867755124,0 79.913708466118,37.03789354621295,0 79.91304206477164,37.03642183982011,0 79.91353202745684,37.03607246251844,0 79.91739229608027,37.03581890729527,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Kanjieke Training Area</name>
+				<LookAt>
+					<longitude>79.91656593005887</longitude>
+					<latitude>37.03717309459465</latitude>
+					<altitude>0</altitude>
+					<heading>-4.442867086806795</heading>
+					<tilt>0</tilt>
+					<range>720.7823589859032</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_swimming3</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>79.91683010350968,37.03665635969313,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	</Folder>
+</Document>
+</kml>

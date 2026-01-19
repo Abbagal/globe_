@@ -29,6 +29,7 @@ import {
   SceneTransforms,
   EllipseGraphics,
   CallbackProperty,
+  KmlDataSource,
 } from "cesium";
 import "../src/infobox-css.css"
 import { CameraController } from "./CameraController";
@@ -115,6 +116,29 @@ const createCircularIcon = (
 
   iconCache.set(key, promise);
   return promise;
+};
+
+// INTELLIGENCE SEARCH MAP - Static locations for KML areas
+interface IntelligenceLocation {
+  displayName: string;
+  latitude: number;
+  longitude: number;
+  kmlKey: string;
+}
+
+const INTELLIGENCE_LOCATIONS: Record<string, IntelligenceLocation> = {
+  "hotan military": {
+    displayName: "Hotan Military",
+    latitude: 37.00049733314965,
+    longitude: 79.92633589091545,
+    kmlKey: "Hotan Military"
+  },
+  "kirana hills": {
+    displayName: "Kirana Hills", 
+    latitude: 31.95784166666667,
+    longitude: 72.69160277777779,
+    kmlKey: "Kirana Hills"
+  }
 };
 
 // -------------------------------------------------------------
@@ -482,7 +506,9 @@ const Globe = forwardRef<GlobeRef, GlobeProps>((props, ref) => {
   // -------------------------------------------------------------
   // FILTERING LOGIC
   // -------------------------------------------------------------
-  useEffect(() => {
+  useEffect(() => 
+    
+  {
     if (!dataSourceRef.current) return;
 
     const entities = dataSourceRef.current.entities.values;
@@ -510,202 +536,275 @@ const Globe = forwardRef<GlobeRef, GlobeProps>((props, ref) => {
   useEffect(() => {
     if (!containerRef.current) return;
 
-    GoogleMaps.defaultApiKey = "AIzaSyBvIToHVCENj_iNpzrk7Wpvn3xMPKXFmOA";
+    const init = async () => {
+      GoogleMaps.defaultApiKey = "AIzaSyBvIToHVCENj_iNpzrk7Wpvn3xMPKXFmOA";
 
-    const viewer = new CesiumViewer(containerRef.current, {
-      timeline: false,
-      animation: false,
-      baseLayerPicker: false,
-      fullscreenButton: true,
-      geocoder: false,
-      homeButton: false,
-      infoBox: true,
-      sceneModePicker: false,
-      selectionIndicator: true,
-      navigationHelpButton: false,
-      navigationInstructionsInitiallyVisible: false,
-      globe: false,
-      creditContainer: document.createElement("div"),
+      const viewer = new CesiumViewer(containerRef.current!, {
+        timeline: false,
+        animation: false,
+        baseLayerPicker: false,
+        fullscreenButton: true,
+        geocoder: false,
+        homeButton: false,
+        infoBox: true,
+        sceneModePicker: false,
+        selectionIndicator: true,
+        navigationHelpButton: false,
+        navigationInstructionsInitiallyVisible: false,
+        creditContainer: document.createElement("div"),
 
-      // FIX 1: Turn this OFF to ensure instant UI updates
-      requestRenderMode: false,
-    });
+        // FIX 1: Turn this OFF to ensure instant UI updates
+        requestRenderMode: false,
+      });
   
 
-    const infoBoxFrame = viewer.infoBox.frame;
-    if (infoBoxFrame) {
-      infoBoxFrame.setAttribute(
-        "sandbox",
-        "allow-same-origin allow-scripts allow-popups allow-forms"
-      );
-      
-      // Set up a MutationObserver to watch for the intel workspace button
-      const setupButtonListener = () => {
-        try {
-          const iframeDoc = infoBoxFrame.contentDocument || infoBoxFrame.contentWindow?.document;
-          if (!iframeDoc) return;
-          
-          const observer = new MutationObserver(() => {
-            const button = iframeDoc.querySelector('.intel-workspace-btn');
-            if (button && !button.getAttribute('data-listener-attached')) {
-              button.setAttribute('data-listener-attached', 'true');
-              button.addEventListener('click', () => {
-                const unitDataStr = button.getAttribute('data-unit');
-                if (unitDataStr) {
-                  window.postMessage({
-                    type: 'ENTER_INTEL_WORKSPACE',
-                    unitData: unitDataStr
-                  }, '*');
-                }
-              });
-            }
-          });
-          
-          observer.observe(iframeDoc.body || iframeDoc, { 
-            childList: true, 
-            subtree: true 
-          });
-        } catch (e) {
-          console.error('Error setting up button listener:', e);
-        }
-      };
-      
-      infoBoxFrame.addEventListener('load', setupButtonListener);
-      // Also try immediately in case iframe is already loaded
-      setTimeout(setupButtonListener, 100);
-    }
-
-    viewer.targetFrameRate = 60;
-    viewerRef.current = viewer;
-    cameraControllerRef.current = new CameraController(viewer.camera);
-    if (viewer.scene.sun) viewer.scene.sun.show = false;
-
-    // ---------------------------------------------------------
-    // DATA SOURCE + CLUSTERING
-    // ---------------------------------------------------------
-    const dataSource = new CustomDataSource("ArmyUnits");
-    viewer.dataSources.add(dataSource);
-    dataSourceRef.current = dataSource;
-
-    dataSource.clustering.enabled = true;
-    dataSource.clustering.pixelRange = 15;
-    dataSource.clustering.minimumClusterSize = 3;
-
-    const pinBuilder = new PinBuilder();
-    dataSource.clustering.clusterEvent.addEventListener((entities, cluster) => {
-      cluster.label.show = true;
-      cluster.label.text = entities.length.toLocaleString();
-      cluster.label.font = "bold 12px sans-serif";
-      cluster.label.showBackground = false;
-      cluster.billboard.show = true;
-      cluster.billboard.id = cluster.label.id;
-      cluster.billboard.verticalOrigin = VerticalOrigin.BOTTOM;
-      cluster.billboard.disableDepthTestDistance = Number.POSITIVE_INFINITY;
-
-      if (entities.length >= 20) {
-        cluster.billboard.image = pinBuilder
-          .fromText(`${entities.length}`, Color.RED, 48)
-          .toDataURL();
-      } else if (entities.length >= 10) {
-        cluster.billboard.image = pinBuilder
-          .fromText(`${entities.length}`, Color.ORANGE, 48)
-          .toDataURL();
-      } else {
-        cluster.billboard.image = pinBuilder
-          .fromText(`${entities.length}`, Color.BLUE, 48)
-          .toDataURL();
+      const infoBoxFrame = viewer.infoBox.frame;
+      if (infoBoxFrame) {
+        infoBoxFrame.setAttribute(
+          "sandbox",
+          "allow-same-origin allow-scripts allow-popups allow-forms"
+        );
+        
+        // Set up a MutationObserver to watch for the intel workspace button
+        const setupButtonListener = () => {
+          try {
+            const iframeDoc = infoBoxFrame.contentDocument || infoBoxFrame.contentWindow?.document;
+            if (!iframeDoc) return;
+            
+            const observer = new MutationObserver(() => {
+              const button = iframeDoc.querySelector('.intel-workspace-btn');
+              if (button && !button.getAttribute('data-listener-attached')) {
+                button.setAttribute('data-listener-attached', 'true');
+                button.addEventListener('click', () => {
+                  const unitDataStr = button.getAttribute('data-unit');
+                  if (unitDataStr) {
+                    window.postMessage({
+                      type: 'ENTER_INTEL_WORKSPACE',
+                      unitData: unitDataStr
+                    }, '*');
+                  }
+                });
+              }
+            });
+            
+            observer.observe(iframeDoc.body || iframeDoc, { 
+              childList: true, 
+              subtree: true 
+            });
+          } catch (e) {
+            console.error('Error setting up button listener:', e);
+          }
+        };
+        
+        infoBoxFrame.addEventListener('load', setupButtonListener);
+        // Also try immediately in case iframe is already loaded
+        setTimeout(setupButtonListener, 100);
       }
-    });
 
-    // ---------------------------------------------------------
-    // LOAD LOCATIONS
-    // ---------------------------------------------------------
-    const loadLocations = async () => {
-      // Pre-load all unique icons first
-      const uniqueStyles = new Map<string, { icon: any; color: string }>();
-      allLocations.forEach((unit: any) => {
-        const style = getUnitStyle(unit.type);
-        const key = `${style.icon.name}-${style.color}`;
-        if (!uniqueStyles.has(key)) {
-          uniqueStyles.set(key, { icon: style.icon, color: style.color });
+      viewer.targetFrameRate = 60;
+      viewerRef.current = viewer;
+      cameraControllerRef.current = new CameraController(viewer.camera);
+      if (viewer.scene.sun) viewer.scene.sun.show = false;
+
+      // ================= KML HELPERS =================
+      const processKmlEntities = (ds: any) => {
+        ds.show = true;
+       
+        ds.entities.values.forEach((entity: any) => {
+          entity.show = true;
+           
+          if (entity.label) {
+            entity.label.show = true;
+            entity.label.disableDepthTestDistance = Number.POSITIVE_INFINITY;
+            entity.label.heightReference = HeightReference.CLAMP_TO_GROUND;
+          }
+           
+          if (entity.billboard) {
+            entity.billboard.show = true;
+            entity.billboard.disableDepthTestDistance = Number.POSITIVE_INFINITY;
+            entity.billboard.heightReference = HeightReference.CLAMP_TO_GROUND;
+          }
+           
+          if (entity.polygon) {
+            entity.polygon.show = true;
+            entity.polygon.heightReference = HeightReference.CLAMP_TO_GROUND;
+            entity.polygon.extrudedHeightReference = HeightReference.CLAMP_TO_GROUND;
+            entity.polygon.height ??= 0;
+            entity.polygon.outline = true;
+            entity.polygon.classificationType = 2; // BOTH - prevents depth fighting with Google tiles
+          }
+           
+          if (entity.polyline) {
+            entity.polyline.show = true;
+            entity.polyline.clampToGround = true;
+            entity.polyline.width = Math.max(entity.polyline.width || 1, 4);
+            entity.polyline.zIndex = 100; // Higher z-index to appear above Google tiles
+          }
+        });
+      };
+       
+      const loadKmlLayers = async () => {
+        const kmlFiles = [
+          "/kml/Ormara/Ormara.kml",
+          "/kml/Hotan Military/Hotan Military.kml",
+          "/kml/Kirana Hills/Kirana Hills.kml",
+        ];
+       
+        for (const path of kmlFiles) {
+          const ds = await KmlDataSource.load(path, {
+            clampToGround: true,
+            camera: viewer.scene.camera,
+            canvas: viewer.scene.canvas,
+          });
+           
+          // 🔥 ADD THIS - Set datasource name for search functionality
+          ds.name = path.split("/").pop() || path;
+           
+          viewer.dataSources.add(ds);
+           
+          // IMPORTANT — wait one frame
+          await new Promise(requestAnimationFrame);
+           
+          processKmlEntities(ds);
+        }
+       
+        viewer.scene.requestRender();
+      };
+
+      // ---------------------------------------------------------
+      // DATA SOURCE + CLUSTERING
+      // ---------------------------------------------------------
+      const dataSource = new CustomDataSource("ArmyUnits");
+      viewer.dataSources.add(dataSource);
+      dataSourceRef.current = dataSource;
+
+      dataSource.clustering.enabled = true;
+      dataSource.clustering.pixelRange = 15;
+      dataSource.clustering.minimumClusterSize = 3;
+
+      const pinBuilder = new PinBuilder();
+      dataSource.clustering.clusterEvent.addEventListener((entities, cluster) => {
+        cluster.label.show = true;
+        cluster.label.text = entities.length.toLocaleString();
+        cluster.label.font = "bold 12px sans-serif";
+        cluster.label.showBackground = false;
+        cluster.billboard.show = true;
+        cluster.billboard.id = cluster.label.id;
+        cluster.billboard.verticalOrigin = VerticalOrigin.BOTTOM;
+        cluster.billboard.disableDepthTestDistance = Number.POSITIVE_INFINITY;
+
+        if (entities.length >= 20) {
+          cluster.billboard.image = pinBuilder
+            .fromText(`${entities.length}`, Color.RED, 48)
+            .toDataURL();
+        } else if (entities.length >= 10) {
+          cluster.billboard.image = pinBuilder
+            .fromText(`${entities.length}`, Color.ORANGE, 48)
+            .toDataURL();
+        } else {
+          cluster.billboard.image = pinBuilder
+            .fromText(`${entities.length}`, Color.BLUE, 48)
+            .toDataURL();
         }
       });
 
-      // Pre-cache all icons
-      const iconPromises = Array.from(uniqueStyles.values()).map(({ icon, color }) =>
-        createCircularIcon(icon, color)
-      );
-      await Promise.all(iconPromises);
-
-      // Now add all entities with cached icons (synchronous lookups)
-      for (const unit of allLocations) {
-        if (!unit.coordinates?.lat || !unit.coordinates?.lon) continue;
-
-        const style = getUnitStyle(unit.type);
-        const iconUrl = await createCircularIcon(style.icon, style.color); // Will return cached
-
-        dataSource.entities.add({
-          name: unit.name,
-          show: false,
-          description: generateDescription(unit),
-          position: Cartesian3.fromDegrees(
-            Number(unit.coordinates.lon),
-            Number(unit.coordinates.lat)
-          ),
-          properties: {
-            category: style.category,
-            source: unit.source,
-          },
-          billboard: {
-            image: iconUrl,
-            verticalOrigin: VerticalOrigin.BOTTOM,
-            heightReference: HeightReference.CLAMP_TO_GROUND,
-            eyeOffset: new Cartesian3(0.0, 0.0, -50.0),
-            disableDepthTestDistance: Number.POSITIVE_INFINITY,
-          },
-          label: {
-            text: unit.name,
-            font: "bold 13px sans-serif",
-            style: LabelStyle.FILL_AND_OUTLINE,
-            fillColor: Color.WHITE,
-            outlineColor: Color.BLACK,
-            outlineWidth: 3,
-            pixelOffset: new Cartesian2(0, -50),
-            horizontalOrigin: HorizontalOrigin.CENTER,
-            verticalOrigin: VerticalOrigin.BOTTOM,
-            heightReference: HeightReference.CLAMP_TO_GROUND,
-            eyeOffset: new Cartesian3(0.0, 0.0, -100.0),
-            disableDepthTestDistance: Number.POSITIVE_INFINITY,
-            distanceDisplayCondition: new DistanceDisplayCondition(0, 500000),
-          },
+      // ---------------------------------------------------------
+      // LOAD LOCATIONS
+      // ---------------------------------------------------------
+      const loadLocations = async () => {
+        // Pre-load all unique icons first
+        const uniqueStyles = new Map<string, { icon: any; color: string }>();
+        allLocations.forEach((unit: any) => {
+          const style = getUnitStyle(unit.type);
+          const key = `${style.icon.name}-${style.color}`;
+          if (!uniqueStyles.has(key)) {
+            uniqueStyles.set(key, { icon: style.icon, color: style.color });
+          }
         });
-      }
 
-      // Force a render after all entities are added
+        // Pre-cache all icons
+        const iconPromises = Array.from(uniqueStyles.values()).map(({ icon, color }) =>
+          createCircularIcon(icon, color)
+        );
+        await Promise.all(iconPromises);
+
+        // Now add all entities with cached icons (synchronous lookups)
+        for (const unit of allLocations) {
+          if (!unit.coordinates?.lat || !unit.coordinates?.lon) continue;
+
+          const style = getUnitStyle(unit.type);
+          const iconUrl = await createCircularIcon(style.icon, style.color); // Will return cached
+
+          dataSource.entities.add({
+            name: unit.name,
+            show: false,
+            description: generateDescription(unit),
+            position: Cartesian3.fromDegrees(
+              Number(unit.coordinates.lon),
+              Number(unit.coordinates.lat)
+            ),
+            properties: {
+              category: style.category,
+              source: unit.source,
+            },
+            billboard: {
+              image: iconUrl,
+              verticalOrigin: VerticalOrigin.BOTTOM,
+              heightReference: HeightReference.CLAMP_TO_GROUND,
+              eyeOffset: new Cartesian3(0.0, 0.0, -50.0),
+              disableDepthTestDistance: Number.POSITIVE_INFINITY,
+            },
+            label: {
+              text: unit.name,
+              font: "bold 13px sans-serif",
+              style: LabelStyle.FILL_AND_OUTLINE,
+              fillColor: Color.WHITE,
+              outlineColor: Color.BLACK,
+              outlineWidth: 3,
+              pixelOffset: new Cartesian2(0, -50),
+              horizontalOrigin: HorizontalOrigin.CENTER,
+              verticalOrigin: VerticalOrigin.BOTTOM,
+              heightReference: HeightReference.CLAMP_TO_GROUND,
+              eyeOffset: new Cartesian3(0.0, 0.0, -100.0),
+              disableDepthTestDistance: Number.POSITIVE_INFINITY,
+              distanceDisplayCondition: new DistanceDisplayCondition(0, 500000),
+            },
+          });
+        }
+
+        // Force a render after all entities are added
+        viewer.scene.requestRender();
+      };
+
+      // ---------------------------------------------------------
+      // LOAD GOOGLE 3D TILES
+      // ---------------------------------------------------------
+      const addGoogleTiles = async () => {
+        try {
+          const tileset = await createGooglePhotorealistic3DTileset();
+          tileset.skipLevelOfDetail = true;
+          tileset.maximumScreenSpaceError = 8.0;
+          const labelProvider = new UrlTemplateImageryProvider({
+            url: "https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}@2x.png",
+            subdomains: ["a", "b", "c", "d"],
+            credit: "Map tiles by CartoDB",
+          });
+          tileset.imageryLayers.addImageryProvider(labelProvider);
+          viewer.scene.primitives.add(tileset);
+        } catch (e) {
+          console.error(e);
+        }
+      };
+
+      // ---------- LOAD DATA ----------
+      await loadKmlLayers();     // ✅ SAFE
+      await addGoogleTiles();    // ✅ SAFE
+      await loadLocations();     // optional order
+
       viewer.scene.requestRender();
     };
-    loadLocations();
 
-    // ---------------------------------------------------------
-    // LOAD GOOGLE 3D TILES
-    // ---------------------------------------------------------
-    const addGoogleTiles = async () => {
-      try {
-        const tileset = await createGooglePhotorealistic3DTileset();
-        tileset.skipLevelOfDetail = true;
-        tileset.maximumScreenSpaceError = 8.0;
-        const labelProvider = new UrlTemplateImageryProvider({
-          url: "https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}@2x.png",
-          subdomains: ["a", "b", "c", "d"],
-          credit: "Map tiles by CartoDB",
-        });
-        tileset.imageryLayers.addImageryProvider(labelProvider);
-        viewer.scene.primitives.add(tileset);
-      } catch (e) {
-        console.error(e);
-      }
-    };
-    addGoogleTiles();
+    init();
     
     return () => {
       if (viewerRef.current) {
@@ -881,7 +980,7 @@ const Globe = forwardRef<GlobeRef, GlobeProps>((props, ref) => {
 
     const searchLower = query.toLowerCase().trim();
 
-    // Search in allLocations for coordinates
+    // FIRST: Search in allLocations for coordinates (existing behavior)
     const matchedUnit = allLocations.find(
       (unit) =>
         unit.name.toLowerCase().includes(searchLower) ||
@@ -919,6 +1018,36 @@ const Globe = forwardRef<GlobeRef, GlobeProps>((props, ref) => {
 
         // Select the entity to show its info box
         viewerRef.current.selectedEntity = matchedEntity;
+      }
+
+      return true;
+    }
+
+    // SECOND: If no unit found, check intelligence locations
+    const intelLocation = INTELLIGENCE_LOCATIONS[searchLower];
+    if (intelLocation) {
+      // Fly to the intelligence location
+      if (cameraControllerRef.current) {
+        cameraControllerRef.current.rotateAndZoomTo(
+          intelLocation.longitude,
+          intelLocation.latitude,
+          { zoomHeight: 10000 } // Closer zoom for KML areas
+        );
+      }
+
+      // Find and ensure visibility of the corresponding KML datasource
+      const dataSources = viewerRef.current.dataSources;
+      for (let i = 0; i < dataSources.length; i++) {
+        const dataSource = dataSources.get(i);
+        if (dataSource.name && dataSource.name.includes(intelLocation.kmlKey)) {
+          dataSource.show = true;
+          // Optionally select the first entity from this datasource
+          const entities = dataSource.entities.values;
+          if (entities.length > 0) {
+            viewerRef.current.selectedEntity = entities[0];
+          }
+          break;
+        }
       }
 
       return true;
@@ -1152,6 +1281,11 @@ const Globe = forwardRef<GlobeRef, GlobeProps>((props, ref) => {
       }
     },
   }));
+
+  // =============================================================
+  // KML DATA LOADING - Additional overlay layers (ADDITIVE ONLY)
+  // =============================================================
+  
 
   // =============================================================
   // RENDER UI
